@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">Alrite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="same">
+        <item>Select One</item>
+        <item>Years</item>
+        <item>Months</item>
+    </string-array>
+
+    <!--   Diagnosis: Severe Pneumonia OR very Severe Disease -->
+    <string name="severe">Diagnosis: Severe Pneumonia OR very Severe Disease</string>
+    <string name="first_dose">Give first dose of antibiotic-intramuscular injection, Ampicillin and Gentamicin. Oral Amoxicillin otherwise.</string>
+
+    <!--    ampicillin-->
+    <string name="ampicilin2">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 1ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+    <string name="ampicilin4">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 2ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+    <string name="ampicilin12">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 3ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+    <string name="ampicilin3">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 5ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+
+    <!--    GENTAMICIN-->
+    <string name="gentamicin2">For GENTAMICIN: (2ml/40mg/ml vial). Give 0.5–1 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+    <string name="gentamicin4">For GENTAMICIN: (2ml/40mg/ml vial). Give 1.1–1.8 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+    <string name="gentamicin12">For GENTAMICIN: (2ml/40mg/ml vial). Give 1.9–2.7 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+    <string name="gentamicin3">For GENTAMICIN: (2ml/40mg/ml vial). Give 2.8–3.5 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+
+    <!--    DIAZEPAM-->
+    <string name="convulsions">For Convulsions: Treat with DIAZEPAM</string>
+    <string name="diazepam2">For DIAZEPAM: (10mg/2ml). Give 0.5 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="diazepam4">For DIAZEPAM: (10mg/2ml). Give 1.0 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="diazepam12">For DIAZEPAM: (10mg/2ml). Give 1.5 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="diazepam3">For DIAZEPAM: (10mg/2ml). Give 2.0 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="convulsions1">Turn the child to his/her side and clear the airway. Avoid putting things in the mouth.</string>
+    <string name="convulsions2">Give DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="convulsions3">Check for low blood sugar, then treat or prevent.</string>
+    <string name="convulsions4">Give oxygen if available and REFER URGENTLY</string>
+    <string name="convulsions5">If convulsions have not stopped after 10 minutes repeat diazepam dose</string>
+
+    <!--    Other instructions-->
+    <string name="other1">If wheezing now, give salbutamol 4–6 puffs with spacer or 1 nebulization (2.5–5mg) if available while awaiting referral. Do not delay referral.</string>
+    <string name="other2">If oxygen level is greater than 90%, start oxygen therapy if available while awaiting referral. Do not delay referral.</string>
+    <string name="other3">Quickly complete the assessment</string>
+    <string name="other4">Treat to prevent low blood sugar</string>
+    <string name="other5">Ask the mother to breastfeed the child</string>
+    <string name="other6">If the child is unable to breastfeed, give 50ml expressed breast milk, a breast-milk substitute, or sugar water (4 teaspoons sugar [20g] in 200ml clean water)</string>
+    <string name="other7">If unable to swallow, give 50ml milk or sugar water by nasogastric tube OR 1 teaspoon sugar moistened with 1–2 drops of water sublingually, repeating every 20 minutes while awaiting referral</string>
+    <string name="other8">Keep the child warm</string>
+
+    <string name="refer_urgently">Refer URGENTLY to hospital</string>
+
+    <!--   END Diagnosis: Severe Pneumonia OR very Severe Disease END -->
+
+    <!--   Diagnosis: No signs of Pneumonia or Wheezing illness -->
+
+    <string name="no_signs">Diagnosis: No signs of Pneumonia or Wheezing illness</string>
+
+    <string name="selected">You have selected that this child does NOT have a cough or difficulty breathing</string>
+    <string name="alrite">ALRITE is to help diagnose children with a cough or difficulty breathing</string>
+    <string name="no_anti">No antibiotics or a bronchodilator needed for breathing difficulty</string>
+    <string name="other_illness">Assess for other illness</string>
+
+    <!--   END Diagnosis: No signs of Pneumonia or Wheezing illness END -->
+
+    <string name="asthma">Diagnosis: Asthma Risk</string>
+
+    <string name="asthma1">Give inhaled salbutamol , 2–4 puffs every 4–6 hours for 5 days</string>
+    <string name="asthma2">A spacer is a way of delivering the bronchodilator drugs effectively into the lungs. No child under 5 years should be given an inhaler without a spacer. A spacer works as well as a nebuliser if correctly used</string>
+    <string name="asthma3">Counsel caregiver to reduce exposure to smoke and strong-smelling odors, including tobacco smoke and biofuels (charcoal, kerosene, waste products)</string>
+
+    <string name="tuber">Diagnosis: Tuberculosis risk</string>
+    <string name="tuber1">Ask about potential TB exposures</string>
+    <string name="tuber2">Refer to assess and treat for potential TB. This will include TB testing and chest x-ray</string>
+
+
+    <!--  Diagnosis: Pneumonia -->
+
+    <string name="pneumonia">Diagnosis: Pneumonia</string>
+
+    <string name="amoxicillin2">Give oral AMOXICILLIN 250 mg (1 tablet or 5 ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin12">Give oral AMOXICILLIN 500 mg (2 tablets or 10ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin3">Give oral AMOXICILLIN 750mg (3 tablets or 15 ml of 250mg/5ml syrup)</string>
+    <string name="pneumonia1">Soothe the throat and relieve the cough with a safe remedy</string>
+    <string name="pneumonia2">Follow up in 3 days, earlier if worsening</string>
+
+    <!--   END Diagnosis: Pneumonia -->
+
+
+    <string name="cold">Diagnosis: Cough/Cold/No Pneumonia</string>
+    <string name="cold1">No signs of Pneumonia or Wheezing illness</string>
+    <string name="cold2">No antibiotics or bronchodilators recommended</string>
+    <string name="cold3">Soothe the throat and relieve the cough with a safe remedy</string>
+    <string name="cold4">Follow up in 5 days if not improving, earlier if getting worse</string>
+
+    <string name="tap_on_inhale">Tap on inhale</string>
+    <string name="elapsed_time">Elapsed time:</string>
+    <string name="start_text">START ASSESSMENT</string>
+
+    <string name="normal_breathing"><b>Normal breathing</b></string>
+    <string name="breathing_info_under1">The Normal breathing rate for children between 2 to 12 months is under 50 breaths per minute</string>
+    <string name="breathing_info_over1">The Normal rate for children ages 1–5 years is under 40 breaths per minute</string>
+    <string name="breathing_info_under2">The Normal rate for children below 2 months is under 60 breaths per minute</string>
+    <string name="stridor"><u>Stridor?</u></string>
+    <string name="chest"><u>Chest Indrawing?</u></string>
+    <string name="wheezing"><u>Wheezing?</u></string>
+    <string name="wheez">A high-pitched whistling sound associated with labored breathing</string>
+    <string name="chest_in">The lower ribs on both sides of the chest are pulled in when the child breathes in, even when the child is not crying.</string>
+
+    <string name="wheez_ill">Diagnosis: Wheezing (not clear bronchodilator response)</string>
+    <string name="wheez_ill1">Soothe the throat and relieve the cough with a safe remedy</string>
+    <string name="wheez_ill2">Suction nasal secretions as needed</string>
+    <string name="wheez_ill3">Encourage safe feeding practices</string>
+    <string name="wheez_ill4">No clear recommendation for inhaled bronchodilators at this time</string>
+    <string name="wheez_ill5">Counsel caregiver to monitor the child’s breathing and feeding closely</string>
+    <string name="wheez_ill6">Follow up in 2 days, earlier if getting worse</string>
+
+    <string name="wheez1">Diagnosis: Wheezing illness (bronchodilator response)</string>
+    <string name="wheez2">Give inhaled salbutamol , 4–6 puffs every 4–6 hours for 5 days. </string>
+    <string name="wheez3">Inhaled salbutamol is preferred to oral salbutamol</string>
+    <string name="wheez4">Use with spacer [INSERT link to spacer making/teaching]</string>
+    <string name="wheez5">Follow up in 3 days, earlier if worsening</string>
+    <string name="wheez6">Consider referral for asthma assessment and management</string>
+
+    <string name="wheez_ill7">Trial salbutamol inhaler 2–4 puffs every 4–6 hours for 3 days</string>
+
+    <string name="wheez_ill00">In the clinic: Give 4–6 puffs SALBUTAMOL via metered dose inhaler OR 2.5–5mg via nebulized solution. Repeat up to 3 times every 15 minutes</string>
+    <string name="wheez_ill01">Send the child home with inhaled SALBUTAMOL by metered dose inhaler , 2–4 puffs every 4–6 hours for 5 days, then as needed.</string>
+
+    <string name="wheez_ill71">Inhaled salbutamol is preferred to oral salbutamol</string>
+    <string name="wheez_ill72">A spacer is a way of delivering the bronchodilator drugs effectively into the lungs. No child under 5 years should be given an inhaler without a spacer. A spacer works as well as a nebuliser if correctly used. </string>
+
+    <string name="wheez_ill8">Follow up in 3 days, earlier if getting worse</string>
+    <string name="wheez_ill9">Refer for Asthma assessment</string>
+
+    <string name="muac">Give the child Ready-to-Use Therapeutic Food (RUTF)</string>
+    <string name="muac1">If unable to finish RUTF or breastfeeding problems, give the first dose of the appropriate antibiotic, and refer URGENTLY to the hospital</string>
+    <string name="muac2">If able to finish RUTF, Give oral antibiotics for 5 days</string>
+    <string name="muac3">Give ready-to-use therapeutic food for a child aged 6 months or more</string>
+    <string name="muac4">Counsel the mother on how to feed the child</string>
+    <string name="muac5">Follow up in 7 days</string>
+
+    <string name="muac6">Assess the child\'s feeding and counsel the mother on the feeding recommendations</string>
+    <string name="muac7">If feeding problem, follow up in 7 days. Otherwise, follow-up in 30 days</string>
+
+    <string name="febril">Diagnosis: Very severe febrile illness</string>
+
+    <string name="febril1">Give first dose of artesunate or quinine for severe malaria</string>
+    <string name="artesunate2">For the ARTESUNATE suppository: Dosage form: 50mg pediatric or 200mg adult, Give 50mg (1 pediatric suppository).</string>
+    <string name="artesunate4">For the ARTESUNATE suppository: Dosage form: 50mg pediatric or 200mg adult, Give 100mg (2 pediatric suppositories).</string>
+    <string name="artesunate5">For the ARTESUNATE suppository: Dosage form: 50mg pediatric or 200mg adult, Give 150mg (3 pediatric suppositories) OR 200mg (1 adult suppository).</string>
+    <string name="iartesunate2">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 10mg (0.5 ml).</string>
+    <string name="iartesunate4">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 20mg (1ml).</string>
+    <string name="iartesunate12">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 30mg (1.5ml).</string>
+    <string name="iartesunate3">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 40mg (2ml).</string>
+    <string name="quinine2">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 0.4ml of 150mg/ml dose form OR 0.2ml of 300mg/ml dose form</string>
+    <string name="quinine4">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 0.6ml of 150mg/ml dose form OR 0.3ml of 300mg/ml dose form</string>
+    <string name="quinine12">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 0.8ml of 150mg/ml dose form OR 0.4ml of 300mg/ml dose form</string>
+    <string name="quinine24">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 1ml of 150mg/ml dose form OR 0.5ml of 300mg/ml dose form</string>
+    <string name="quinine3">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 1.2ml of 150mg/ml dose form OR 0.6ml of 300mg/ml dose form</string>
+
+
+    <string name="febril3">Consider testing for malaria if risk high and no other cause of fever identified</string>
+    <string name="paracetamol2">Give PARACETAMOL (Dose forms: 100mg pediatric tablet or 500mg adult tablet) 100mg (1 pediatric tablet) or 125mg (¼ of adult tablet) every 6 hours to relieve high fever</string>
+    <string name="paracetamol3">Give PARACETAMOL (Dose forms: 100mg pediatric tablet or 500mg adult tablet) 250mg (1.5 pediatric tablet or ½ adult tablet) every 6 hours to relieve high fever</string>
+    <string name="febril5">Encourage the child to take oral liquids</string>
+    <string name="febril6">Monitor for signs of dehydration and new or worsening symptoms</string>
+    <string name="febril7">Follow up in 5–7 days if no improvement, earlier of worsening symptoms</string>
+
+    <string name="hiv1">Refer to HIV care</string>
+    <string name="hiv2">Remind family to continue with HIV care</string>
+    <string name="amoxicillin2v">Give first dose of oral AMOXICILLIN 250 mg (1 tablet or 5 ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin12v">Give first dose of oral AMOXICILLIN 500 mg (2 tablets or 10ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin3v">Give first dose of oral AMOXICILLIN 750mg (3 tablets or 15 ml of 250mg/5ml syrup)</string>
+    <string name="hiv3">Ensure the child is taking COTRIMAZOLE prophylaxis and antiretroviral therapy</string>
+    <string name="cotrimoxazole6">Give COTRIMAZOLE 20/100 mg (2.5 ml syrup or ONE 20/100mg pediatric tab) once daily</string>
+    <string name="cotrimoxazole5">Give COTRIMAZOLE 40/200mg (5 ml syrup, TWO 20/100mg pediatric tabs, or ONE HALF  80/400mg adult tab) once daily</string>
+
+    <string name="bronc1">Diagnosis: Severe Disease</string>
+    <string name="bronc1x">No instructions yet</string>
+    <string name="bronc2">Give 2 additional treatments of salbutamol 4–10 puffs each treatment</string>
+    <string name="bronc3">consider referral for worsening clinical signs and symptoms</string>
+
+    <string name="bronchodi">An inhaled medication that relaxes constricted air passages to make breathing easier</string>
+
+
+    <string name="spacer1">A spacer is a way of delivering the bronchodilator drugs effectively into the lungs. No child under 5 years should be given an inhaler without a spacer. A spacer works as well as a nebuliser if correctly used.</string>
+    <string name="spacer2">Spacers can be made in the following way</string>
+    <string name="spacer3">ONE: Use a 500ml drink bottle or similar</string>
+    <string name="spacer4">Cut a hole in the bottle base in the same shape as the mouthpiece of the inhaler.</string>
+    <string name="spacer5">This can be done using a sharp knife.</string>
+    <string name="spacer6">Cut the bottle between the upper quarter and the lower ¾ and disregard the upper quarter of the bottle.</string>
+    <string name="spacer7">Cut a small V in the border of the large open part of the bottle to fit to the child\'s nose and be used as a mask.</string>
+    <string name="spacer8">Flame the edge of the cut bottle with a candle or a lighter to soften it.</string>
+    <string name="spacer9">In a small baby, a mask can be made by making a similar hole in a plastic (not polystyrene) cup. Alternatively commercial spacers can be used if available.</string>
+    <string name="spacer10">TWO: To use an inhaler with a spacer</string>
+    <string name="spacer11">Remove the inhaler cap. Shake the inhaler well.</string>
+    <string name="spacer12">Insert mouthpiece of the inhaler through the hole in the bottle or plastic cup.</string>
+    <string name="spacer13">The child should put the opening of the bottle into his mouth and breath in and out through the mouth. A carer then presses down the inhaler and sprays into the bottle while the child continues to breath normally.</string>
+    <string name="spacer14">Wait for three to four breaths and repeat.</string>
+    <string name="spacer15">For younger children, place the cup over the child\'s mouth and use as a spacer in the same way.</string>
+    <string name="spacer16">If a spacer is being used for the first time, it should be primed by 4–5 extra puffs from the inhaler.</string>
+    <string name="spacer17">If a spacer is being used for the first time, it should be primed by 4–5 extra puffs from the inhaler before giving it to the child.</string>
+
+    <!--   Learn   -->
+
+    <string name="chest1">Chest Indrawing</string>
+    <string name="chest2">The lower ribs on both sides of the chest are pulled in when the child breathes in, even when the child is not crying.</string>
+
+    <string name="chest3">Select Mild if the ribs and area below the chest are retracting moderately.</string>
+    <string name="chest4">Select Moderate if the above symptoms are present as well as flared nostrils or indrawing below the sternum (upper chest).</string>
+    <string name="chest5">Select Severe if there are large retractions in the upper and lower chest areas as well as nostril flaring or grunting noises.</string>
+
+    <string name="pulse1">Pulse Oximeter</string>
+    <string name="pulse2">A device that measures the oxygen saturation of blood in a patient.</string>
+    <string name="pulse3">A device that measures the oxygen saturation of blood in a patient. This clip device may be used on an earlobe, across the bridge of the nose, in the mouth, on a toe, or on a fingertip. Normal levels are above 90 percent.</string>
+
+    <string name="improve1">Improvise a Spacer</string>
+    <string name="improve2">A spacer is a device that can improve the effectiveness of inhalers by allowing more of the steroids to be inhaled deeply into the lungs.</string>
+    <string name="improve3">A spacer is a device that can improve the effectiveness of inhalers by allowing more of the steroids to be inhaled deeply into the lungs. If no spacers are available, they can be improvised using an empty plastic water bottle</string>
+
+    <string name="improve4">Find an empty plastic water bottle and remove the cap.</string>
+    <string name="improve5">Cut a hole into the bottom of the bottle in the same shape as the mouth of the inhaler.</string>
+    <string name="improve6">Cut the bottle between the upper quarter and lower &#190; and throw away the upper part.</string>
+    <string name="improve7">Soften the cut edge of the bottle with a lighter or candle flame.</string>
+    <string name="improve8">Insert the inhaler into the bottom opening as shown in the image.</string>
+    <string name="improve9">A mask can be made by following the above steps with a plastic cup.</string>
+
+    <string name="whe1">Wheezing</string>
+    <string name="whe2">A high-pitched whistling sound associated with labored breathing</string>
+
+    <string name="whe8">Listen to breathing with a stethoscope</string>
+    <string name="whe9">Select Mild if the child wheezes somewhat when breathing out</string>
+    <string name="whe10">Select Moderate if the child wheezes loudly when breathing out</string>
+    <string name="whe11">Select Severe if the child is wheezing loudly breathing in and out and/or the breaths are very soft.</string>
+
+    <string name="bro1">Inhaled Bronchodilator</string>
+    <string name="bro2">An inhaled medication that relaxes constricted air passages to make breathing easier</string>
+
+    <string name="bro4">Remove inhaler and spacer caps.</string>
+    <string name="bro5">Shake inhaler for 5 seconds.</string>
+    <string name="bro6">Insert inhaler into spacer.</string>
+    <string name="bro7">If the spacer has never been used, prepare it with 4 puffs from the inhaler.</string>
+    <string name="bro8">Put mask over nose and mouth with a good seal.</string>
+    <string name="bro9">Press inhaler down once.</string>
+    <string name="bro10">Breathe normally for 3 to 6 breaths to empty spacer. Slow your breathing if there is a whistle sound.</string>
+    <string name="bro11">Remove mask from child’s face and wait 10 seconds</string>
+    <string name="bro12">Shake inhaler then start with step 4 before each additional puff.</string>
+    <string name="bro13">Wipe skin around child’s mouth with a wet cloth when done.</string>
+    <string name="bro14">Reassess child in AT LEAST 10 minutes</string>
+
+    <string name="con1">Convulsions</string>
+    <string name="con2">Seizures, involuntary shaking movements of the body often caused by serious infections or high fever</string>
+    <string name="con3">A sudden, violent, irregular movement of a limb or of the body, caused by involuntary contraction of muscles and associated especially with brain disorders such as epilepsy, the presence of certain toxins or other agents in the blood, or fever in children.</string>
+
+    <string name="dia1">Diazepam</string>
+    <string name="dia2">A medicine used to stop convulsions</string>
+    <string name="dia3">Diazepam typically produces a calming effect. It is commonly used to treat a range of conditions including anxiety, alcohol withdrawal syndrome, muscle spasms, seizures, trouble sleeping, and restless legs syndrome. When given into a vein, effects begin in one to five minutes and last up to an hour. By mouth, effects may take 40 minutes to begin.</string>
+
+    <string name="pn1">Pneumonia</string>
+    <string name="pn2">Lung inflammation caused by bacterial or viral infection</string>
+    <string name="pn3">Pneumonia is an inflammatory condition of the lung affecting primarily the small air sacs known as alveoli. Symptoms can include productive or dry cough, chest pain, fever, and trouble breathing. Severity is variable.</string>
+
+    <string name="un1">Unresponsive</string>
+    <string name="un2">A condition in which a person does not respond to questions, commands or painful stimuli</string>
+    <string name="un3">If a person or their body is unresponsive, they do not react physically in a normal way, or do not make any movements.</string>
+
+    <string name="st1">Stridor</string>
+    <string name="st2">A noise on breathing in due to obstruction of the upper airway</string>
+    <string name="st4">Stridor is a loud whistling sound made when taking in a breath. It is a sign of upper airway blockage and must be treated right away to prevent the airway from completely closing.</string>
+
+</resources>
