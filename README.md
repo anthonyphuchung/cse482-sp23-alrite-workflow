@@ -1,1 +1,1 @@
-# workflow
+# CSE 482 (Spring 2023): ALRITE Workflow
