@@ -93,15 +93,15 @@ public class HomeFragment extends Fragment {
 
     private void checkCredentials() {
 
-        credentials = new Credentials();
-        String username = credentials.creds(getActivity()).getUsername();
-        if (username.equals("None")){
-            FragmentTransaction fr = requireActivity().getSupportFragmentManager().beginTransaction();
-            fr.replace(R.id.navHostFragment, new AccountFragment());
-            fr.commit();
-        }else {
+//        credentials = new Credentials();
+//        String username = credentials.creds(getActivity()).getUsername();
+//        if (username.equals("None")){
+//            FragmentTransaction fr = requireActivity().getSupportFragmentManager().beginTransaction();
+//            fr.replace(R.id.navHostFragment, new AccountFragment());
+//            fr.commit();
+//        }else {
             intFunction();
-        }
+//        }
 
 
     }
@@ -149,15 +149,15 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        credentials = new Credentials();
-        period = credentials.creds(getActivity()).getPeriod();
-
-        if (period == 1){
-            checkPatientReadiness();
-//            sendDataToServer();
-            sendCounterDataToServer();
-            databaseHelper.updatePeriod("1", 2);
-        }
+//        credentials = new Credentials();
+//        period = credentials.creds(getActivity()).getPeriod();
+//
+//        if (period == 1){
+//            checkPatientReadiness();
+////            sendDataToServer();
+//            sendCounterDataToServer();
+//            databaseHelper.updatePeriod("1", 2);
+//        }
     }
 
 

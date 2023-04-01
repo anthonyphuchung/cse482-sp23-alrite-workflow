@@ -128,17 +128,17 @@ public class Initials extends Fragment {
         }
         editor.apply();
 
-        int count = Integer.valueOf(counter);
-        int count2 = Integer.valueOf(studyId);
-
-//        Toast.makeText(getActivity(), count + " " + count2, Toast.LENGTH_SHORT).show();
-
-        if (count == count2){
-            count = count+1;
-            String ct = String.valueOf(count);
-            Credentials credentials = new Credentials();
-            credentials.counting(getActivity(), ct);
-        }
+//        int count = Integer.valueOf(counter);
+//        int count2 = Integer.valueOf(studyId);
+//
+////        Toast.makeText(getActivity(), count + " " + count2, Toast.LENGTH_SHORT).show();
+//
+//        if (count == count2){
+//            count = count+1;
+//            String ct = String.valueOf(count);
+//            Credentials credentials = new Credentials();
+//            credentials.counting(getActivity(), ct);
+//        }
 
         FragmentTransaction fr = requireActivity().getSupportFragmentManager().beginTransaction();
         fr.replace(R.id.fragment_container, new Sex());
