@@ -93,21 +93,20 @@ public class HomeFragment extends Fragment {
 
     private void checkCredentials() {
 
-//        credentials = new Credentials();
-//        String username = credentials.creds(getActivity()).getUsername();
-//        if (username.equals("None")){
-//            FragmentTransaction fr = requireActivity().getSupportFragmentManager().beginTransaction();
-//            fr.replace(R.id.navHostFragment, new AccountFragment());
-//            fr.commit();
-//        }else {
+        credentials = new Credentials();
+        String username = credentials.creds(getActivity()).getUsername();
+        if (username.equals("None")){
+            FragmentTransaction fr = requireActivity().getSupportFragmentManager().beginTransaction();
+            fr.replace(R.id.navHostFragment, new AccountFragment());
+            fr.commit();
+        }else {
             intFunction();
-//        }
+        }
 
 
     }
 
     private void intFunction() {
-
         view.findViewById(R.id.btn_learn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { 
@@ -149,15 +148,24 @@ public class HomeFragment extends Fragment {
             }
         });
 
-//        credentials = new Credentials();
-//        period = credentials.creds(getActivity()).getPeriod();
-//
-//        if (period == 1){
-//            checkPatientReadiness();
-////            sendDataToServer();
-//            sendCounterDataToServer();
-//            databaseHelper.updatePeriod("1", 2);
-//        }
+        view.findViewById(R.id.openmrs).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO:
+//                Intent intent = new Intent(getActivity(), org.openmrs.mobile.activities.login.LoginActivity.class);
+//                startActivity(intent);
+            }
+        });
+
+        credentials = new Credentials();
+        period = credentials.creds(getActivity()).getPeriod();
+
+        if (period == 1){
+            checkPatientReadiness();
+//            sendDataToServer();
+            sendCounterDataToServer();
+            databaseHelper.updatePeriod("1", 2);
+        }
     }
 
 
