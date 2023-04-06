@@ -100,7 +100,7 @@ public class ActivePatients extends Fragment {
             public void onItemClick(int position) {
                 Patient patient = (Patient) items.get(position).getObject();
                 String name = patient.getFilename();
-                boolean reassess = patient.isReassess();
+                boolean reassess = patient.getReassess();
                 if (reassess){
                     Bundle bundle = new Bundle();
                     bundle.putString("fileName", name);

@@ -14,7 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:replace="android:icon, android:theme">
+        tools:replace="android:icon, android:theme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.AddPatientActivity"
+            android:label="Add Patient Activity"
+            android:exported="true" />
+
         <activity
             android:name=".Activities.LearnActivity"
             android:exported="true" />

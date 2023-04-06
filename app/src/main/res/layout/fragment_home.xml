@@ -97,7 +97,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Assessment"
+                    android:text="Start Assessment"
                     android:layout_marginTop="10dp"
                     android:textColor="@color/green_dark"
                     android:textSize="16sp"
@@ -137,7 +137,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Active Patients"
+                    android:text="Add Patients"
                     android:textColor="@color/green_dark"
                     android:layout_marginTop="10dp"
                     android:textSize="16sp"
@@ -186,7 +186,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Other Patients"
+                    android:text="Patient Records"
                     android:textColor="@color/green_dark"
                     android:layout_marginTop="10dp"
                     android:textSize="16sp"

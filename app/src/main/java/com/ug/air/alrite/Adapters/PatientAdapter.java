@@ -71,7 +71,7 @@ public class PatientAdapter extends RecyclerView.Adapter {
             holder1.sex.setText(patient.getSex());
             holder1.date.setText(patient.getDate());
 
-            boolean reassess = patient.isReassess();
+            boolean reassess = patient.getReassess();
             if (reassess){
                 holder1.imageView.setVisibility(View.VISIBLE);
             }else{

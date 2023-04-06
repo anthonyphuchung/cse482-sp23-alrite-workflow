@@ -35,6 +35,7 @@ import android.widget.Toast;
 
 import com.ug.air.alrite.APIs.ApiClient;
 import com.ug.air.alrite.APIs.JsonPlaceHolder;
+import com.ug.air.alrite.Activities.AddPatientActivity;
 import com.ug.air.alrite.Activities.Dashboard;
 import com.ug.air.alrite.Activities.LearnActivity;
 import com.ug.air.alrite.Activities.PatientActivity;
@@ -151,9 +152,8 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.openmrs).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO:
-//                Intent intent = new Intent(getActivity(), org.openmrs.mobile.activities.login.LoginActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(getActivity(), AddPatientActivity.class);
+                startActivity(intent);
             }
         });
 
