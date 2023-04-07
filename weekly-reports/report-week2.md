@@ -16,7 +16,7 @@
 * Update Dr. Ellington and her team with the current progress. Implement feedback from her team.
 * Create slides for next week's project pitch.
 
-## Yash Avarde:
+## Yash Varde:
 ### Tasks accomplished:
 * Creating and running an instance of OpenMRS locally.
 * Establishing a first draft of the project roadmap.
