@@ -63,7 +63,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 
-public class OtherPatients extends Fragment {
+public class PatientRecords extends Fragment {
 
     View view;
     RecyclerView recyclerView;
@@ -198,8 +198,8 @@ public class OtherPatients extends Fragment {
                         }
                     }
                 }
-            }else {
-                Toast.makeText(getActivity(), "There are no patients' records", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getActivity(), "There are no patient records", Toast.LENGTH_SHORT).show();
             }
         }
     }

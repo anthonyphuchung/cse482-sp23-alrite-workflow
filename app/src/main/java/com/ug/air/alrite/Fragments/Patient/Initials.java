@@ -34,11 +34,11 @@ import java.util.Objects;
 public class Initials extends Fragment {
 
    View view;
-   EditText etCin, etPin, etStudy, etCode;
+   EditText etChildFirstName, etChildLastName, etParentFirstName, etParentLastName, etStudy, etCode;
    Button back, next;
-   String cin, pin, formattedDate, studyId, code, h_code, counter, filename;
+   String childName, parentName, formattedDate, studyId, code, h_code, counter, filename;
    public static final String CIN = "patient_initials";
-    public static final String  VERSION = "app_version";
+   public static final String  VERSION = "app_version";
    public static final String PIN = "parent_initials";
    public static final String STUDY_ID = "study_id";
     public static final String STUDY_ID_2 = "study_id_2";
@@ -54,10 +54,12 @@ public class Initials extends Fragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_initials, container, false);
 
-        etCin = view.findViewById(R.id.cin);
+        etChildFirstName = view.findViewById(R.id.child_first_name);
+        etChildLastName = view.findViewById(R.id.child_last_name);
         etCode = view.findViewById(R.id.code);
         etStudy = view.findViewById(R.id.studyId);
-        etPin = view.findViewById(R.id.pin);
+        etParentFirstName = view.findViewById(R.id.parent_first_name);
+        etParentLastName = view.findViewById(R.id.parent_last_name);
         next = view.findViewById(R.id.next);
         back = view.findViewById(R.id.back);
 
@@ -88,13 +90,13 @@ public class Initials extends Fragment {
             @Override
             public void onClick(View v) {
 
-                cin = etCin.getText().toString();
-                pin = etPin.getText().toString();
+                childName = etChildFirstName.getText().toString().trim() + " " + etChildLastName.getText().toString().trim();
+                parentName = etParentFirstName.getText().toString().trim() + " " + etParentLastName.getText().toString().trim();
                 studyId = etStudy.getText().toString();
 
-                if (cin.isEmpty() || pin.isEmpty() || studyId.equals("0") || studyId.isEmpty()){
+                if (childName.isEmpty() || parentName.isEmpty() || studyId.equals("0") || studyId.isEmpty()){
                     Toast.makeText(getActivity(), "Please fill in all the fields", Toast.LENGTH_SHORT).show();
-                }else {
+                } else {
                     saveData();
                 }
             }
@@ -114,8 +116,8 @@ public class Initials extends Fragment {
 
         String new_study = etCode.getText().toString();
         new_study = new_study + "_" + studyId;
-        editor.putString(CIN, cin);
-        editor.putString(PIN, pin);
+        editor.putString(CIN, childName);
+        editor.putString(PIN, parentName);
         editor.putString(VERSION, "2");
         editor.putString(STUDY_ID_2, studyId);
         editor.putString(STUDY_ID, new_study);
@@ -128,18 +130,6 @@ public class Initials extends Fragment {
         }
         editor.apply();
 
-//        int count = Integer.valueOf(counter);
-//        int count2 = Integer.valueOf(studyId);
-//
-////        Toast.makeText(getActivity(), count + " " + count2, Toast.LENGTH_SHORT).show();
-//
-//        if (count == count2){
-//            count = count+1;
-//            String ct = String.valueOf(count);
-//            Credentials credentials = new Credentials();
-//            credentials.counting(getActivity(), ct);
-//        }
-
         FragmentTransaction fr = requireActivity().getSupportFragmentManager().beginTransaction();
         fr.replace(R.id.fragment_container, new Sex());
         fr.addToBackStack(null);
@@ -147,15 +137,15 @@ public class Initials extends Fragment {
     }
 
     private void loadData() {
-        pin = sharedPreferences.getString(PIN, "");
-        cin = sharedPreferences.getString(CIN, "");
+        parentName = sharedPreferences.getString(PIN, "");
+        childName = sharedPreferences.getString(CIN, "");
         studyId = sharedPreferences.getString(STUDY_ID_2, "");
         formattedDate = sharedPreferences.getString(INITIAL_DATE, "");
     }
 
     private void updateViews() {
-        etPin.setText(pin);
-        etCin.setText(cin);
+        etParentFirstName.setText(parentName);
+        etChildFirstName.setText(childName);
 
         Credentials credentials = new Credentials();
         credentials.creds2(getActivity());
