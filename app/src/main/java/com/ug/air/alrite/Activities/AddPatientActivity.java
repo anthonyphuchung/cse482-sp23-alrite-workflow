@@ -28,7 +28,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class AddPatientActivity extends AppCompatActivity {
-    private static final String BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
+    private static final String BASE_URL = "http://10.0.2.2:8085/openmrs-standalone/";
     private OpenMRSAPI openMRSAPI;
     private EditText editTextSearch;
     private PatientListAdapter patientListAdapter;

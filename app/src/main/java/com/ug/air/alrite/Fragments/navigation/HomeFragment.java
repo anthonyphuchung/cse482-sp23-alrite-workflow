@@ -40,6 +40,7 @@ import com.ug.air.alrite.Activities.Dashboard;
 import com.ug.air.alrite.Activities.LearnActivity;
 import com.ug.air.alrite.Activities.PatientActivity;
 import com.ug.air.alrite.Activities.SplashActivity;
+import com.ug.air.alrite.Activities.SyncActivity;
 import com.ug.air.alrite.BuildConfig;
 import com.ug.air.alrite.Database.DatabaseHelper;
 import com.ug.air.alrite.Fragments.Patient.Nasal;
@@ -123,6 +124,14 @@ public class HomeFragment extends Fragment {
                 Intent intent = new Intent(getActivity(), PatientActivity.class);
                 bundle.putInt("Fragment", 2);
                 intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+
+        view.findViewById(R.id.btnSync).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), SyncActivity.class);
                 startActivity(intent);
             }
         });

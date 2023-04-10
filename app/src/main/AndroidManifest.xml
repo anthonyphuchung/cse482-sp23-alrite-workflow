@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -39,6 +38,11 @@
             android:windowSoftInputMode="adjustResize">
         </activity>
         <activity
+            android:name=".Activities.SyncActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity
             android:name=".Activities.SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -51,5 +55,4 @@
             android:name=".Activities.Dashboard"
             android:exported="true" />
     </application>
-
 </manifest>
