@@ -34,7 +34,7 @@ import java.util.Objects;
 public class Initials extends Fragment {
 
    View view;
-   EditText etCin, etPin, etStudy, etCode;
+   EditText etClst, etCfst, etPlst, etPfst, etStudy, etCode;
    Button back, next;
    String cin, pin, formattedDate, studyId, code, h_code, counter, filename;
    public static final String CIN = "patient_initials";
@@ -54,10 +54,12 @@ public class Initials extends Fragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_initials, container, false);
 
-        etCin = view.findViewById(R.id.cin);
+        etCfst = view.findViewById(R.id.cfst);
+        etClst = view.findViewById(R.id.clst);
         etCode = view.findViewById(R.id.code);
         etStudy = view.findViewById(R.id.studyId);
-        etPin = view.findViewById(R.id.pin);
+        etPlst = view.findViewById(R.id.plst);
+        etPfst = view.findViewById(R.id.pfst);
         next = view.findViewById(R.id.next);
         back = view.findViewById(R.id.back);
 
@@ -87,9 +89,10 @@ public class Initials extends Fragment {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                cin = etCin.getText().toString();
-                pin = etPin.getText().toString();
+                char[] ca = {etCfst.getText().toString().toUpperCase().charAt(0), etClst.getText().toString().toUpperCase().charAt(0)};
+                cin = new String(ca);
+                char[] pa = {etPfst.getText().toString().toUpperCase().charAt(0), etPlst.getText().toString().toUpperCase().charAt(0)};
+                pin = new String(pa);
                 studyId = etStudy.getText().toString();
 
                 if (cin.isEmpty() || pin.isEmpty() || studyId.equals("0") || studyId.isEmpty()){
@@ -154,8 +157,8 @@ public class Initials extends Fragment {
     }
 
     private void updateViews() {
-        etPin.setText(pin);
-        etCin.setText(cin);
+        // etPin.setText(pin);
+        // etCin.setText(cin);
 
         Credentials credentials = new Credentials();
         credentials.creds2(getActivity());
