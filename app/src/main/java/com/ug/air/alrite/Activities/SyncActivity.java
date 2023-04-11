@@ -30,10 +30,13 @@ public class SyncActivity extends AppCompatActivity implements View.OnClickListe
     ListView patients;
     ArrayList<String> list;
     ArrayAdapter adapter;
+    TextView personNameId;
     TextView homeUrl;
     TextView personId;
     TextView givenName;
     TextView familyName;
+    TextView gender;
+    TextView uuid;
     private class UpdateInBackgroundTask extends AsyncTask<String, Integer, Long> {
 
         // these Strings / or String are / is the parameters of the task, that can be handed over via the excecute(params) method of AsyncTask
@@ -194,10 +197,13 @@ public class SyncActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_sync);
         findViewById(R.id.button).setOnClickListener(this);
         patients = findViewById(R.id.patients);
+        personNameId = (TextView) findViewById(R.id.person_name_id);
         homeUrl = (TextView) findViewById(R.id.URL);
         personId = (TextView) findViewById(R.id.person_id);
         givenName = (TextView) findViewById(R.id.given_name);
         familyName = (TextView) findViewById(R.id.family_name);
+        gender = (TextView) findViewById(R.id.gender);
+        uuid = (TextView) findViewById(R.id.uuid);
 
         list = new ArrayList<String>();
 
@@ -222,7 +228,16 @@ public class SyncActivity extends AppCompatActivity implements View.OnClickListe
                         String firstName = text.substring(0, text.indexOf(" "));
                         text = text.substring(firstName.length() + 1, text.length());
 
-                        String lastName = text;
+                        String lastName = text.substring(0, text.indexOf(" "));
+                        text = text.substring(lastName.length() + 1, text.length());
+
+                        String personIdText = text.substring(0, text.indexOf(" "));
+                        text = text.substring(personIdText.length() + 1, text.length());
+
+                        String genderType = text.substring(0, text.indexOf(" "));
+                        text = text.substring(genderType.length() + 1, text.length());
+
+                        String uuidText = text;
 
                         runOnUiThread(new Runnable() {
                             @Override
@@ -230,6 +245,9 @@ public class SyncActivity extends AppCompatActivity implements View.OnClickListe
                                 personId.setText(id);
                                 givenName.setText(firstName);
                                 familyName.setText(lastName);
+                                gender.setText(genderType);
+                                personNameId.setText(personIdText);
+                                uuid.setText(uuidText);
                             }
                         });
                     }
@@ -241,7 +259,7 @@ public class SyncActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view)
     {
-        String[] strParams = {homeUrl.getText().toString(), personId.getText().toString(), givenName.getText().toString(), familyName.getText().toString()};
+        String[] strParams = {homeUrl.getText().toString(), personNameId.getText().toString(), givenName.getText().toString(), familyName.getText().toString()};
         new UpdateInBackgroundTask().execute(strParams);
         list.clear();
         adapter.clear();
