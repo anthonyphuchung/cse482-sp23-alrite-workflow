@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ The contents of this file are subject to the OpenMRS Public License
+  ~ Version 1.0 (the "License"); you may not use this file except in
+  ~ compliance with the License. You may obtain a copy of the License at
+  ~ http://license.openmrs.org
+  ~
+  ~ Software distributed under the License is distributed on an "AS IS"
+  ~ basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+  ~ License for the specific language governing rights and limitations
+  ~ under the License.
+  ~
+  ~ Copyright (C) OpenMRS, LLC.  All Rights Reserved.
+  -->
+
+<resources>
+    <string name="app_name">OpenMRS Android Client</string>
+    <string name="organization_name" translatable="false">OpenMRS</string>
+    <string name="organization_description" translatable="false">Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_location">Location</string>
+
+    <string name="alphanumeric_postal_code">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 </string>
+
+    <!-- Login view -->
+    <string name="login_button">Login</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_location_select">Session Location</string>
+    <string name="req_star"><![CDATA[<font color=\'#616161\'> * </font>]]></string>
+    <string name="warning_dialog_title">Warning</string>
+    <string name="warning_lost_data_dialog">Changing the URL, username or password will erase all the data. Are you sure?</string>
+    <string name="forgot_button_ok">Dismiss</string>
+    <string name="login_offline">Offline</string>
+    <string name="login_online">Online</string>
+
+    <string name="emptyerror">Required</string>
+    <string name="fname_invalid_error">Given name cannot contain symbols or numbers</string>
+    <string name="midname_invalid_error">Middle name cannot contain symbols or numbers</string>
+    <string name="lname_invalid_error">Family name cannot contain symbols or numbers</string>
+    <string name="dob_error">Date should be between %1$s and %2$s</string>
+    <string name="reg_firstname_hint">First Name*</string>
+    <string name="reg_midname_hint">Middle Name</string>
+    <string name="reg_surname_hint">Family Name*</string>
+    <string name="reg_ques_name">Patient\’s Name</string>
+    <string name="reg_ques_gender">Patient\'s gender*</string>
+    <string name="reg_ques_dob">Patient\'s birth date*</string>
+    <string name="label_or">OR</string>
+    <string name="reg_ques_address">Address</string>
+    <string name="addr1_hint">Address Line 1*</string>
+    <string name="addr2_hint">Address Line 2</string>
+    <string name="addr_invalid_error">Address cannot contain invalid characters</string>
+    <string name="atleastone">Fill at least one address field</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob_hint">Date of Birth (dd/MM/yyyy)</string>
+    <string name="estyr">Estimated Years</string>
+    <string name="estmonth">Estimated Months</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode_unsupported_in_first_login">Offline mode is not supported during first login.Enable online mode and then try again.</string>
+    <string name="login_offline_toast_message">You are now in offline mode.</string>
+
+    <!-- Authentication Failed dialog -->
+    <string name="auth_failed_dialog_message">Incorrect username or password entered. Please try again.</string>
+    <!-- No internet dialog -->
+    <string name="no_internet_conn_dialog_message">You have no internet connection.\nPlease check phone or Wi-Fi connection and signal strength and try again.</string>
+
+    <!-- SimilarPatients dialog -->
+    <string name="similar_patients_dialog_title">Similar patients found</string>
+
+    <!-- Logout dialog -->
+    <string name="logout_dialog_title">Logging out</string>
+    <string name="logout_dialog_message">Are you sure you want to logout from OpenMRS client?</string>
+    <string name="logout_dialog_button">Logout</string>
+    <!--Credentials Changed dialog-->
+    <string name="credentials_changed_dialog_title">Credentials changed</string>
+    <string name="credentials_changed_dialog_message">Your credentials have been changed in the web app. You are logged out automatically.</string>
+    <!-- End Visit dialog -->
+    <string name="end_visit_dialog_title">End Visit</string>
+    <string name="end_visit_dialog_message">Are you sure you want to end this visit?</string>
+    <!-- Start visit dialog -->
+    <string name="start_visit_dialog_title">Start Visit</string>
+    <string name="start_visit_dialog_message">Are you sure you want to start visit for %1$s now?</string>
+    <!-- Start visit dialog unsuccessful-->
+    <string name="start_visit_unsuccessful_dialog_title">Visit didn\'t start.</string>
+    <string name="start_visit_unsuccessful_dialog_message">There are already active visits of %1$s. Try synchronizing patient or closing previous visits</string>
+    <!-- Delete patient dialog message -->
+    <string name="delete_patient_dialog_message">Are you sure you want to delete this patient?</string>
+    <!-- Location dialog  -->
+    <string name="location_dialog_title">Select Location</string>
+    <string name="location_dialog_current_location">Current Location: </string>
+
+    <!-- Reset patient info dialog -->
+    <string name="reset_dialog_message">All patient information entered will be erased</string>
+
+    <!-- Buttons -->
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_confirm">Confirm</string>
+    <string name="dialog_button_register_new">Register new</string>
+    <string name="dialog_button_merge">Merge</string>
+    <string name="action_next">Next</string>
+    <string name="dialog_button_select_location">Select Location</string>
+
+    <!-- Settings activity -->
+    <string name="settings_logs">Logs</string>
+    <string name="settings_concepts_in_db">Concepts in DB:</string>
+    <string name="settings_no_concepts_toast">There are no concepts in DB!</string>
+
+    <!-- FindPatients activity -->
+    <string name="action_find_patients">Find Patients</string>
+    <string name="action_synced_patients">Synced Patients</string>
+    <string name="action_download_patients">Download Patients</string>
+    <string name="search_patient_hint">Patient name</string>
+    <string name="search_patient_no_results">No patients exist in database</string>
+    <string name="search_patient_no_result_for_query">No results found for query \"%1$s\"</string>
+    <string name="select_all_downloadable_data">Select all</string>
+    <string name="download_selected_patient_data">Download Patient Data</string>
+    <string name="download_multiple">Download Multiple</string>
+
+    <!-- Dashboard Activity -->
+    <string name="dashboard_search_icon_label">Find Patients</string>
+    <string name="dashboard_registry_icon_label">Register Patient</string>
+    <string name="dashboard_visits_icon_label">Active Visits</string>
+    <string name="dashboard_forms_icon_label">Form Entry</string>
+    <string name="dashboard_exit_toast_message">Please press BACK again to exit</string>
+
+    <!-- row_find_synced_patients layout-->
+    <string name="find_patients_row_checkbox_download_label">Download</string>
+
+    <!-- Patient Dashboard Activity -->
+    <string name="action_synchronize_patients">Synchronizing patient</string>
+    <string name="action_update_patient_data">Update Patient</string>
+    <string name="synchronize_patient_successful">Successfully synchronized patient data.</string>
+    <string name="synchronize_patient_error">Synchronizing patient data was unsuccessful</string>
+    <string name="synchronize_patient_network_error">Cannot synchronize in offline mode</string>
+    <string name="get_patient_from_database_error">Failed to fetch patient from database</string>
+    <string name="action_start_visit">Start visit</string>
+    <string name="action_create_allergy">Create Allergy</string>
+    <string name="patient_scroll_tab_details_label">Details</string>
+    <string name="patient_scroll_tab_allergy_label">Allergy</string>
+    <string name="patient_scroll_tab_diagnosis_label">Diagnosis</string>
+    <string name="patient_scroll_tab_visits_label">Visits</string>
+    <string name="patient_scroll_tab_vitals_label">Vitals</string>
+    <string name="patient_scroll_tab_charts_label">Charts</string>
+    <string name="download_started">"Downloading…"</string>
+    <string name="action_starting_visit">"Starting Visit"</string>
+
+    <!--SyncedPatient Activity-->
+    <string name="patient_update_successful">Patient %1$s Updated</string>
+    <string name="patient_update_unsuccessful">Patient %1$s cannot be updated due to server error will retry sync</string>
+    <string name="patient_photo_update_unsuccessful">Patient photo cannot be synced due to server error:  %1$s</string>
+
+    <!-- fragment_patient_details layout -->
+    <string name="patient_identifier"># %1$s</string>
+    <string name="patient_details_photo_label">PATIENT\’S PHOTO</string>
+    <string name="patient_details_birth_date_label">Birth date</string>
+    <string name="patient_contact_info_label">Contact Information</string>
+    <string name="patient_address_label">Address</string>
+    <string name="patient_city_label">City</string>
+    <string name="patient_postal_label">Postal Code</string>
+    <string name="patient_state_label">State</string>
+    <string name="patient_country_label">Country</string>
+    <string name="date_picker_title">Select Date of Birth</string>
+
+    <!-- Find Active visit activity -->
+    <string name="action_active_visits">Active Visits</string>
+    <string name="action_form_entry">Form Entry</string>
+    <string name="action_find_visits">Find Active Visits</string>
+    <string name="search_visits_no_results">No visits in database</string>
+
+    <!-- ACBase activity -->
+    <string name="error_email_subject_app_crashed">OpenMRS android client crashed</string>
+    <string name="choose_a_email_client">Choose an Email client :</string>
+    <string name="no_internet_connection_message">No internet connection</string>
+
+    <!-- Patient Service Activity-->
+    <string name="activity_no_internet_connection">No internet connection. Patient Registration data is saved locally </string>
+    <string name="activity_sync_after_connection">and will sync when internet connection is restored. </string>
+
+    <!-- Patients Vitals Fragment -->
+    <string name="form_error">This form is not supported</string>
+
+    <!-- fragment_patient_visits layout -->
+    <string name="active_visit_label">Active visit</string>
+    <string name="past_visit_label">Past visit</string>
+    <string name="visit_in">in %1$s</string>
+
+    <!-- fragment_patient_vitals layout -->
+    <string name="last_vitals_label">Last Vitals: </string>
+    <string name="last_vitals_none_label">None</string>
+
+    <!-- fragment_patient_diagnosis layout -->
+    <string name="empty_diagnoses_list">Patient has no diagnoses yet.</string>
+    <string name="diagnosis_note_label">Text of encounter note</string>
+
+    <!--fragment_vitals_charts_layout-->
+    <string name="list_vital_selector_show">show chart</string>
+    <string name="list_vital_selector_hide">hide chart</string>
+
+    <!--fragment_patient_charts layout-->
+    <string name="no_vitals_recorded">No vitals recorded</string>
+
+    <!-- Visit dashboard activity -->
+    <string name="action_end_visit">End Visit</string>
+    <string name="visit_dashboard_label">Encounters</string>
+    <string name="list_visit_selector_show">show details</string>
+    <string name="list_visit_selector_hide">hide details</string>
+    <string name="visit_exp_list_empty">Visit has no encounters yet.</string>
+
+    <!-- Capture Vitals activity -->
+    <string name="action_delete_patient">Delete Patient</string>
+    <string name="action_register_patient">Register Patient</string>
+    <string name="failed_to_open_vitals_form">An error occurred. Invalid or corrupted form file.</string>
+    <string name="active_visit_label_capture_vitals">On Visit</string>
+
+    <!-- Form Entry Activity -->
+    <string name="empty_visits_list">Patient has no visits yet.</string>
+    <string name="title_activity_form_create">FormCreateActivity</string>
+
+    <!--Similar patient card strings-->
+    <string name="gender_hint">gender:</string>
+    <string name="birthdate_hint">birthdate:</string>
+    <string name="address_hint">address:</string>
+    <string name="demographics">DEMOGRAPHICS</string>
+    <string name="unable_to_login">Unable to login?</string>
+    <string name="no_patient_selected">No patient selected</string>
+
+    <!--Matching Patient Activity-->
+    <string name="matching_patients_toolbar_title">Merge Patients</string>
+    <string name="patient_registered_locally">Patient registered locally</string>
+    <string name="similar_patients_on_server">Similar patients exist on server</string>
+    <string name="registration_core_info">To use faster and more accurate similar patient resolution, upgrade the Registration Core Module to 1.7 or higher</string>
+
+    <!--ChartsView Activity-->
+    <string name="charts_view_toolbar_title">Charts View</string>
+
+    <!-- Image content description strings -->
+    <string name="openmrs_logo">OpenMRS logo</string>
+    <string name="toast_with_black_background">Toast with black background</string>
+    <string name="edit_form">Edit form</string>
+    <string name="patient_photo">Patient Photo</string>
+    <string name="take_a_photo">Take a photo</string>
+
+    <!--Snackbar strings-->
+    <string name="snackbar_action_open">Open</string>
+    <string name="snackbar_info_patient_downloaded">Patient downloaded</string>
+    <string name="invalid_login_or_password_message">Invalid login or password, please try again.</string>
+    <string name="snackbar_no_internet_connection">No internet connection</string>
+
+    <!--permissions-->
+    <string name="permission_camera_rationale">Camera permission is needed to capture photo.</string>
+    <string name="permission_camera_denied">Camera permission was denied. Please consider granting it in order to access the camera</string>
+    <string name="permission_camera_neverask">Camera permission was denied with never ask again</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="patient_not_yet_registered">Patient not yet registered, cannot create encounter.</string>
+
+    <!-- Layout strings -->
+    <string name="sync">Sync</string>
+    <string name="snackbar_edit">EDIT</string>
+
+    <!--Activity Logs-->
+    <string name="title_activity_logs">Logs</string>
+
+    <!--App Crash Dialog-->
+    <string name="crash_dialog_title">Error occurred</string>
+    <string name="crash_dialog_message">Sorry ! An Unknown error has occurred. Please report the details to developers so that it can be resolved as soon as possible.</string>
+    <string name="crash_dialog_positive_button">Restart</string>
+    <string name="crash_dialog_negative_button">Close</string>
+    <string name="crash_dialog_neutral_button">Send report and restart</string>
+
+    <!-- Syncbutton toasts -->
+    <string name="disconn_server">Disconnecting from server</string>
+    <string name="reconn_server">Reconnecting to server</string>
+    <string name="connected_to_server_message">You are now connected!</string>
+    <string name="dialog_title_are_you_sure">Are you sure?</string>
+    <string name="dialog_title_reset_patient">Reset patient data?</string>
+    <string name="dialog_message_data_lost">All patient information entered will be lost.</string>
+    <string name="dialog_button_stay">Stay</string>
+    <string name="dialog_button_leave">Leave</string>
+    <string name="snackbar_nonvisitting_patients">Vitals can only be captured for patients currently in a visit.</string>
+
+    <string name="logout_success">Logged out successfully!</string>
+    <string name="url_privacy_policy">https://github.com/openmrs/openmrs-contrib-android-client/blob/master/privacy_policy.md#privacy-policy</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+
+    <string name="action_submit">Submit</string>
+    <string name="action_reset">Reset</string>
+
+    <string name="delete_multiple_patients">Delete Patients?</string>
+    <string name="delete_multiple_patients_dialog_message">Are you sure you want to delete these patients?</string>
+    <string name="multiple_patients_deleted">Patients Deleted Successfully</string>
+    <string name="location_successfully_updated">Location Updated Successfully</string>
+    <string name="delete">delete</string>
+    <string name="rate_us_string">Rate Us</string>
+    <string name="settings_frag_size">Size:</string>
+    <string name="frag_settings_build">Build:</string>
+    <string name="action_provider_management">Manage Providers</string>
+    <string name="unable_to_fetch_providers">Unable to fetch Providers!</string>
+    <string name="device_offline_msg">Device Offline!</string>
+
+    <!-- Provider Management -->
+    <string name="provider_manager">Provider Manager</string>
+    <string name="action_find_providers">Find Providers</string>
+    <string name="delete_provider_success_msg">Successfully deleted the provider!</string>
+    <string name="delete_provider_failure_msg">Failed to delete provider.</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="identifier_hint">Identifier</string>
+    <string name="identifier_description">* Identifier can be anything. Eg. Doctor, Nurse, Clerk, etc</string>
+    <string name="add_provider_success_msg">Successfully added provider.</string>
+    <string name="add_provider_failure_msg">Failed to add provider.</string>
+    <string name="edit_provider_success_msg">Successfully edited provider.</string>
+    <string name="edit_provider_failure_msg">Failed to edit provider.</string>
+    <string name="title_provider_info">Provider Info</string>
+    <string name="dialog_provider_retired">Provider will be retired.</string>
+    <string name="title_dialog_matching_provider">Found Similar Providers</string>
+    <string name="dialog_matching_provider_positive_btn">Create Anyway</string>
+    <string name="label_dark_mode">Dark Mode</string>
+    <string name="provider_tab_title">Providers</string>
+    <string name="patients_tab_title">Patients</string>
+    <string name="failed_provider_details">Failed to get Provider details!</string>
+    <string name="retry_action">Retry</string>
+
+    <!--activity_provider_dashboard  -->
+    <string name="surgeon">Surgeon</string>
+    <string name="offline_provider_fetch">offline providers fetched couldn\'t sync with the database device offline</string>
+    <string name="offline_provider_add">provider will be synced to the server when device gets connected to network</string>
+    <string name="offline_provider_edit">updated provider will be synced to the server when device gets connected to network</string>
+    <string name="offline_provider_delete">Provider will be removed from the server when you\'re back online</string>
+
+    <!--fragment_patient_relationship-->
+    <string name="provider_patient">Provider - Patient Relationship</string>
+
+    <!--row_provider_details-->
+    <string name="jake_smith">Jake Smith</string>
+    <string name="doctor">Doctor</string>
+
+    <!--fragment_provider_relationship-->
+    <string name="provider_provider">Provider - Provider Relationship</string>
+    <string name="language">Language</string>
+
+    <string name="apply">Apply</string>
+
+    <!-- introduction Activity -->
+    <string name="intro_welcome">Welcome</string>
+    <string name="intro_register">Register Patients</string>
+    <string name="intro_find">Find Patients</string>
+    <string name="intro_monitor">Monitor Visits</string>
+    <string name="intro_manage">Manage Providers</string>
+    <string name="intro_location">Location</string>
+    <string name="intro_settings">Settings</string>
+
+    <string name="intro_welcome_desc">The global OpenMRS community works together to build the world\'s leading open source electronic medical record system.</string>
+    <string name="intro_register_desc">Register new patients to our server.</string>
+    <string name="intro_find_desc">You can find and monitor those patients.</string>
+    <string name="intro_monitor_desc">We help you monitor patient visits too.</string>
+    <string name="intro_manage_desc">You can manage providers using our app.</string>
+    <string name="intro_location_desc">You can change your location at a simple click.</string>
+    <string name="intro_settings_desc">Try out our dark mode feature.\nExciting? Let\'s get started.</string>
+    <string name="get_started_with_our_user_guide">Get started with our user guide</string>
+
+    <!--AuthenticateCheck service-->
+    <string name="authenticate_check_service_error_response_message">Error in Authenticate Check Service Response</string>
+    <string name="authenticate_service_error_message">Error in Authenticate Check Service</string>
+
+    <!--ChartsView Activity-->
+    <string name="dataset_entry_label">Label</string>
+
+    <!--ConceptsDownload service-->
+    <string name="downloading_concepts_notification_message">Downloading Concepts</string>
+
+    <!--CustomFragment Dialog-->
+    <string name="application_exit_logger_message">Exit application</string>
+
+    <!--FormDisplay presenter-->
+    <string name="form_data_will_be_synced_later_error_message">Patient not yet registered. No internet connection. Form data is saved locally and will sync when internet connection is restored.</string>
+    <string name="form_data_sync_is_off_message">Sync is off. Turn on sync to save form data.</string>
+
+    <!--FormDisplayPage Fragment-->
+    <string name="all_fields_empty_error_message">All fields cannot be empty</string>
+    <string name="no_such_form_name_error_message">There is no encounter type called %1$s</string>
+
+    <!--LastViewedPatientRecyclerViewAdapter-->
+    <string name="failed_fetching_patient_data_error_message">Failed to fetch patient data</string>
+
+    <!--Login Fragment-->
+    <string name="invalid_URL_message">Invalid URL</string>
+
+    <!--Login presenter-->
+    <string name="failed_fetching_visit_type_error_message">Failed to fetch visit type</string>
+
+    <!--Logs Fragment-->
+    <string name="logs_copied_to_clipboard_message">Logs copied to clipboard</string>
+
+    <!--MergePatientsRecyclerView Adapter-->
+    <string name="only_one_patient_can_be_selected_notification_message">You can select only one similar patient</string>
+
+    <!--PatinetDashboardVisits presenter-->
+    <string name="offline_mode_not_supported">Cannot start a patient visit manually in offline mode.</string>
+
+    <!--PatientRepository-->
+    <string name="patient_cannot_be_synced_due_to_server_error_message">"Patient[ %1$i ] cannot be synced due to server error %2$s </string>
+    <string name="patient_cannot_be_synced_due_to_request_error_message">"Patient[ %1$i ] cannot be synced due to request error %2$s </string>
+    <string name="patient_update_unsuccessful_server_error">Patient %1$s cannot be updated due to server error will retry sync %2$s</string>
+    <string name="offline_mode_patient_data_saved_locally_notification_message">Sync is off. Patient Update data is saved locally and will sync when online mode is restored.</string>
+    <string name="patent_and_form_data_sync_resumed">Syncing switched on, attempting to sync patients and form data</string>
+    <string name="patent_data_synced_successfully">Patient [ %1$i ] synced to server successfully</string>
+
+    <!--VisitExpandableListAdapter-->
+    <string name="hiv_yes">Yes</string>
+    <string name="hiv_no">No</string>
+    <string name="hiv_unknown">Unknown</string>
+
+    <!-- Contact Activity -->
+    <string name="helpdesk_mail" translatable="false">helpdesk@openmrs.com</string>
+    <string name="go_to_forum">Forum</string>
+    <string name="go_to_irc">IRC</string>
+    <string name="open">Go to</string>
+    <string name="email_us">Email us</string>
+    <string name="help_message">Our Team will try our best to help you. Please reach out to us by using the services above.</string>
+    <string name="contact_forum_url" translatable="false">https://talk.openmrs.org/</string>
+    <string name="contact_irc_url" translatable="false">https://wiki.openmrs.org/display/IRC/Home</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="no_mailing_client_found">There are no email clients installed.</string>
+    <string name="contact_us_or">OR</string>
+
+    <!-- ShowCaseView -->
+    <string name="showcase_find_patients">Click here to search through all the patients</string>
+    <string name="showcase_active_visits">Click here to get the list of all the currently active visits</string>
+    <string name="showcase_register_patient">Click here to register a new patient</string>
+    <string name="showcase_form_entry">Click here to capture vitals for a patient on a visit</string>
+    <string name="showcase_manage_providers">Click here to manage providers for a patient on a visit</string>
+
+    <!-- Chart Activity -->
+    <string name="data_not_available_for_this_field">No data available to display chart</string>
+    <string name="data_type_not_available_for_this_field">Chart not available for this field</string>
+    <string name="dialog_take_photo">Take a photo</string>
+    <string name="dialog_choose_photo">Choose photo</string>
+    <string name="dialog_remove_photo">Remove photo</string>
+
+    <string name="unidentified_patient">Unidentified Patient</string>
+    <string name="dob_error_for_unidentified">Please give a rough estimate of patient age</string>
+
+    <string name="unidentified_patient_name">UNKNOWN</string>
+    <string name="snackbar_server_error">The entered server is currently down, please select a different one.</string>
+    <string name="snackbar_empty_visit_list">Select Form Entry from the menu to begin examining.</string>
+    <string name="snackbar_no_forms_found">No Forms Found, try restarting the app.</string>
+    <string name="snackbar_choose">Choose</string>
+    <string name="snackbar_select">Select</string>
+    <string name="url_server_list" translatable="false">https://wiki.openmrs.org/display/ISM/OpenMRS+environments</string>
+    <string name="copied_text" translatable="false">Copied Text</string>
+
+    <!--Admission Form -->
+    <string name="admission">Admission</string>
+    <string name="error_occurred">An error Occurred, Try Again Later !!!</string>
+    <string name="offline_error_message">You are currently offline, Try again when connected !!!</string>
+    <string name="admission_fields_required">Please Select Required Field</string>
+    <string name="admission_date">Admission Date :</string>
+    <string name="admission_admitted_by">Admitted By :</string>
+    <string name="admission_provider_role">Provider Role :</string>
+    <string name="admission_admitted_to">Admitted To :</string>
+    <string name="admission_location_in_list" translatable="false">Admitted To %1$s</string>
+    <string name="discharge_location_in_list" translatable="false">Discharged From %1$s</string>
+    <string name="form_submitted_successfully" translatable="false">Form Submitted Successfully</string>
+
+    <!--Marking Patient Deceased -->
+    <string name="no_death_concepts_in_server">Please add the possible causes of death in the server</string>
+    <string name="mark_patient_deceased">Mark Patient Deceased?</string>
+    <string name="mark_patient_deceased_notice">The patient will be marked deceased and no further visit will be possible.</string>
+    <string name="mark_patient_deceased_proceed">Proceed</string>
+    <string name="mark_patient_deceased_invalid_uuid">Please add a valid concept UUID in the server </string>
+    <string name="mark_patient_deceased_concept_has_no_answer">No possible causes of death found for this setting</string>
+    <string name="marked_patient_deceased_successfully">Patient is marked deceased — %1$s</string>
+    <string name="cannot_start_visit_for_deceased">Cannot start visit for deceased patient</string>
+
+    <!--Allergies -->
+    <string name="allergy_comment">Comment</string>
+    <string name="allergy_severity">Severity</string>
+    <string name="allergy_reactions">Reactions</string>
+    <string name="empty_allergy_list">Patient has no allergies yet.</string>
+    <string name="unable_to_fetch_allergies">Unable to get the latest recorded allergies!</string>
+    <string name="delete_allergy_title">Delete %1$s?</string>
+    <string name="delete_allergy_description">The patient\'s allergy will be removed from server. Are you sure you want to continue?</string>
+    <string name="delete_allergy_success">Allergy successfully deleted.</string>
+    <string name="delete_allergy_failure">Unable to delete allergy</string>
+    <string name="delete_allergy_offline">Allergy will be removed from the server when you are back online.</string>
+    <string name="allergy_heading">New Allergy</string>
+    <string name="choose_category">Choose\na category</string>
+    <string name="allergen_drug">Drug</string>
+    <string name="allergen_food">Food</string>
+    <string name="allergen_other">Other</string>
+    <string name="severity">Severity</string>
+    <string name="severity_mild">Mild</string>
+    <string name="severity_moderate">Moderate</string>
+    <string name="severity_severe">Severe</string>
+    <string name="comment">Comment</string>
+    <string name="add_comment">Add a comment</string>
+    <string name="create_allergy_title">Create Allergy?</string>
+    <string name="create_allergy_description">The patient\'s allergy will be added to server. Are you sure you want to continue?</string>
+    <string name="warning_select_allergen">Please select an Allergen before proceeding</string>
+    <string name="error_creating_allergy">There was an unexpected error while creating the allergy. Please try again!</string>
+    <string name="success_creating_allergy">Allergy successfully added.</string>
+    <string name="delete_allergy_dialog">Delete Allergy</string>
+    <string name="update_allergy_dialog">Update Allergy</string>
+    <string name="allergy_already_selected">Allergy already selected !</string>
+    <string name="start">Start:</string>
+    <string name="end">End:</string>
+
+    <!-- About Activity -->
+    <string name="action_about_activity">About</string>
+    <string name="action_about">About</string>
+    <string name="about_openmrs_1">OpenMRS is a global community of truly dedicated, talented, and generous contributors who build and maintain the OpenMRS platform and other, foundational OpenMRS technical products.</string>
+    <string name="about_openmrs_2">OpenMRS is a platform that countries and implementers use to create a customized EMR system in response to actual needs on the ground.</string>
+    <string name="more_about_openmrs"><![CDATA[more]]></string>
+
+    <string-array name="same">
+        <item>Select One</item>
+        <item>Years</item>
+        <item>Months</item>
+    </string-array>
+
+    <!--   Diagnosis: Severe Pneumonia OR very Severe Disease -->
+    <string name="severe">Diagnosis: Severe Pneumonia OR very Severe Disease</string>
+    <string name="first_dose">Give first dose of antibiotic-intramuscular injection, Ampicillin and Gentamicin. Oral Amoxicillin otherwise.</string>
+
+    <!--    ampicillin-->
+    <string name="ampicilin2">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 1ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+    <string name="ampicilin4">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 2ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+    <string name="ampicilin12">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 3ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+    <string name="ampicilin3">For AMPICILLIN: Dilute 500mg vial with 2.1 ml sterile water (500mg/2.5ml). Give 5ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat the same dose of AMPICILLIN every 6 hours.</string>
+
+    <!--    GENTAMICIN-->
+    <string name="gentamicin2">For GENTAMICIN: (2ml/40mg/ml vial). Give 0.5–1 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+    <string name="gentamicin4">For GENTAMICIN: (2ml/40mg/ml vial). Give 1.1–1.8 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+    <string name="gentamicin12">For GENTAMICIN: (2ml/40mg/ml vial). Give 1.9–2.7 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+    <string name="gentamicin3">For GENTAMICIN: (2ml/40mg/ml vial). Give 2.8–3.5 ml ONE TIME via intramuscular injection. If referral is not possible or delayed, repeat gentamicin once daily.</string>
+
+    <!--    DIAZEPAM-->
+    <string name="convulsions">For Convulsions: Treat with DIAZEPAM</string>
+    <string name="diazepam2">For DIAZEPAM: (10mg/2ml). Give 0.5 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="diazepam4">For DIAZEPAM: (10mg/2ml). Give 1.0 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="diazepam12">For DIAZEPAM: (10mg/2ml). Give 1.5 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="diazepam3">For DIAZEPAM: (10mg/2ml). Give 2.0 ml DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="convulsions1">Turn the child to his/her side and clear the airway. Avoid putting things in the mouth.</string>
+    <string name="convulsions2">Give DIAZEPAM injection solution per rectum using a small syringe without a needle (like a tuberculin syringe) or using a catheter.</string>
+    <string name="convulsions3">Check for low blood sugar, then treat or prevent.</string>
+    <string name="convulsions4">Give oxygen if available and REFER URGENTLY</string>
+    <string name="convulsions5">If convulsions have not stopped after 10 minutes repeat diazepam dose</string>
+
+    <!--    Other instructions-->
+    <string name="other1">If wheezing now, give salbutamol 4–6 puffs with spacer or 1 nebulization (2.5–5mg) if available while awaiting referral. Do not delay referral.</string>
+    <string name="other2">If oxygen level is greater than 90%, start oxygen therapy if available while awaiting referral. Do not delay referral.</string>
+    <string name="other3">Quickly complete the assessment</string>
+    <string name="other4">Treat to prevent low blood sugar</string>
+    <string name="other5">Ask the mother to breastfeed the child</string>
+    <string name="other6">If the child is unable to breastfeed, give 50ml expressed breast milk, a breast-milk substitute, or sugar water (4 teaspoons sugar [20g] in 200ml clean water)</string>
+    <string name="other7">If unable to swallow, give 50ml milk or sugar water by nasogastric tube OR 1 teaspoon sugar moistened with 1–2 drops of water sublingually, repeating every 20 minutes while awaiting referral</string>
+    <string name="other8">Keep the child warm</string>
+
+    <string name="refer_urgently">Refer URGENTLY to hospital</string>
+
+    <!--   END Diagnosis: Severe Pneumonia OR very Severe Disease END -->
+
+    <!--   Diagnosis: No signs of Pneumonia or Wheezing illness -->
+
+    <string name="no_signs">Diagnosis: No signs of Pneumonia or Wheezing illness</string>
+
+    <string name="selected">You have selected that this child does NOT have a cough or difficulty breathing</string>
+    <string name="alrite">ALRITE is to help diagnose children with a cough or difficulty breathing</string>
+    <string name="no_anti">No antibiotics or a bronchodilator needed for breathing difficulty</string>
+    <string name="other_illness">Assess for other illness</string>
+
+    <!--   END Diagnosis: No signs of Pneumonia or Wheezing illness END -->
+
+    <string name="asthma">Diagnosis: Asthma Risk</string>
+
+    <string name="asthma1">Give inhaled salbutamol , 2–4 puffs every 4–6 hours for 5 days</string>
+    <string name="asthma2">A spacer is a way of delivering the bronchodilator drugs effectively into the lungs. No child under 5 years should be given an inhaler without a spacer. A spacer works as well as a nebuliser if correctly used</string>
+    <string name="asthma3">Counsel caregiver to reduce exposure to smoke and strong-smelling odors, including tobacco smoke and biofuels (charcoal, kerosene, waste products)</string>
+
+    <string name="tuber">Diagnosis: Tuberculosis risk</string>
+    <string name="tuber1">Ask about potential TB exposures</string>
+    <string name="tuber2">Refer to assess and treat for potential TB. This will include TB testing and chest x-ray</string>
+
+
+    <!--  Diagnosis: Pneumonia -->
+
+    <string name="pneumonia">Diagnosis: Pneumonia</string>
+
+    <string name="amoxicillin2">Give oral AMOXICILLIN 250 mg (1 tablet or 5 ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin12">Give oral AMOXICILLIN 500 mg (2 tablets or 10ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin3">Give oral AMOXICILLIN 750mg (3 tablets or 15 ml of 250mg/5ml syrup)</string>
+    <string name="pneumonia1">Soothe the throat and relieve the cough with a safe remedy</string>
+    <string name="pneumonia2">Follow up in 3 days, earlier if worsening</string>
+
+    <!--   END Diagnosis: Pneumonia -->
+
+
+    <string name="cold">Diagnosis: Cough/Cold/No Pneumonia</string>
+    <string name="cold1">No signs of Pneumonia or Wheezing illness</string>
+    <string name="cold2">No antibiotics or bronchodilators recommended</string>
+    <string name="cold3">Soothe the throat and relieve the cough with a safe remedy</string>
+    <string name="cold4">Follow up in 5 days if not improving, earlier if getting worse</string>
+
+    <string name="tap_on_inhale">Tap on inhale</string>
+    <string name="elapsed_time">Elapsed time:</string>
+    <string name="start_text">START ASSESSMENT</string>
+
+    <string name="normal_breathing"><b>Normal breathing</b></string>
+    <string name="breathing_info_under1">The Normal breathing rate for children between 2 to 12 months is under 50 breaths per minute</string>
+    <string name="breathing_info_over1">The Normal rate for children ages 1–5 years is under 40 breaths per minute</string>
+    <string name="breathing_info_under2">The Normal rate for children below 2 months is under 60 breaths per minute</string>
+    <string name="stridor"><u>Stridor?</u></string>
+    <string name="chest"><u>Chest Indrawing?</u></string>
+    <string name="wheezing"><u>Wheezing?</u></string>
+    <string name="wheez">A high-pitched whistling sound associated with labored breathing</string>
+    <string name="chest_in">The lower ribs on both sides of the chest are pulled in when the child breathes in, even when the child is not crying.</string>
+
+    <string name="wheez_ill">Diagnosis: Wheezing (not clear bronchodilator response)</string>
+    <string name="wheez_ill1">Soothe the throat and relieve the cough with a safe remedy</string>
+    <string name="wheez_ill2">Suction nasal secretions as needed</string>
+    <string name="wheez_ill3">Encourage safe feeding practices</string>
+    <string name="wheez_ill4">No clear recommendation for inhaled bronchodilators at this time</string>
+    <string name="wheez_ill5">Counsel caregiver to monitor the child’s breathing and feeding closely</string>
+    <string name="wheez_ill6">Follow up in 2 days, earlier if getting worse</string>
+
+    <string name="wheez1">Diagnosis: Wheezing illness (bronchodilator response)</string>
+    <string name="wheez2">Give inhaled salbutamol , 4–6 puffs every 4–6 hours for 5 days. </string>
+    <string name="wheez3">Inhaled salbutamol is preferred to oral salbutamol</string>
+    <string name="wheez4">Use with spacer [INSERT link to spacer making/teaching]</string>
+    <string name="wheez5">Follow up in 3 days, earlier if worsening</string>
+    <string name="wheez6">Consider referral for asthma assessment and management</string>
+
+    <string name="wheez_ill7">Trial salbutamol inhaler 2–4 puffs every 4–6 hours for 3 days</string>
+
+    <string name="wheez_ill00">In the clinic: Give 4–6 puffs SALBUTAMOL via metered dose inhaler OR 2.5–5mg via nebulized solution. Repeat up to 3 times every 15 minutes</string>
+    <string name="wheez_ill01">Send the child home with inhaled SALBUTAMOL by metered dose inhaler , 2–4 puffs every 4–6 hours for 5 days, then as needed.</string>
+
+    <string name="wheez_ill71">Inhaled salbutamol is preferred to oral salbutamol</string>
+    <string name="wheez_ill72">A spacer is a way of delivering the bronchodilator drugs effectively into the lungs. No child under 5 years should be given an inhaler without a spacer. A spacer works as well as a nebuliser if correctly used. </string>
+
+    <string name="wheez_ill8">Follow up in 3 days, earlier if getting worse</string>
+    <string name="wheez_ill9">Refer for Asthma assessment</string>
+
+    <string name="muac">Give the child Ready-to-Use Therapeutic Food (RUTF)</string>
+    <string name="muac1">If unable to finish RUTF or breastfeeding problems, give the first dose of the appropriate antibiotic, and refer URGENTLY to the hospital</string>
+    <string name="muac2">If able to finish RUTF, Give oral antibiotics for 5 days</string>
+    <string name="muac3">Give ready-to-use therapeutic food for a child aged 6 months or more</string>
+    <string name="muac4">Counsel the mother on how to feed the child</string>
+    <string name="muac5">Follow up in 7 days</string>
+
+    <string name="muac6">Assess the child\'s feeding and counsel the mother on the feeding recommendations</string>
+    <string name="muac7">If feeding problem, follow up in 7 days. Otherwise, follow-up in 30 days</string>
+
+    <string name="febril">Diagnosis: Very severe febrile illness</string>
+
+    <string name="febril1">Give first dose of artesunate or quinine for severe malaria</string>
+    <string name="artesunate2">For the ARTESUNATE suppository: Dosage form: 50mg pediatric or 200mg adult, Give 50mg (1 pediatric suppository).</string>
+    <string name="artesunate4">For the ARTESUNATE suppository: Dosage form: 50mg pediatric or 200mg adult, Give 100mg (2 pediatric suppositories).</string>
+    <string name="artesunate5">For the ARTESUNATE suppository: Dosage form: 50mg pediatric or 200mg adult, Give 150mg (3 pediatric suppositories) OR 200mg (1 adult suppository).</string>
+    <string name="iartesunate2">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 10mg (0.5 ml).</string>
+    <string name="iartesunate4">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 20mg (1ml).</string>
+    <string name="iartesunate12">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 30mg (1.5ml).</string>
+    <string name="iartesunate3">For Intramuscular ARTESUNATE: Dosage form: 60mg vial (20mg/ml), Give 40mg (2ml).</string>
+    <string name="quinine2">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 0.4ml of 150mg/ml dose form OR 0.2ml of 300mg/ml dose form</string>
+    <string name="quinine4">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 0.6ml of 150mg/ml dose form OR 0.3ml of 300mg/ml dose form</string>
+    <string name="quinine12">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 0.8ml of 150mg/ml dose form OR 0.4ml of 300mg/ml dose form</string>
+    <string name="quinine24">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 1ml of 150mg/ml dose form OR 0.5ml of 300mg/ml dose form</string>
+    <string name="quinine3">For Intramuscular QUININE: Dosage forms: 150mg/ml OR 300mg/ml, Give 1.2ml of 150mg/ml dose form OR 0.6ml of 300mg/ml dose form</string>
+
+
+    <string name="febril3">Consider testing for malaria if risk high and no other cause of fever identified</string>
+    <string name="paracetamol2">Give PARACETAMOL (Dose forms: 100mg pediatric tablet or 500mg adult tablet) 100mg (1 pediatric tablet) or 125mg (¼ of adult tablet) every 6 hours to relieve high fever</string>
+    <string name="paracetamol3">Give PARACETAMOL (Dose forms: 100mg pediatric tablet or 500mg adult tablet) 250mg (1.5 pediatric tablet or ½ adult tablet) every 6 hours to relieve high fever</string>
+    <string name="febril5">Encourage the child to take oral liquids</string>
+    <string name="febril6">Monitor for signs of dehydration and new or worsening symptoms</string>
+    <string name="febril7">Follow up in 5–7 days if no improvement, earlier of worsening symptoms</string>
+
+    <string name="hiv1">Refer to HIV care</string>
+    <string name="hiv2">Remind family to continue with HIV care</string>
+    <string name="amoxicillin2v">Give first dose of oral AMOXICILLIN 250 mg (1 tablet or 5 ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin12v">Give first dose of oral AMOXICILLIN 500 mg (2 tablets or 10ml of 250mg/5ml syrup)</string>
+    <string name="amoxicillin3v">Give first dose of oral AMOXICILLIN 750mg (3 tablets or 15 ml of 250mg/5ml syrup)</string>
+    <string name="hiv3">Ensure the child is taking COTRIMAZOLE prophylaxis and antiretroviral therapy</string>
+    <string name="cotrimoxazole6">Give COTRIMAZOLE 20/100 mg (2.5 ml syrup or ONE 20/100mg pediatric tab) once daily</string>
+    <string name="cotrimoxazole5">Give COTRIMAZOLE 40/200mg (5 ml syrup, TWO 20/100mg pediatric tabs, or ONE HALF  80/400mg adult tab) once daily</string>
+
+    <string name="bronc1">Diagnosis: Severe Disease</string>
+    <string name="bronc1x">No instructions yet</string>
+    <string name="bronc2">Give 2 additional treatments of salbutamol 4–10 puffs each treatment</string>
+    <string name="bronc3">consider referral for worsening clinical signs and symptoms</string>
+
+    <string name="bronchodi">An inhaled medication that relaxes constricted air passages to make breathing easier</string>
+
+
+    <string name="spacer1">A spacer is a way of delivering the bronchodilator drugs effectively into the lungs. No child under 5 years should be given an inhaler without a spacer. A spacer works as well as a nebuliser if correctly used.</string>
+    <string name="spacer2">Spacers can be made in the following way</string>
+    <string name="spacer3">ONE: Use a 500ml drink bottle or similar</string>
+    <string name="spacer4">Cut a hole in the bottle base in the same shape as the mouthpiece of the inhaler.</string>
+    <string name="spacer5">This can be done using a sharp knife.</string>
+    <string name="spacer6">Cut the bottle between the upper quarter and the lower ¾ and disregard the upper quarter of the bottle.</string>
+    <string name="spacer7">Cut a small V in the border of the large open part of the bottle to fit to the child\'s nose and be used as a mask.</string>
+    <string name="spacer8">Flame the edge of the cut bottle with a candle or a lighter to soften it.</string>
+    <string name="spacer9">In a small baby, a mask can be made by making a similar hole in a plastic (not polystyrene) cup. Alternatively commercial spacers can be used if available.</string>
+    <string name="spacer10">TWO: To use an inhaler with a spacer</string>
+    <string name="spacer11">Remove the inhaler cap. Shake the inhaler well.</string>
+    <string name="spacer12">Insert mouthpiece of the inhaler through the hole in the bottle or plastic cup.</string>
+    <string name="spacer13">The child should put the opening of the bottle into his mouth and breath in and out through the mouth. A carer then presses down the inhaler and sprays into the bottle while the child continues to breath normally.</string>
+    <string name="spacer14">Wait for three to four breaths and repeat.</string>
+    <string name="spacer15">For younger children, place the cup over the child\'s mouth and use as a spacer in the same way.</string>
+    <string name="spacer16">If a spacer is being used for the first time, it should be primed by 4–5 extra puffs from the inhaler.</string>
+    <string name="spacer17">If a spacer is being used for the first time, it should be primed by 4–5 extra puffs from the inhaler before giving it to the child.</string>
+
+    <!--   Learn   -->
+
+    <string name="chest1">Chest Indrawing</string>
+    <string name="chest2">The lower ribs on both sides of the chest are pulled in when the child breathes in, even when the child is not crying.</string>
+
+    <string name="chest3">Select Mild if the ribs and area below the chest are retracting moderately.</string>
+    <string name="chest4">Select Moderate if the above symptoms are present as well as flared nostrils or indrawing below the sternum (upper chest).</string>
+    <string name="chest5">Select Severe if there are large retractions in the upper and lower chest areas as well as nostril flaring or grunting noises.</string>
+
+    <string name="pulse1">Pulse Oximeter</string>
+    <string name="pulse2">A device that measures the oxygen saturation of blood in a patient.</string>
+    <string name="pulse3">A device that measures the oxygen saturation of blood in a patient. This clip device may be used on an earlobe, across the bridge of the nose, in the mouth, on a toe, or on a fingertip. Normal levels are above 90 percent.</string>
+
+    <string name="improve1">Improvise a Spacer</string>
+    <string name="improve2">A spacer is a device that can improve the effectiveness of inhalers by allowing more of the steroids to be inhaled deeply into the lungs.</string>
+    <string name="improve3">A spacer is a device that can improve the effectiveness of inhalers by allowing more of the steroids to be inhaled deeply into the lungs. If no spacers are available, they can be improvised using an empty plastic water bottle</string>
+
+    <string name="improve4">Find an empty plastic water bottle and remove the cap.</string>
+    <string name="improve5">Cut a hole into the bottom of the bottle in the same shape as the mouth of the inhaler.</string>
+    <string name="improve6">Cut the bottle between the upper quarter and lower &#190; and throw away the upper part.</string>
+    <string name="improve7">Soften the cut edge of the bottle with a lighter or candle flame.</string>
+    <string name="improve8">Insert the inhaler into the bottom opening as shown in the image.</string>
+    <string name="improve9">A mask can be made by following the above steps with a plastic cup.</string>
+
+    <string name="whe1">Wheezing</string>
+    <string name="whe2">A high-pitched whistling sound associated with labored breathing</string>
+
+    <string name="whe8">Listen to breathing with a stethoscope</string>
+    <string name="whe9">Select Mild if the child wheezes somewhat when breathing out</string>
+    <string name="whe10">Select Moderate if the child wheezes loudly when breathing out</string>
+    <string name="whe11">Select Severe if the child is wheezing loudly breathing in and out and/or the breaths are very soft.</string>
+
+    <string name="bro1">Inhaled Bronchodilator</string>
+    <string name="bro2">An inhaled medication that relaxes constricted air passages to make breathing easier</string>
+
+    <string name="bro4">Remove inhaler and spacer caps.</string>
+    <string name="bro5">Shake inhaler for 5 seconds.</string>
+    <string name="bro6">Insert inhaler into spacer.</string>
+    <string name="bro7">If the spacer has never been used, prepare it with 4 puffs from the inhaler.</string>
+    <string name="bro8">Put mask over nose and mouth with a good seal.</string>
+    <string name="bro9">Press inhaler down once.</string>
+    <string name="bro10">Breathe normally for 3 to 6 breaths to empty spacer. Slow your breathing if there is a whistle sound.</string>
+    <string name="bro11">Remove mask from child’s face and wait 10 seconds</string>
+    <string name="bro12">Shake inhaler then start with step 4 before each additional puff.</string>
+    <string name="bro13">Wipe skin around child’s mouth with a wet cloth when done.</string>
+    <string name="bro14">Reassess child in AT LEAST 10 minutes</string>
+
+    <string name="con1">Convulsions</string>
+    <string name="con2">Seizures, involuntary shaking movements of the body often caused by serious infections or high fever</string>
+    <string name="con3">A sudden, violent, irregular movement of a limb or of the body, caused by involuntary contraction of muscles and associated especially with brain disorders such as epilepsy, the presence of certain toxins or other agents in the blood, or fever in children.</string>
+
+    <string name="dia1">Diazepam</string>
+    <string name="dia2">A medicine used to stop convulsions</string>
+    <string name="dia3">Diazepam typically produces a calming effect. It is commonly used to treat a range of conditions including anxiety, alcohol withdrawal syndrome, muscle spasms, seizures, trouble sleeping, and restless legs syndrome. When given into a vein, effects begin in one to five minutes and last up to an hour. By mouth, effects may take 40 minutes to begin.</string>
+
+    <string name="pn1">Pneumonia</string>
+    <string name="pn2">Lung inflammation caused by bacterial or viral infection</string>
+    <string name="pn3">Pneumonia is an inflammatory condition of the lung affecting primarily the small air sacs known as alveoli. Symptoms can include productive or dry cough, chest pain, fever, and trouble breathing. Severity is variable.</string>
+
+    <string name="un1">Unresponsive</string>
+    <string name="un2">A condition in which a person does not respond to questions, commands or painful stimuli</string>
+    <string name="un3">If a person or their body is unresponsive, they do not react physically in a normal way, or do not make any movements.</string>
+
+    <string name="st1">Stridor</string>
+    <string name="st2">A noise on breathing in due to obstruction of the upper airway</string>
+    <string name="st4">Stridor is a loud whistling sound made when taking in a breath. It is a sign of upper airway blockage and must be treated right away to prevent the airway from completely closing.</string>
+</resources>

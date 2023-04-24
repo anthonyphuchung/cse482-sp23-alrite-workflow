@@ -1,0 +1,2010 @@
+[
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_last_viewed_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_last_viewed_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_account.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_account.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_checkbox_checked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/checkbox_checked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_discharge.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/discharge.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_tab_unselected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/tab_unselected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_form_admission.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_form_admission.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_tab_selected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/tab_selected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_rr_counter.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_rr_counter.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_provider_big.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_provider_big.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_visit_note.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/visit_note.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/raw_bronchodilator_glossary_video.mp4.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/raw/bronchodilator_glossary_video.mp4"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_provider_management.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_provider_management.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_exp_list_hide_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/exp_list_hide_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_summary.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/summary.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_learn.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_learn.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_line_chart.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/line_chart.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_openmrs_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/openmrs_logo.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_manual_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/manual_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_exp_list_show_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/exp_list_show_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ico_vitals_small.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ico_vitals_small.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_stat_notify_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_stat_notify_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_openmrs_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/openmrs_logo.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_visit_note.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/visit_note.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_find_locally_and_add_patients_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/find_locally_and_add_patients_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner_ab_disabled_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/spinner_ab_disabled_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/anim_circle_animation.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/anim/circle_animation.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_matching_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_matching_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_style_spinner.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/style_spinner.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_2v2.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_2v2.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_start_visit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/start_visit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_form_display.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_form_display.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_checkbox_unchecked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/checkbox_unchecked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_matching_provider.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_matching_provider.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_cab_done_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/btn_cab_done_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_list_visit_item.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/list_visit_item.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_circle2.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/circle2.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_male.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xhdpi/ic_male.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_nasal.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_nasal.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_discharge.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/discharge.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tab_selected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/tab_selected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/anim_splash_screen_logo_anim.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/anim/splash_screen_logo_anim.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_charts.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_charts.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ico_registry.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ico_registry.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_photo_delete.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_photo_delete.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_diagnosis.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/diagnosis.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ab_stacked_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ab_stacked_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_openmrs_title_view_field.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/openmrs_title_view_field.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_find_last_viewed_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_find_last_viewed_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_cab_background_bottom_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/cab_background_bottom_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_menu_refresh.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_menu_refresh.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_delete_patient.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/delete_patient.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_visit_dashboard.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_visit_dashboard.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_search.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_btn_cab_done_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/btn_cab_done_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ico_vitals_small.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ico_vitals_small.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_vitals.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_vitals.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_dialog_progress.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/dialog_progress.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_active_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/active_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_spinner_ab_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/spinner_ab_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_sub.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_sub.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_chip_orange_rectangle.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/chip_orange_rectangle.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ab_stacked_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ab_stacked_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_header_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/header_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_tab_selected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/tab_selected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_stat_notify_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/ic_stat_notify_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btn_cab_done_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/btn_cab_done_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_settings_big.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_settings_big.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_login_rectangle.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/login_rectangle.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_menu_dropdown_panel_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/menu_dropdown_panel_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_patient.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_patient.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_delete_multi_patient_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/delete_multi_patient_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_mult_down.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_mult_down.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ico_vitals.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ico_vitals.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_tab_selected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/tab_selected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/ic_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_offline.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_offline.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_stat_notify_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_stat_notify_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_clinic_setting.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_clinic_setting.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_info.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_info.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_logs.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_logs.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_form_list.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_form_list.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_patient_history.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/patient_history.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_admission.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/admission.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_delete_patient.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/delete_patient.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_progressbar_item.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/progressbar_item.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ico_vitals.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/ico_vitals.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_person_grey_500_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_person_grey_500_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_tab_indicator_ab_openmrs.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/tab_indicator_ab_openmrs.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_provider_dashboard.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_provider_dashboard.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_7v4.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_7v4.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_list_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/list_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_checkbox.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/checkbox.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_provider.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxhdpi/ic_provider.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ab_bottom_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ab_bottom_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_spinner_ab_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/spinner_ab_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_form_list.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_form_list.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_done.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-anydpi/ic_done.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_openmrs_text_view_field.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/openmrs_text_view_field.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_form_dropdown.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/form_dropdown.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_provider.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-mdpi/ic_provider.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_exp_list_divider.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/exp_list_divider.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/raw_chest_indrawing_glossary_video.mp4.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/raw/chest_indrawing_glossary_video.mp4"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_openmrs_recycle_view.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/openmrs_recycle_view.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_openmrs_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/openmrs_logo.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stat_notify_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_stat_notify_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_patient.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_patient.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_assessment.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_assessment.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_photo_library.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_photo_library.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_cab_background_top_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/cab_background_top_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_allergies.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_allergies.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_pulse_oximeter_glossary_image.jpg.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/pulse_oximeter_glossary_image.jpg"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_exp_list_show_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/exp_list_show_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_breathless.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_breathless.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_settings.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_list_gallery_or_camera_item.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/list_gallery_or_camera_item.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ico_edit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ico_edit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_progress_primary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/progress_primary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout-land_list_visit_group.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout-land/list_visit_group.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_edit_white_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_edit_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_patient_photo.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_patient_photo.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_synced_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_synced_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_find_patients_remote_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/find_patients_remote_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_cab_done_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/btn_cab_done_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_details.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_details.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_close.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ico_vitals_small.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ico_vitals_small.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_tab_unselected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/tab_unselected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_refresh.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_menu_refresh.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_single_checked_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_single_checked_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_initials.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_initials.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_list_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/list_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_login.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_login.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_person_grey_500_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_person_grey_500_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_list_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/list_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_cab_done_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/btn_cab_done_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_rectangle_transparent_box.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/rectangle_transparent_box.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_wheez_d.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_wheez_d.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_select_all.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_select_all.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-v21_ic_favorite_black_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-v21/ic_favorite_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_selecteditem_dot.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/selecteditem_dot.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_list_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/list_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_discharge.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/discharge.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_male.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-mdpi/ic_male.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_oxygen.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_oxygen.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_patient_dashboard.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_patient_dashboard.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_checkbox_checked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/checkbox_checked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_download_multiple.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/download_multiple.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stat_notify_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_stat_notify_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_patient_details_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/patient_details_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_photo_camera.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_photo_camera.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_person_grey_500_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_person_grey_500_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_tab_unselected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/tab_unselected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_progress_horizontal_openmrs.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/progress_horizontal_openmrs.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_list_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/list_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_done.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_done.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-v21_patient_male.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-v21/patient_male.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_delete_patient.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/delete_patient.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ico_search.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ico_search.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_spinner_ab_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/spinner_ab_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_patients_visit_tab_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/patients_visit_tab_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_list_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/list_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_bronchodilator.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_bronchodilator.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ab_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ab_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_form_entry_patient_list.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_form_entry_patient_list.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_btn_submit_bg_normal.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/btn_submit_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_bronchodilator_3.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_bronchodilator_3.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/font_roboto_thin.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/font/roboto_thin.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_spinner_settings_page.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/spinner_settings_page.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_pending.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/pending.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_menu_dropdown_panel_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/menu_dropdown_panel_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_admission.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/admission.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_list_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/list_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_spinner_ab_disabled_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/spinner_ab_disabled_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_cab_background_top_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/cab_background_top_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_mail_setting.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/mail_setting.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_provider.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxxhdpi/ic_provider.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_sync_on.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_sync_on.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_person_grey_500_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/ic_person_grey_500_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_btn_cab_done_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/btn_cab_done_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_checkbox_checked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/checkbox_checked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_close.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_menu_refresh.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_menu_refresh.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_btn_cab_done_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/btn_cab_done_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_7v2.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_7v2.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_provider_relationship.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_provider_relationship.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_temperature.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_temperature.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_openmrs_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/openmrs_logo.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ico_registry.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ico_registry.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_done.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_done.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_tab_selected_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/tab_selected_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_form_entry_patient_list_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/form_entry_patient_list_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/navigation_dashboard_nav_graph.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/navigation/dashboard_nav_graph.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_primary_button.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/primary_button.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_toast_notice.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/toast_notice.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_stridor.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_stridor.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_visit_note.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/visit_note.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_provider_details.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_provider_details.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_cab_background_top_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/cab_background_top_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/color_login_button_background.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/color/login_button_background.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_mult_down.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_mult_down.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ico_vitals.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ico_vitals.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_date_range_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_date_range_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_select_all.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_select_all.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_bronchodilator_2.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_bronchodilator_2.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ab_stacked_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ab_stacked_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_cough.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_cough.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_add.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_tab_selected_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/tab_selected_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ico_search.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ico_search.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_progress_secondary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/progress_secondary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_incomplete.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/incomplete.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_form_display.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_form_display.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_diagnosis.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_diagnosis.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_tab_selected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/tab_selected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_list_visit_group.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/list_visit_group.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ico_visits.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ico_visits.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_bg_button.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/bg_button.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_hiv_care.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_hiv_care.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_circle_background.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/circle_background.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_close_white_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_close_white_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_play.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_play.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_toast_border_warning.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/toast_border_warning.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_done.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_done.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_spinner_ab_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/spinner_ab_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_location_big.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_location_big.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_btn_cab_done_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/btn_cab_done_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_start_visit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/start_visit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_find_visits.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_find_visits.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_exp_list_show_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/exp_list_show_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_selectable_background_openmrs.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/selectable_background_openmrs.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_favorite_black_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_favorite_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_progress_primary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/progress_primary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_start_visit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/start_visit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_provider_management.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_provider_management.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_single_text_data.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_single_text_data.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_tab_unselected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/tab_unselected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_add_provider.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_add_provider.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_learn_popup.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/learn_popup.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_tab_selected_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/tab_selected_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner_ab_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/spinner_ab_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_allergy_info.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_allergy_info.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_spinner_ab_disabled_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/spinner_ab_disabled_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_charts_view.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_charts_view.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ico_visits.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ico_visits.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_past_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/past_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_close.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_add_provider.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_add_provider.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_snackbar.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/snackbar.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_toast_warning.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/toast_warning.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_security_black_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_security_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_openmrs_action_logo.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/openmrs_action_logo.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_photo_camera_white_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_photo_camera_white_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_custom_matching_provider_alert_dialog.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/custom_matching_provider_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_patient_visit.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_patient_visit.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ico_vitals.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ico_vitals.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ico_edit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ico_edit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_actvity_contact_us.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/actvity_contact_us.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_dashboard.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_circle.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/circle.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_indrawing.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_indrawing.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_custom_expandable_fab.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/custom_expandable_fab.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_patient.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/patient.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_sync_off.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_sync_off.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_learn_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/learn_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_wheezing.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_wheezing.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_checkbox_unchecked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/checkbox_unchecked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_copy.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_copy.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_other_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_other_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btn_cab_done_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/btn_cab_done_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_spinner_ab_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/spinner_ab_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_spinner_ab_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/spinner_ab_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_photo_camera_white_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/ic_photo_camera_white_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_exit.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/exit.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_close.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_patient_details.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_patient_details.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_checkbox_unchecked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/checkbox_unchecked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_patient_dashboard_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/patient_dashboard_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_dropdown_panel_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/menu_dropdown_panel_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_7v3.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_7v3.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_photo_camera_white_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_photo_camera_white_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_1.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_1.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_menu_refresh.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_menu_refresh.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_dialog_my_custom.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/dialog_my_custom.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_documents.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/documents.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_offline.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_offline.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_assessment_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/assessment_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_exp_list_hide_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/exp_list_hide_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_item_patient.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/item_patient.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_cab_background_bottom_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/cab_background_bottom_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_male.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxhdpi/ic_male.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_offline.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_offline.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_toast_success.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/toast_success.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_stat_notify_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_stat_notify_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-v21_patient_female.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-v21/patient_female.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_tab_selected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/tab_selected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_login_spinner.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/login_spinner.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_list_vital_group.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/list_vital_group.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_toast.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/toast.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_btn_submit_selector.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/btn_submit_selector.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_select_all.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_select_all.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_active_visit_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/active_visit_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_chip_grey_rectangle.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/chip_grey_rectangle.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_add_circle_black_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_add_circle_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_btn_cab_done_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/btn_cab_done_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_btn_cab_done_openmrs.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/btn_cab_done_openmrs.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_login_draw.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/login_draw.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_mult_down.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_mult_down.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/color_login_button.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/color/login_button.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_exp_list_show_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/exp_list_show_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_toast_border_success.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/toast_border_success.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_past_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/past_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ico_edit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ico_edit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_allergy.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_allergy.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ab_stacked_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ab_stacked_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_black_arrow_down.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/black_arrow_down.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_learn.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_learn.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_btn_submit_bg_disabled.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/btn_submit_bg_disabled.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/font_roboto_medium.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/font/roboto_medium.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_menu_dropdown_panel_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/menu_dropdown_panel_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/font_montserrat.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/font/montserrat.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_find_visits_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/find_visits_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_form_admission.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_form_admission.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_respiratory_results_ayout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/respiratory_results_ayout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_find_last_viewed_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_find_last_viewed_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_tab_selected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/tab_selected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_logs.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_logs.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_allergy_edit.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_allergy_edit.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_spinner_ab_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/spinner_ab_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_error_symbol.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/error_symbol.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_admission.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/admission.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_stat_notify_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_stat_notify_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_photo_camera_white_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_photo_camera_white_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_spinner_ab_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/spinner_ab_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_back.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_checkbox_checked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/checkbox_checked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_home.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_active_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_active_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ico_registry.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ico_registry.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ico_edit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ico_edit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_dashboard.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ab_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ab_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_active_visits.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_active_visits.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_openmrs_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/openmrs_logo.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_oxygen.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/oxygen.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_rectangle_box.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/rectangle_box.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_exp_list_hide_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/exp_list_hide_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ico_visits.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ico_visits.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_past_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/past_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_allergy_info.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_allergy_info.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_kerosene.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_kerosene.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_assess.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_assess.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_location.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_location.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_wheez_y.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_wheez_y.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_rectangle_shape_with_primary_text_color.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/rectangle_shape_with_primary_text_color.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_active_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/active_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_stat_notify_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_stat_notify_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_fever.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_fever.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_progress_secondary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/progress_secondary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_spinner_background.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_exp_list_hide_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/exp_list_hide_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_video_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/video_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_progress_primary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/progress_primary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_alrite_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/alrite_logo.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_rectangle_deceased_box.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/rectangle_deceased_box.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ab_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ab_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/raw_stridor_glossary_video.mp4.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/raw/stridor_glossary_video.mp4"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-v21_ic_date_range_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-v21/ic_date_range_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_progress_bg_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/progress_bg_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_matching_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_matching_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_key_value_data.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_key_value_data.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_spinner_item.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/spinner_item.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_admission.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/admission.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/raw_wheezing_glossary_video.mp4.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/raw/wheezing_glossary_video.mp4"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_diagnosis.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_diagnosis.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_add_disabled.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_add_disabled.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_final.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_final.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner_ab_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/spinner_ab_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_progress_bg_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/progress_bg_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_active_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/active_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_list_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/list_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_basic_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/basic_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_active_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/active_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_btn_submit_bg_pressed.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/btn_submit_bg_pressed.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_discharge.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/discharge.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_person_grey_500_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_person_grey_500_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_spinner_ab_disabled_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/spinner_ab_disabled_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ico_search.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ico_search.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_improv_spacer_glossary_image.jpg.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/improv_spacer_glossary_image.jpg"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner_ab_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/spinner_ab_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_admission_spinner.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/admission_spinner.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_progress_primary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/progress_primary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_hiv_status.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_hiv_status.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_openmrs_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxxhdpi/openmrs_logo.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_visit_note.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/visit_note.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_contact_us.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/contact_us.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_chip_white_rectangle.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/chip_white_rectangle.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ab_bottom_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ab_bottom_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_text_input_bg.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/text_input_bg.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_instructions_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/instructions_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_select_all.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_select_all.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/raw_convulsions_glossary_video.mp4.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/raw/convulsions_glossary_video.mp4"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_alrite_action_logo.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/alrite_action_logo.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_eczema.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_eczema.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_openmrs.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_openmrs.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_find_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_find_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ico_search.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ico_search.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_toast_border_notice.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/toast_border_notice.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ico_visits.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ico_visits.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_progress_bg_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/progress_bg_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_cab_background_bottom_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/cab_background_bottom_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_provider_management.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_provider_management.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_spinner_ab_default_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/spinner_ab_default_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tab_unselected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/tab_unselected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ab_bottom_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ab_bottom_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ico_vitals_small.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ico_vitals_small.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout-large_list_visit_group.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout-large/list_visit_group.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_stat_notify_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ic_stat_notify_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ab_bottom_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ab_bottom_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_assess.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/assess.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_cough_d.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_cough_d.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_sex.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_sex.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_active_visits.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_active_visits.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_start_visit.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/start_visit.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_visit.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_visit.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_openmrs_edit_text_field.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/openmrs_edit_text_field.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_image_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/image_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tab_selected_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/tab_selected_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_dialog_layout.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tab_selected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/tab_selected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_offline.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_offline.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tab_unselected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/tab_unselected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_similar_patient.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_similar_patient.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_provider.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-hdpi/ic_provider.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_bronchodilator_glossary_image.jpg.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/bronchodilator_glossary_image.jpg"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_patient_relationship.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_patient_relationship.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_patient_info.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_patient_info.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_cab_done_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/btn_cab_done_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_provider_manager_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/provider_manager_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_cab_background_bottom_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/cab_background_bottom_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_mult_down.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_mult_down.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_activity_visit_dashboard.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/activity_visit_dashboard.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_download.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ic_download.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_touch.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_touch.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_done.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/ic_done.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_nonselecteditem_dot.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/nonselecteditem_dot.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_form_entry_patient_list.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_form_entry_patient_list.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_checkbox_unchecked.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/checkbox_unchecked.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_openmrs_single_choice_list_view.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/openmrs_single_choice_list_view.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_ico_vitals.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/ico_vitals.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_row_find_synced_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/row_find_synced_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_progress_secondary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/progress_secondary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_photo_camera_white_48dp.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xhdpi/ic_photo_camera_white_48dp.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_provider.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xhdpi/ic_provider.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_tab_unselected_focused_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/tab_unselected_focused_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_tab_unselected_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/tab_unselected_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_fragment_smoke.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/fragment_smoke.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_past_visit_dot.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/past_visit_dot.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/xml_searchable.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/xml/searchable.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_ic_delete_black_24dp.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/ic_delete_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_delete_patient.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/delete_patient.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ico_registry.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ico_registry.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/menu_submit_done_menu.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/menu/submit_done_menu.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_spinner_background_ab_openmrs.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/spinner_background_ab_openmrs.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_cab_background_top_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/cab_background_top_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_male.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xxxhdpi/ic_male.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ab_solid_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-xxhdpi/ab_solid_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_male.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/mipmap-hdpi/ic_male.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_cab_done_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/btn_cab_done_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable_homebackground.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable/homebackground.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-mdpi_progress_secondary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-mdpi/progress_secondary_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/drawable-hdpi_progress_bg_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/drawable-hdpi/progress_bg_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/res/merged/debug/layout_list_patient_allergy.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/layout/list_patient_allergy.xml"
+    }
+]
