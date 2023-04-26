@@ -1,4 +1,0 @@
-org/openmrs/mobile/application/OpenMRS_ComponentTreeDeps.java
- org.openmrs.mobile.application.OpenMRS_ComponentTreeDeps
-dagger/hilt/internal/processedrootsentinel/codegen/_org_openmrs_mobile_application_OpenMRS.java
- dagger.hilt.internal.processedrootsentinel.codegen._org_openmrs_mobile_application_OpenMRS
