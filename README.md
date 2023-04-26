@@ -40,7 +40,7 @@ Our MVP consists of the following:
 - Assess the patient health condition based on health provider input.
 - Locally store the assessments, and automatically update the patient record after assessment is completed.
 
-** With our implementation above, we aim to enable the following:**
+**With our implementation above, we aim to enable the following:**
 #### Data Accessibility
 By allowing data to be accessible on a larger scale than one ALRITE application instance, our project records the patient's history within visiting district clinics, which enables healthcare workers from different clinics to access one record for each patient visiting, whether or not they return and frequent the same clinic. Patient A's records will be accessible from Clinic A, Clinic B, and so on.
 #### Scalability
