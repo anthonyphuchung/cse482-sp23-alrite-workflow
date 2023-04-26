@@ -3,12 +3,22 @@ Anthony Chung, Alex Li, Audrey Tseng, Yash Varde
 University of Washington, Spring 2023
 
 ## Overview
-As a pilot project for improving healthcare in underserved populations, our ALRITE Integration combines datbasing within the OpenMRS so that healthcare workers in Uganda can access county-wide medical records to track multiple visits, extrapolate diagnosis, and allow for scalability for handling medical records across larger regions within Uganda.
+**As a pilot project for improving healthcare in underserved populations, our ALRITE Integration combines datbasing within the OpenMRS so that healthcare workers in Uganda can access county-wide medical records to track multiple visits, extrapolate diagnosis, and allow for scalability for handling medical records across larger regions within Uganda.**
 
 ## Background and Current Problems
-Developed in 2021, ALRITE (Acute Lower Respiratory Infection Treatment and Evaluation) was created as a mobile application to aid and assist healthcare workers to improve diagnosis of ALRI (Acute Lower Respiratory Infection) within children under the ages of 5. By a simple app, healthcare workers are able to input answers to questions such as "breaths per minute", "is the child wheezing?", "blood oxygen level", and combined with other information, data is handled through a simple decision tree to generate a diagnosis and display treatment options. However, the current issue lies with the sustainability and scalability of handling data within the current ALRITE landscape. If patient A visits Clinic A on Monday, records a diagnosis, and shows up at Clinic B the following Monday, Clinic A and Clinic B, although dealing with the same patient, now have two different and unconnected records of patient A's visit, symptoms, diagnosis, and treatment. There is no way to track the health of patient A outside each clinic's database, proving difficulty for tracing patients, tracking health records, and reporting overall statistics from each county in Uganda.
+**Alrite**
 
-OpenMRS is an open-source software project to help developing countries track and collect EMR (Emergency Medical Records) in an electronic and generic medical record system that supports patient addition, observations, diagnostics, notes, and data in a paperless record. OpenMRS can serve as a powerful tool for scalability of keeping track of medical records across different cities, districts, states, and countries. Key features include patient repository, reporting, cohort and patient workflow management. OpenMRS is a library of API calls and databases, compatible with practices of all sizes. It is also a community of users, funders, implementers and developers who are involved in applying health information technologies to solve medical problems.
+- Developed in 2021, ALRITE (Acute Lower Respiratory Infection Treatment and Evaluation) was created as a mobile application to aid and assist healthcare workers to improve diagnosis of ALRI (Acute Lower Respiratory Infection) within children under the ages of 5. 
+- By a simple app, healthcare workers are able to input answers to questions such as "breaths per minute", "is the child wheezing?", "blood oxygen level", and combined with other information, data is handled through a simple decision tree to generate a diagnosis and display treatment options. 
+- However, the current issue lies with the sustainability and scalability of handling data within the current ALRITE landscape. If patient A visits Clinic A on Monday, records a diagnosis, and shows up at Clinic B the following Monday, Clinic A and Clinic B, although dealing with the same patient, now have two different and unconnected records of patient A's visit, symptoms, diagnosis, and treatment. 
+- There is no way to track the health of patient A outside each clinic's database, proving difficulty for tracing patients, tracking health records, and reporting overall statistics from each county in Uganda.
+
+**OpenMRS** 
+
+- An open-source software project to help developing countries track and collect EMR (Emergency Medical Records) in an electronic and generic medical record system that supports patient addition, observations, diagnostics, notes, and data in a paperless record. 
+- OpenMRS can serve as a powerful tool for scalability of keeping track of medical records across different cities, districts, states, and countries. 
+- Key features include patient repository, reporting, cohort and patient workflow management. OpenMRS is a library of API calls and databases, compatible with practices of all sizes. 
+- It is also a community of users, funders, implementers and developers who are involved in applying health information technologies to solve medical problems.
 
 ### ALRITE Landscape
 To start a patient assessment, health workers are prompted to input patient and patient parent's first and last initials. Upon inputting vitals, data is fed through a decision tree to reach a diagnoses and treatment options. Patients are stored locally on the phone's application storage, meaning that separate instances of ALRITE application within one clinic can produce and store different records that are independent of each other.
@@ -17,7 +27,7 @@ To start a patient assessment, health workers are prompted to input patient and 
 To access an OpenMRS Database, there must be a host running to serve as the local database. Once the host is running, devices are able to connect to the OpenMRS database and search up patients that exist within the hosted Database. Patient records are able to indicate personal information, vitals, diagnoses, and track past visits mapped by first and last name, as well as birth date to identify unique patient records.
 
 ## Project Motivation and Goals
-Our project's goal is to create an integration between the ALRITE application and OpenMRS Database such that a universal patient record can be accessed at individual clinics, edited, and synced such that there exists one unique record for each patient within a health district so that diagnosis, identifying information, visits, and overall patient health can be tracked and linked back to an individual patient.
+**Our project's goal is to create an integration between the ALRITE application and OpenMRS Database such that a universal patient record can be accessed at individual clinics, edited, and synced such that there exists one unique record for each patient within a health district so that diagnosis, identifying information, visits, and overall patient health can be tracked and linked back to an individual patient.**
 
 Our MVP consists of the following:
 1. Push of Patients from a local ALRITE application to a global OpenMRS Database: this ensures that once patient A visits Clinic A on Monday, that their record will be accessible in one week's time from Clinic B due to the ability for ALRITE to push information up to the Global Database for health workers to access across the health district.
@@ -30,19 +40,20 @@ Our MVP consists of the following:
 - Assess the patient health condition based on health provider input.
 - Locally store the assessments, and automatically update the patient record after assessment is completed.
 
-With our implementation above, we aim to enable the following:
-### Data Accessibility
+###With our implementation above, we aim to enable the following:
+#### Data Accessibility
 By allowing data to be accessible on a larger scale than one ALRITE application instance, our project records the patient's history within visiting district clinics, which enables healthcare workers from different clinics to access one record for each patient visiting, whether or not they return and frequent the same clinic. Patient A's records will be accessible from Clinic A, Clinic B, and so on.
-### Scalability
+#### Scalability
 With the benefit of a shared database for patients' EMRs, this will allow the ALRITE application to be scaled much more quickly across districts, and on a larger scale, an entire country. With a stretch goal of cloud deployment for the OpenMRS database integration, this will allow ALRITE to scale much quicker to handle the input and storage of more patient data.
-### Collaboration
+#### Collaboration
 Because Uganda's healthcare network consists of many developers and health workers within the OpenMRS and ALRITE communities, integration with OpenMRS enables health workers using ALRITE to contribute and learn from the OpenMRS ecosystem, ultimately promoting collaboration to continue to build and innovate Uganda's current healthcare network and system.
 
-### Stretch Goals
+#### Stretch Goals
 - Allow anonymous patient create and search with id, age, or other corresponding value.
 - Automatically config to connect to server with server IP.
 - Directly display the patient health history than download first and exhibit.
 
+## User Guide
 
 ## Developer Guide
 
