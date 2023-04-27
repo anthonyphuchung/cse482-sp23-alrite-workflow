@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi-rVN/values-vi-rVN.xml",
+            "map": [
+                {
+                    "source": "/Users/anthonychung/.gradle/caches/transforms-2/files-2.1/b6d9d9678ac862caf50493c6b4ac5d9d/jetified-AppIntro-6.0.0/res/values-vi-rVN/values-vi-rVN.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,56",
+                        "endOffsets": "111,168"
+                    }
+                }
+            ]
+        }
+    ]
+}
