@@ -44,16 +44,10 @@ public final class ActivityDiagnosisBinding implements ViewBinding {
   public final LinearLayout exit;
 
   @NonNull
-  public final TextView initials;
-
-  @NonNull
   public final TextView patientAge;
 
   @NonNull
   public final TextView patientSex;
-
-  @NonNull
-  public final LinearLayout pt;
 
   @NonNull
   public final RecyclerView recyclerView1;
@@ -73,10 +67,10 @@ public final class ActivityDiagnosisBinding implements ViewBinding {
   private ActivityDiagnosisBinding(@NonNull LinearLayout rootView, @NonNull ImageView accordion,
       @NonNull ImageView accordion2, @NonNull Button btnExit, @NonNull Button btnExit2,
       @NonNull LinearLayout clickable, @NonNull LinearLayout clickable2, @NonNull LinearLayout exit,
-      @NonNull TextView initials, @NonNull TextView patientAge, @NonNull TextView patientSex,
-      @NonNull LinearLayout pt, @NonNull RecyclerView recyclerView1,
-      @NonNull RecyclerView recyclerView2, @NonNull ScrollView summary1,
-      @NonNull LinearLayout summary2, @NonNull LinearLayout summary3) {
+      @NonNull TextView patientAge, @NonNull TextView patientSex,
+      @NonNull RecyclerView recyclerView1, @NonNull RecyclerView recyclerView2,
+      @NonNull ScrollView summary1, @NonNull LinearLayout summary2,
+      @NonNull LinearLayout summary3) {
     this.rootView = rootView;
     this.accordion = accordion;
     this.accordion2 = accordion2;
@@ -85,10 +79,8 @@ public final class ActivityDiagnosisBinding implements ViewBinding {
     this.clickable = clickable;
     this.clickable2 = clickable2;
     this.exit = exit;
-    this.initials = initials;
     this.patientAge = patientAge;
     this.patientSex = patientSex;
-    this.pt = pt;
     this.recyclerView1 = recyclerView1;
     this.recyclerView2 = recyclerView2;
     this.summary1 = summary1;
@@ -165,12 +157,6 @@ public final class ActivityDiagnosisBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.initials;
-      TextView initials = rootView.findViewById(id);
-      if (initials == null) {
-        break missingId;
-      }
-
       id = R.id.patient_age;
       TextView patientAge = rootView.findViewById(id);
       if (patientAge == null) {
@@ -180,12 +166,6 @@ public final class ActivityDiagnosisBinding implements ViewBinding {
       id = R.id.patient_sex;
       TextView patientSex = rootView.findViewById(id);
       if (patientSex == null) {
-        break missingId;
-      }
-
-      id = R.id.pt;
-      LinearLayout pt = rootView.findViewById(id);
-      if (pt == null) {
         break missingId;
       }
 
@@ -220,8 +200,8 @@ public final class ActivityDiagnosisBinding implements ViewBinding {
       }
 
       return new ActivityDiagnosisBinding((LinearLayout) rootView, accordion, accordion2, btnExit,
-          btnExit2, clickable, clickable2, exit, initials, patientAge, patientSex, pt,
-          recyclerView1, recyclerView2, summary1, summary2, summary3);
+          btnExit2, clickable, clickable2, exit, patientAge, patientSex, recyclerView1,
+          recyclerView2, summary1, summary2, summary3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

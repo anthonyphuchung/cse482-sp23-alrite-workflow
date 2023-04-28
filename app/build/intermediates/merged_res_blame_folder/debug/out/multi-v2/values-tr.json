@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "/Users/anthonychung/.gradle/caches/transforms-2/files-2.1/d1e6da7d66c91d2b0e2a1440c1edbb9c/jetified-play-services-base-17.0.0/res/values-tr/values.xml",

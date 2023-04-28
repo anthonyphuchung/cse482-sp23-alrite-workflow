@@ -76,6 +76,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -182,7 +183,7 @@ public class DiagnosisActivity extends AppCompatActivity {
 
         txtAge = findViewById(R.id.patient_age);
         txtGender = findViewById(R.id.patient_sex);
-        txtInitials = findViewById(R.id.initials);
+//        txtInitials = findViewById(R.id.initials);
         imageView1 = findViewById(R.id.accordion);
         linearLayout1 = findViewById(R.id.clickable);
         linearLayout2 = findViewById(R.id.summary2);
@@ -231,7 +232,7 @@ public class DiagnosisActivity extends AppCompatActivity {
         String[] split = age.split("\\.");
         ag = Float.parseFloat(age2);
         String gender = sharedPreferences.getString(CHOICE, "");
-        txtInitials.setText(initials);
+//        txtInitials.setText(initials);
         txtAge.setText("Age: " + split[0] + " years and " + split[1] + " months");
         txtGender.setText("Gender: " + gender);
 
@@ -306,7 +307,11 @@ public class DiagnosisActivity extends AppCompatActivity {
     }
 
     private void createPatient() {
+        String cin = sharedPreferences.getString(CIN, "");
+        String[] patientName = cin.split(" ");
+        String pin = sharedPreferences.getString(PIN, "");
         String openMRSBaseUrl = "http://192.168.1.68:8081/openmrs-standalone";
+//        String openMRSBaseUrl = "http://10.18.255.112:8086/openmrs-standalone";
         String username = "admin";
         String password = "Admin123";
 
@@ -328,13 +333,13 @@ public class DiagnosisActivity extends AppCompatActivity {
                 .build();
 
         final String[] identifier = new String[1];
-        final CountDownLatch latch = new CountDownLatch(1);
+        final CountDownLatch identifierLatch = new CountDownLatch(1);
 
         client.newCall(identifierRequest).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 e.printStackTrace();
-                latch.countDown();
+                identifierLatch.countDown();
             }
 
             @Override
@@ -362,28 +367,29 @@ public class DiagnosisActivity extends AppCompatActivity {
                         response.body().close();
                     }
                 }
-                latch.countDown();
+                identifierLatch.countDown();
             }
         });
         try {
-            latch.await(); // Wait for the API call to complete
+            identifierLatch.await();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         System.out.println("Identifier: " + identifier[0]);
-        String jsonPayload = "{\n" +
+        String gender = sharedPreferences.getString(CHOICE, "");
+        String patientPayload = "{\n" +
                 "  \"person\": {\n" +
                 "    \"names\": [\n" +
                 "      {\n" +
                 "        \"preferred\": true,\n" +
-                "        \"givenName\": \"Anthony\",\n" +
+                "        \"givenName\": \"" + patientName[0] + "\",\n" +
                 "        \"middleName\": \"\",\n" +
-                "        \"familyName\": \"Chung\"\n" +
+                "        \"familyName\": \"" + patientName[1] + "\"\n" +
                 "      }\n" +
                 "    ],\n" +
-                "    \"gender\": \"M\",\n" +
+                "    \"gender\": \"" + gender.toUpperCase().charAt(0) + "\",\n" +
                 "    \"birthdate\": \"1969-12-31T23:00:00.000Z\",\n" +
-                "    \"birthdateEstimated\": false,\n" +
+                "    \"birthdateEstimated\": true,\n" +
                 "    \"attributes\": [],\n" +
                 "    \"addresses\": [\n" +
                 "      {\n" +
@@ -406,27 +412,161 @@ public class DiagnosisActivity extends AppCompatActivity {
                 "  ]\n" +
                 "}";
 
+        final String[] patientUuid = new String[1];
+        final CountDownLatch patientLatch = new CountDownLatch(1);
 
-        RequestBody requestBody = RequestBody.create(jsonPayload, mediaType);
-        Request request = new Request.Builder()
+        RequestBody patientRequestBody = RequestBody.create(patientPayload, mediaType);
+        Request patientRequest = new Request.Builder()
                 .url(openMRSBaseUrl + "/ws/rest/v1/patient")
-                .post(requestBody)
+                .post(patientRequestBody)
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", Credentials.basic(username, password))
                 .build();
 
-        client.newCall(request).enqueue(new Callback() {
+        client.newCall(patientRequest).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 e.printStackTrace();
+                patientLatch.countDown();
             }
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
+                try {
+                    if (response.isSuccessful()) {
+                        String responseBody = response.body().string();
+                        JSONObject jsonResponse = null;
+                        try {
+                            jsonResponse = new JSONObject(responseBody);
+                            System.out.println(jsonResponse);
+                        } catch (JSONException e) {
+                            throw new RuntimeException(e);
+                        }
+                        try {
+                            patientUuid[0] = jsonResponse.getString("uuid");
+                        } catch (JSONException e) {
+                            throw new RuntimeException(e);
+                        }
+                    } else {
+                        System.out.println("Error making patient: " + response.message());
+                    }
+                } finally {
+                    if (response.body() != null) {
+                        response.body().close();
+                    }
+                }
+                patientLatch.countDown();
+            }
+        });
+        try {
+            patientLatch.await(); // Wait for the API call to complete
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        final String[] encounterUuid = new String[1];
+        final CountDownLatch encounterLatch = new CountDownLatch(1);
+
+        String encounterPayload = "{\n" +
+                "  \"encounterDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
+                "  \"patient\": \"" + patientUuid[0] + "\",\n" +
+                "  \"encounterType\": \"d7151f82-c1f3-4152-a605-2f9ea7414a79\",\n" +
+                "  \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
+                "  \"encounterProviders\": [\n" +
+                "    {\n" +
+                "      \"provider\": \"f9badd80-ab76-11e2-9e96-0800200c9a66\",\n" +
+                "      \"encounterRole\": \"240b26f9-dd88-4172-823d-4a8bfeb7841f\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"obs\": [\n" +
+                "    {\n" +
+                "      \"person\": \"" + patientUuid[0] + "\",\n" +
+                "      \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                "      \"obsDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
+                "      \"value\": \"Covid\" \n" +
+                "    }\n" +
+                "  ]\n" +
+                "}";
+
+
+
+        RequestBody encounterRequestBody = RequestBody.create(encounterPayload, mediaType);
+        Request encounterRequest = new Request.Builder()
+                .url(openMRSBaseUrl + "/ws/rest/v1/encounter")
+                .post(encounterRequestBody)
+                .addHeader("Content-Type", "application/json")
+                .addHeader("Authorization", Credentials.basic(username, password))
+                .build();
+        client.newCall(encounterRequest).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
+                encounterLatch.countDown();
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                try {
+                    if (response.isSuccessful()) {
+                        String responseBody = response.body().string();
+                        System.out.println(responseBody);
+                        System.out.println("nice");
+                        JSONObject jsonResponse = null;
+                        try {
+                            jsonResponse = new JSONObject(responseBody);
+                            System.out.println(jsonResponse);
+                        } catch (JSONException e) {
+                            throw new RuntimeException(e);
+                        }
+                        try {
+                            encounterUuid[0] = jsonResponse.getString("uuid");
+                        } catch (JSONException e) {
+                            throw new RuntimeException(e);
+                        }
+                    } else {
+                        System.out.println("Error making encounter: " + response.message());
+                    }
+                } finally {
+                    if (response.body() != null) {
+                        response.body().close();
+                    }
+                }
+                encounterLatch.countDown();
+            }
+        });
+        try {
+            encounterLatch.await(); // Wait for the API call to complete
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(encounterUuid[0]);
+
+        String visitPayload = "{"
+                + "  \"patient\": \"" + patientUuid[0] + "\","
+                + "  \"visitType\": \"7b0f5697-27e3-40c4-8bae-f4049abfb4ed\","
+                + "  \"startDatetime\": \"2023-04-28T12:00:00.000Z\","
+                + "  \"stopDatetime\": \"2023-04-28T16:00:00.000Z\""
+                + "}";
+        RequestBody visitRequestBody = RequestBody.create(visitPayload, mediaType);
+        Request visitRequest = new Request.Builder()
+                .url(openMRSBaseUrl + "/ws/rest/v1/visit")
+                .post(visitRequestBody)
+                .addHeader("Content-Type", "application/json")
+                .addHeader("Authorization", Credentials.basic(username, password))
+                .build();
+        client.newCall(visitRequest).enqueue(new Callback() {
+            @Override
+            public void onFailure(@NonNull Call call, @NonNull IOException e) {
+                e.printStackTrace();
+            }
+
+            @Override
+            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
                 if (response.isSuccessful()) {
-                    System.out.println("Patient created successfully");
+                    System.out.println("visit done");
                 } else {
-                    System.out.println("Error creating patient: " + response.message());
+                    System.out.println("error making visit");
                 }
             }
         });

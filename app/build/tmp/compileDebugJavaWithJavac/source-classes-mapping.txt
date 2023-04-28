@@ -7,6 +7,7 @@ hilt_aggregated_deps/_org_openmrs_mobile_activities_login_LoginActivity_Generate
 org/openmrs/mobile/activities/alrite/DiagnosisActivity.java
  org.openmrs.mobile.activities.alrite.DiagnosisActivity
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$1
+ org.openmrs.mobile.activities.alrite.DiagnosisActivity$10
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$2
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$3
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$4
@@ -14,6 +15,7 @@ org/openmrs/mobile/activities/alrite/DiagnosisActivity.java
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$6
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$7
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$8
+ org.openmrs.mobile.activities.alrite.DiagnosisActivity$9
 org/openmrs/mobile/activities/matchingpatients/MatchingPatientsViewModel_HiltModules.java
  org.openmrs.mobile.activities.matchingpatients.MatchingPatientsViewModel_HiltModules
  org.openmrs.mobile.activities.matchingpatients.MatchingPatientsViewModel_HiltModules$BindsModule

@@ -1,27 +1,27 @@
 -- Merging decision tree log ---
 meta-data#com.google.android.geo.API_KEY
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:313:9-315:55
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:313:9-315:55
 	android:value
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:315:13-52
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:315:13-52
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:314:13-58
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:314:13-58
 provider#androidx.work.impl.WorkManagerInitializer
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:320:9-323:34
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:320:9-323:34
 REJECTED from [androidx.work:work-runtime:2.3.4] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/6f81ea02f3260fe997303766fbf43f75/work-runtime-2.3.4/AndroidManifest.xml:31:9-37:35
 	tools:node
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:323:13-32
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:323:13-32
 	android:authorities
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:322:13-68
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:322:13-68
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:321:13-69
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:321:13-69
 manifest
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:1-26:12
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:1-26:12
 MERGED from [com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:2:1-46:12
 MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/fd2b4460dc669c5535cd94cdfa806bff/jetified-viewbinding-4.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/0c3de684791f7e40eda14e16ac044cf4/jetified-debug-db-1.0.6/AndroidManifest.xml:2:1-19:12
@@ -127,27 +127,27 @@ MERGED from [com.android.volley:volley:1.1.1] /Users/anthonychung/.gradle/caches
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/a94e1e05c0c67ae423f4d08ccf33fc4a/jetified-transport-api-2.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.36] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/3bb34329a3610b91d7f0dbc7a4d831f8/jetified-dagger-lint-aar-2.36/AndroidManifest.xml:16:1-19:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/ef8ce44f648c3a39cb47680a1b6fed76/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
 	package
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:18:5-33
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:18:5-33
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:17:5-51
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:17:5-51
 	android:versionCode
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:1-326:12
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:1-326:12
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:16:11-69
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:16:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:20:5-67
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:20:5-67
 MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/1127258e9246a31de836bf2f3a401c7a/jetified-places-2.3.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.libraries.places:places:2.3.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/1127258e9246a31de836bf2f3a401c7a/jetified-places-2.3.0/AndroidManifest.xml:11:5-67
 MERGED from [com.amitshekhar.android:debug-db-base:1.0.6] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/3e083ddc27a9badaf2567f5521b23db8/jetified-debug-db-base-1.0.6/AndroidManifest.xml:29:5-67
@@ -157,15 +157,15 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/anthonychu
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/393d9fe4ea46a5539726e6da9a61b5df/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/393d9fe4ea46a5539726e6da9a61b5df/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:20:22-64
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:20:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:21:5-81
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:21:5-81
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:21:22-78
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:21:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:22:5-79
-MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-79
-MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-79
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:22:5-79
+MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-79
+MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-79
 MERGED from [androidx.work:work-runtime:2.3.4] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/6f81ea02f3260fe997303766fbf43f75/work-runtime-2.3.4/AndroidManifest.xml:26:5-79
 MERGED from [androidx.work:work-runtime:2.3.4] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/6f81ea02f3260fe997303766fbf43f75/work-runtime-2.3.4/AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/3461c86d2d9237f1a0f4e753165e72ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
@@ -175,25 +175,25 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.1.0] /User
 MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/e10d373d808863b470d5b8c607b22ad7/jetified-transport-runtime-2.1.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.1.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/e10d373d808863b470d5b8c607b22ad7/jetified-transport-runtime-2.1.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:22:22-76
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:22:22-76
 uses-permission#android.permission.CAMERA
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:23:5-65
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:23:5-65
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:23:22-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:23:22-62
 uses-feature#android.hardware.camera
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:25:5-27:36
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:25:5-27:36
 	android:required
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:27:9-33
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:27:9-33
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:26:9-47
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:26:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:28:5-30:36
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:28:5-30:36
 	android:required
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:30:9-33
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:30:9-33
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:29:9-57
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:29:9-57
 application
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:32:5-324:19
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:32:5-324:19
 MERGED from [com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:15:5-44:19
 MERGED from [com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:15:5-44:19
 MERGED from [com.amitshekhar.android:debug-db:1.0.6] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/0c3de684791f7e40eda14e16ac044cf4/jetified-debug-db-1.0.6/AndroidManifest.xml:11:5-17:19
@@ -245,413 +245,413 @@ MERGED from [com.android.volley:volley:1.1.1] /Users/anthonychung/.gradle/caches
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.4.0-alpha01] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/550b0806f860108895b5ec185379c5f5/core-1.4.0-alpha01/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:39:9-35
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:39:9-35
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:38:9-41
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:38:9-41
 	android:roundIcon
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:35:9-54
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:35:9-54
 	android:icon
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:34:9-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:34:9-43
 	android:allowBackup
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:33:9-35
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:33:9-35
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:40:9-45
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:40:9-45
 	tools:replace
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:36:9-52
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:36:9-52
 	android:usesCleartextTraffic
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:41:9-44
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:41:9-44
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:37:9-44
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:37:9-44
 activity#org.openmrs.mobile.activities.community.contact.AboutActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:42:9-45:51
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:42:9-45:51
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:44:13-58
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:44:13-58
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:45:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:45:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:43:13-71
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:43:13-71
 activity#org.openmrs.mobile.activities.introduction.SplashActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:46:9-56:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:46:9-56:20
 	android:noHistory
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:48:13-37
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:48:13-37
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:50:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:50:13-36
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:49:13-44
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:49:13-44
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:47:13-67
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:47:13-67
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:51:13-55:29
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:52:17-69
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:52:25-66
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:54:17-77
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:54:27-74
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:54:27-74
 meta-data#buildVersion
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:58:9-60:33
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:58:9-60:33
 	android:value
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:60:13-30
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:60:13-30
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:59:13-40
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:59:13-40
 receiver#org.openmrs.mobile.api.SyncStateReceiver
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:62:9-68:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:62:9-68:20
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:64:13-37
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:63:13-50
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:63:13-50
 intent-filter#action:name:org.openmrs.mobile.intent.action.SYNC_PATIENTS
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:65:13-67:29
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:65:13-67:29
 action#org.openmrs.mobile.intent.action.SYNC_PATIENTS
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:66:17-89
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:66:17-89
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:66:25-86
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:66:25-86
 service#org.openmrs.mobile.services.ConceptDownloadService
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:70:9-68
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:70:9-68
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:70:18-65
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:70:18-65
 activity#org.openmrs.mobile.activities.dashboard.DashboardActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:72:9-75:60
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:72:9-75:60
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:74:13-45
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:74:13-45
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:75:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:75:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:73:13-67
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:73:13-67
 activity#org.openmrs.mobile.activities.introduction.IntroActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:76:9-79:56
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:76:9-79:56
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:78:13-41
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:78:13-41
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:79:13-44
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:79:13-44
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:77:13-66
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:77:13-66
 activity#org.openmrs.mobile.activities.alrite.FinalActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:80:9-84:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:80:9-84:20
 	android:windowSoftInputMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:83:13-55
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:83:13-55
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:82:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:82:13-36
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:81:13-78
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:81:13-78
 activity#org.openmrs.mobile.activities.alrite.DiagnosisActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:85:9-88:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:85:9-88:20
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:87:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:87:13-36
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:86:13-82
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:86:13-82
 activity#org.openmrs.mobile.activities.alrite.LearnActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:89:9-99:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:89:9-99:20
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:92:13-49
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:92:13-49
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:93:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:93:13-43
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:95:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:95:13-36
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:91:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:91:13-62
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:94:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:94:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:90:13-78
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:90:13-78
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 	android:value
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 activity#org.openmrs.mobile.activities.alrite.PatientActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:100:9-106:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:100:9-106:20
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:103:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:103:13-62
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:104:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:104:13-43
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:105:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:105:13-36
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:102:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:102:13-62
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:101:13-80
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:101:13-80
 activity#org.openmrs.mobile.activities.syncedpatients.SyncedPatientsActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:107:9-126:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:107:9-126:20
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:110:13-59
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:110:13-59
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:111:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:111:13-43
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:113:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:113:13-36
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:109:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:109:13-62
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:112:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:112:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:108:13-77
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:108:13-77
 meta-data#android.app.searchable
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:119:13-121:54
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:119:13-121:54
 	android:resource
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:121:17-51
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:121:17-51
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:120:17-54
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:120:17-54
 intent-filter#action:name:android.intent.action.SEARCH
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:123:13-125:29
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:123:13-125:29
 action#android.intent.action.SEARCH
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:17-71
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:17-71
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:25-68
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:25-68
 activity#org.openmrs.mobile.activities.login.LoginActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:127:9-132:58
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:127:9-132:58
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:129:13-45
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:129:13-45
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:130:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:130:13-43
 	android:windowSoftInputMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:132:13-55
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:132:13-55
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:131:13-52
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:131:13-52
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:128:13-59
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:128:13-59
 activity#org.openmrs.mobile.activities.settings.SettingsActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:133:9-139:51
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:133:9-139:51
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:138:13-81
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:138:13-81
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:136:13-52
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:136:13-52
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:137:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:137:13-43
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:135:13-55
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:135:13-55
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:139:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:139:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:134:13-65
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:134:13-65
 activity#org.openmrs.mobile.activities.patientdashboard.PatientDashboardActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:140:9-150:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:140:9-150:20
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:143:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:143:13-43
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:142:13-74
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:142:13-74
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:144:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:144:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:141:13-81
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:141:13-81
 activity#org.openmrs.mobile.activities.activevisits.ActiveVisitsActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:151:9-170:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:151:9-170:20
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:154:13-57
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:154:13-57
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:155:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:155:13-43
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:157:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:157:13-36
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:153:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:153:13-62
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:156:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:156:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:152:13-73
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:152:13-73
 activity#org.openmrs.mobile.activities.visitdashboard.VisitDashboardActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:171:9-181:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:171:9-181:20
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:173:13-58
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:173:13-58
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:174:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:174:13-43
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:175:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:175:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:172:13-77
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:172:13-77
 activity#org.openmrs.mobile.activities.formlist.FormListActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:182:9-191:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:182:9-191:20
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:186:13-103
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:186:13-103
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:184:13-54
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:184:13-54
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:185:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:185:13-43
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:187:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:187:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:183:13-65
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:183:13-65
 activity#org.openmrs.mobile.activities.formadmission.FormAdmissionActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:192:9-200:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:192:9-200:20
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:195:13-79
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:195:13-79
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:194:13-46
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:194:13-46
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:196:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:196:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:193:13-75
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:193:13-75
 activity#org.openmrs.mobile.activities.formentrypatientlist.FormEntryPatientListActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:201:9-210:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:201:9-210:20
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:205:13-81
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:205:13-81
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:204:13-54
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:204:13-54
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:203:13-74
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:203:13-74
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:206:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:206:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:202:13-89
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:202:13-89
 activity#org.openmrs.mobile.activities.addeditpatient.AddEditPatientActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:211:9-222:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:211:9-222:20
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:215:13-91
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:215:13-91
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:214:13-60
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:214:13-60
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:213:13-74
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:213:13-74
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:216:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:216:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:212:13-77
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:212:13-77
 service#org.openmrs.mobile.services.PatientService
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:224:9-226:38
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:224:9-226:38
 	android:enabled
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:226:13-35
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:226:13-35
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:225:13-52
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:225:13-52
 service#org.openmrs.mobile.services.EncounterService
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:227:9-229:38
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:227:9-229:38
 	android:enabled
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:229:13-35
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:229:13-35
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:228:13-54
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:228:13-54
 service#org.openmrs.mobile.services.FormListService
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:230:9-232:38
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:230:9-232:38
 	android:enabled
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:232:13-35
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:232:13-35
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:231:13-53
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:231:13-53
 service#org.openmrs.mobile.services.AuthenticateCheckService
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:233:9-235:38
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:233:9-235:38
 	android:enabled
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:235:13-35
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:235:13-35
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:234:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:234:13-62
 activity#org.openmrs.mobile.activities.formdisplay.FormDisplayActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:237:9-246:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:237:9-246:20
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:241:13-79
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:241:13-79
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:240:13-63
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:240:13-63
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:239:13-74
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:239:13-74
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:242:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:242:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:238:13-71
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:238:13-71
 activity#org.openmrs.mobile.activities.lastviewedpatients.LastViewedPatientsActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:247:9-266:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:247:9-266:20
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:250:13-61
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:250:13-61
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:251:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:251:13-43
 	android:exported
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:253:13-36
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:253:13-36
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:249:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:249:13-62
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:252:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:252:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:248:13-85
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:248:13-85
 activity#org.openmrs.mobile.activities.matchingpatients.MatchingPatientsActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:267:9-90
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:267:9-90
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:267:19-87
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:267:19-87
 activity#org.openmrs.mobile.activities.patientdashboard.details.PatientPhotoActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:268:9-275:20
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:268:9-275:20
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:270:13-95
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:270:13-95
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:271:13-44
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:271:13-44
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:269:13-85
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:269:13-85
 activity#org.openmrs.mobile.activities.logs.LogsActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:276:9-280:51
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:276:9-280:51
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:279:13-79
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:279:13-79
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:278:13-56
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:278:13-56
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:280:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:280:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:277:13-57
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:277:13-57
 activity#org.openmrs.mobile.activities.patientdashboard.charts.ChartsViewActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:281:9-283:98
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:281:9-283:98
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:283:13-95
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:283:13-95
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:282:13-82
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:282:13-82
 activity#org.openmrs.mobile.activities.providermanagerdashboard.ProviderManagerDashboardActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:284:9-290:51
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:284:9-290:51
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:289:13-81
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:289:13-81
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:287:13-53
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:287:13-53
 	android:launchMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:288:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:288:13-43
 	android:configChanges
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:286:13-62
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:286:13-62
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:290:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:290:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:285:13-97
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:285:13-97
 activity#org.openmrs.mobile.activities.addeditprovider.AddEditProviderActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:291:9-296:58
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:291:9-296:58
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:294:13-111
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:294:13-111
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:293:13-56
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:293:13-56
 	android:windowSoftInputMode
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:296:13-55
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:296:13-55
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:295:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:295:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:292:13-79
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:292:13-79
 activity#org.openmrs.mobile.activities.providerdashboard.ProviderDashboardActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:297:9-300:51
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:297:9-300:51
 	android:parentActivityName
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:299:13-111
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:299:13-111
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:300:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:300:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:298:13-83
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:298:13-83
 activity#org.openmrs.mobile.activities.community.contact.ContactUsActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:301:9-304:51
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:301:9-304:51
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:303:13-47
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:303:13-47
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:304:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:304:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:302:13-75
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:302:13-75
 activity#org.openmrs.mobile.activities.addeditallergy.AddEditAllergyActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:305:9-308:51
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:305:9-308:51
 	android:label
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:307:13-52
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:307:13-52
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:308:13-48
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:308:13-48
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:306:13-77
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:306:13-77
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:309:9-311:47
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:309:9-311:47
 	android:theme
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:311:13-44
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:311:13-44
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:310:13-60
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:310:13-60
 meta-data#preloaded_fonts
-ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:316:9-318:57
+ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:316:9-318:57
 	android:resource
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:318:13-54
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:318:13-54
 	android:name
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:317:13-43
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:317:13-43
 uses-sdk
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:41
-MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:41
+MERGED from [:openmrs-android-sdk] /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/openmrs-android-sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:4.1.1] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/fd2b4460dc669c5535cd94cdfa806bff/jetified-viewbinding-4.1.1/AndroidManifest.xml:20:5-44
@@ -862,16 +862,16 @@ MERGED from [com.google.dagger:dagger-lint-aar:2.36] /Users/anthonychung/.gradle
 MERGED from [com.google.dagger:dagger-lint-aar:2.36] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/3bb34329a3610b91d7f0dbc7a4d831f8/jetified-dagger-lint-aar-2.36/AndroidManifest.xml:18:3-42
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/ef8ce44f648c3a39cb47680a1b6fed76/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/ef8ce44f648c3a39cb47680a1b6fed76/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 queries
 ADDED from [com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:7:5-13:15
 intent#action:name:android.intent.action.CREATE_DOCUMENT+data:mimeType:*/*

@@ -19,35 +19,35 @@
 19
 20    <uses-sdk
 21        android:minSdkVersion="19"
-21-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+21-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 22        android:targetSdkVersion="29" />
-22-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml
+22-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml
 23
 24    <uses-permission android:name="android.permission.INTERNET" />
-24-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:20:5-67
-24-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:20:22-64
+24-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:20:5-67
+24-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:20:22-64
 25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-25-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:21:5-81
-25-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:21:22-78
+25-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:21:5-81
+25-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:21:22-78
 26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-26-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:22:5-79
-26-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:22:22-76
+26-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:22:5-79
+26-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:22:22-76
 27    <uses-permission android:name="android.permission.CAMERA" />
-27-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:23:5-65
-27-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:23:22-62
+27-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:23:5-65
+27-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:23:22-62
 28
 29    <uses-feature
-29-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:25:5-27:36
+29-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:25:5-27:36
 30        android:name="android.hardware.camera"
-30-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:26:9-47
+30-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:26:9-47
 31        android:required="false" />
-31-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:27:9-33
+31-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:27:9-33
 32    <uses-feature
-32-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:28:5-30:36
+32-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:28:5-30:36
 33        android:name="android.hardware.camera.autofocus"
-33-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:29:9-57
+33-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:29:9-57
 34        android:required="false" />
-34-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:30:9-33
+34-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:30:9-33
 35
 36    <queries>
 36-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:7:5-13:15
@@ -87,543 +87,543 @@
 52-->[com.google.android.gms:play-services-maps:17.0.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/3461c86d2d9237f1a0f4e753165e72ac/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 53
 54    <application
-54-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:32:5-324:19
+54-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:32:5-324:19
 55        android:name="org.openmrs.mobile.application.OpenMRS"
-55-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:37:9-44
+55-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:37:9-44
 56        android:allowBackup="true"
-56-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:33:9-35
+56-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:33:9-35
 57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 57-->[androidx.core:core:1.4.0-alpha01] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/550b0806f860108895b5ec185379c5f5/core-1.4.0-alpha01/AndroidManifest.xml:24:18-86
 58        android:debuggable="true"
 59        android:icon="@mipmap/ic_launcher"
-59-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:34:9-43
+59-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:34:9-43
 60        android:label="@string/app_name"
-60-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:38:9-41
+60-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:38:9-41
 61        android:roundIcon="@mipmap/ic_launcher_round"
-61-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:35:9-54
+61-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:35:9-54
 62        android:supportsRtl="true"
-62-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:39:9-35
+62-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:39:9-35
 63        android:testOnly="true"
 64        android:theme="@style/Theme.Openmrs"
-64-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:40:9-45
+64-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:40:9-45
 65        android:usesCleartextTraffic="true" >
-65-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:41:9-44
+65-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:41:9-44
 66        <activity
-66-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:42:9-45:51
+66-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:42:9-45:51
 67            android:name="org.openmrs.mobile.activities.community.contact.AboutActivity"
-67-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:43:13-71
+67-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:43:13-71
 68            android:label="@string/action_about_activity"
-68-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:44:13-58
+68-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:44:13-58
 69            android:theme="@style/AppThemeOrig" />
-69-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:45:13-48
+69-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:45:13-48
 70        <activity
-70-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:46:9-56:20
+70-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:46:9-56:20
 71            android:name="org.openmrs.mobile.activities.introduction.SplashActivity"
-71-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:47:13-67
+71-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:47:13-67
 72            android:exported="true"
-72-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:50:13-36
+72-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:50:13-36
 73            android:noHistory="true"
-73-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:48:13-37
+73-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:48:13-37
 74            android:theme="@style/AppTheme" >
-74-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:49:13-44
+74-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:49:13-44
 75            <intent-filter>
-75-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:51:13-55:29
+75-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:51:13-55:29
 76                <action android:name="android.intent.action.MAIN" />
-76-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:52:17-69
-76-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:52:25-66
+76-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:52:17-69
+76-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:52:25-66
 77
 78                <category android:name="android.intent.category.LAUNCHER" />
-78-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:54:17-77
-78-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:54:27-74
+78-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:54:17-77
+78-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:54:27-74
 79            </intent-filter>
 80        </activity>
 81
 82        <meta-data
-82-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:58:9-60:33
+82-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:58:9-60:33
 83            android:name="buildVersion"
-83-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:59:13-40
+83-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:59:13-40
 84            android:value="0" />
-84-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:60:13-30
+84-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:60:13-30
 85
 86        <receiver
-86-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:62:9-68:20
+86-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:62:9-68:20
 87            android:name="org.openmrs.mobile.api.SyncStateReceiver"
-87-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:63:13-50
+87-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:63:13-50
 88            android:exported="false" >
-88-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:64:13-37
+88-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:64:13-37
 89            <intent-filter>
-89-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:65:13-67:29
+89-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:65:13-67:29
 90                <action android:name="org.openmrs.mobile.intent.action.SYNC_PATIENTS" />
-90-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:66:17-89
-90-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:66:25-86
+90-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:66:17-89
+90-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:66:25-86
 91            </intent-filter>
 92        </receiver>
 93
 94        <service android:name="org.openmrs.mobile.services.ConceptDownloadService" />
-94-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:70:9-68
-94-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:70:18-65
+94-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:70:9-68
+94-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:70:18-65
 95
 96        <activity
-96-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:72:9-75:60
+96-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:72:9-75:60
 97            android:name="org.openmrs.mobile.activities.dashboard.DashboardActivity"
-97-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:73:13-67
+97-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:73:13-67
 98            android:label="@string/app_name"
-98-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:74:13-45
+98-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:74:13-45
 99            android:theme="@style/AppThemeOrig" />
-99-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:75:13-48
+99-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:75:13-48
 100        <activity
-100-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:76:9-79:56
+100-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:76:9-79:56
 101            android:name="org.openmrs.mobile.activities.introduction.IntroActivity"
-101-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:77:13-66
+101-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:77:13-66
 102            android:label="Introduction"
-102-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:78:13-41
+102-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:78:13-41
 103            android:theme="@style/AppTheme" />
-103-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:79:13-44
+103-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:79:13-44
 104        <activity
-104-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:80:9-84:20
+104-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:80:9-84:20
 105            android:name="org.openmrs.mobile.activities.alrite.FinalActivity"
-105-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:81:13-78
+105-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:81:13-78
 106            android:exported="true"
-106-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:82:13-36
+106-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:82:13-36
 107            android:windowSoftInputMode="adjustResize" >
-107-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:83:13-55
+107-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:83:13-55
 108        </activity>
 109        <activity
-109-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:85:9-88:20
+109-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:85:9-88:20
 110            android:name="org.openmrs.mobile.activities.alrite.DiagnosisActivity"
-110-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:86:13-82
+110-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:86:13-82
 111            android:exported="true" >
-111-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:87:13-36
+111-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:87:13-36
 112        </activity>
 113        <activity
-113-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:89:9-99:20
+113-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:89:9-99:20
 114            android:name="org.openmrs.mobile.activities.alrite.LearnActivity"
-114-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:90:13-78
+114-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:90:13-78
 115            android:configChanges="keyboardHidden|screenSize"
-115-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:91:13-62
+115-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:91:13-62
 116            android:exported="true"
-116-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:95:13-36
+116-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:95:13-36
 117            android:label="@string/action_learn"
-117-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:92:13-49
+117-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:92:13-49
 118            android:launchMode="singleTop"
-118-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:93:13-43
+118-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:93:13-43
 119            android:theme="@style/AppThemeOrig" >
-119-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:94:13-48
+119-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:94:13-48
 120            <meta-data
-120-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+120-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 121                android:name="android.support.PARENT_ACTIVITY"
-121-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+121-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 122                android:value=".activities.dashboard.DashboardActivity" />
-122-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+122-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 123        </activity>
 124        <activity
-124-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:100:9-106:20
+124-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:100:9-106:20
 125            android:name="org.openmrs.mobile.activities.alrite.PatientActivity"
-125-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:101:13-80
+125-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:101:13-80
 126            android:configChanges="keyboardHidden|screenSize"
-126-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:102:13-62
+126-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:102:13-62
 127            android:exported="true"
-127-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:105:13-36
+127-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:105:13-36
 128            android:label="@string/action_patient_assessment"
-128-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:103:13-62
+128-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:103:13-62
 129            android:launchMode="singleTop" >
-129-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:104:13-43
+129-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:104:13-43
 130        </activity>
 131        <activity
-131-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:107:9-126:20
+131-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:107:9-126:20
 132            android:name="org.openmrs.mobile.activities.syncedpatients.SyncedPatientsActivity"
-132-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:108:13-77
+132-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:108:13-77
 133            android:configChanges="keyboardHidden|screenSize"
-133-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:109:13-62
+133-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:109:13-62
 134            android:exported="true"
-134-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:113:13-36
+134-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:113:13-36
 135            android:label="@string/action_synced_patients"
-135-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:110:13-59
+135-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:110:13-59
 136            android:launchMode="singleTop"
-136-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:111:13-43
+136-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:111:13-43
 137            android:theme="@style/AppThemeOrig" >
-137-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:112:13-48
+137-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:112:13-48
 138
 139            <!-- Parent activity meta-data to support 4.0 and lower -->
 140            <meta-data
-140-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+140-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 141                android:name="android.support.PARENT_ACTIVITY"
-141-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+141-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 142                android:value=".activities.dashboard.DashboardActivity" />
-142-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+142-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 143            <meta-data
-143-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:119:13-121:54
+143-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:119:13-121:54
 144                android:name="android.app.searchable"
-144-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:120:17-54
+144-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:120:17-54
 145                android:resource="@xml/searchable" />
-145-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:121:17-51
+145-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:121:17-51
 146
 147            <intent-filter>
-147-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:123:13-125:29
+147-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:123:13-125:29
 148                <action android:name="android.intent.action.SEARCH" />
-148-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:17-71
-148-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:25-68
+148-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:17-71
+148-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:25-68
 149            </intent-filter>
 150        </activity>
 151        <activity
-151-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:127:9-132:58
+151-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:127:9-132:58
 152            android:name="org.openmrs.mobile.activities.login.LoginActivity"
-152-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:128:13-59
+152-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:128:13-59
 153            android:label="@string/app_name"
-153-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:129:13-45
+153-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:129:13-45
 154            android:launchMode="singleTop"
-154-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:130:13-43
+154-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:130:13-43
 155            android:theme="@style/NoActionBarTheme"
-155-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:131:13-52
+155-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:131:13-52
 156            android:windowSoftInputMode="adjustResize" />
-156-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:132:13-55
+156-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:132:13-55
 157        <activity
-157-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:133:9-139:51
+157-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:133:9-139:51
 158            android:name="org.openmrs.mobile.activities.settings.SettingsActivity"
-158-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:134:13-65
+158-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:134:13-65
 159            android:configChanges="locale|orientation"
-159-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:135:13-55
+159-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:135:13-55
 160            android:label="@string/action_settings"
-160-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:136:13-52
+160-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:136:13-52
 161            android:launchMode="singleTop"
-161-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:137:13-43
+161-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:137:13-43
 162            android:parentActivityName="org.openmrs.mobile.activities.dashboard.DashboardActivity"
-162-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:138:13-81
+162-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:138:13-81
 163            android:theme="@style/AppThemeOrig" />
-163-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:139:13-48
+163-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:139:13-48
 164        <activity
-164-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:140:9-150:20
+164-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:140:9-150:20
 165            android:name="org.openmrs.mobile.activities.patientdashboard.PatientDashboardActivity"
-165-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:141:13-81
+165-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:141:13-81
 166            android:configChanges="orientation|screenSize|keyboardHidden"
-166-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:142:13-74
+166-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:142:13-74
 167            android:launchMode="singleTop"
-167-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:143:13-43
+167-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:143:13-43
 168            android:theme="@style/AppThemeOrig" >
-168-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:144:13-48
+168-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:144:13-48
 169
 170            <!-- Parent activity meta-data to support 4.0 and lower -->
 171            <meta-data
-171-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+171-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 172                android:name="android.support.PARENT_ACTIVITY"
-172-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+172-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 173                android:value=".activities.syncedpatients.SyncedPatientsActivity" />
-173-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+173-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 174        </activity>
 175        <activity
-175-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:151:9-170:20
+175-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:151:9-170:20
 176            android:name="org.openmrs.mobile.activities.activevisits.ActiveVisitsActivity"
-176-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:152:13-73
+176-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:152:13-73
 177            android:configChanges="keyboardHidden|screenSize"
-177-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:153:13-62
+177-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:153:13-62
 178            android:exported="true"
-178-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:157:13-36
+178-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:157:13-36
 179            android:label="@string/action_active_visits"
-179-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:154:13-57
+179-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:154:13-57
 180            android:launchMode="singleTop"
-180-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:155:13-43
+180-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:155:13-43
 181            android:theme="@style/AppThemeOrig" >
-181-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:156:13-48
+181-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:156:13-48
 182
 183            <!-- Parent activity meta-data to support 4.0 and lower -->
 184            <meta-data
-184-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+184-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 185                android:name="android.support.PARENT_ACTIVITY"
-185-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+185-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 186                android:value=".activities.dashboard.DashboardActivity" />
-186-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+186-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 187            <meta-data
-187-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:119:13-121:54
+187-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:119:13-121:54
 188                android:name="android.app.searchable"
-188-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:120:17-54
+188-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:120:17-54
 189                android:resource="@xml/searchable" />
-189-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:121:17-51
+189-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:121:17-51
 190
 191            <intent-filter>
-191-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:123:13-125:29
+191-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:123:13-125:29
 192                <action android:name="android.intent.action.SEARCH" />
-192-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:17-71
-192-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:25-68
+192-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:17-71
+192-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:25-68
 193            </intent-filter>
 194        </activity>
 195        <activity
-195-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:171:9-181:20
+195-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:171:9-181:20
 196            android:name="org.openmrs.mobile.activities.visitdashboard.VisitDashboardActivity"
-196-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:172:13-77
+196-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:172:13-77
 197            android:label="@string/visit_dashboard_label"
-197-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:173:13-58
+197-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:173:13-58
 198            android:launchMode="singleTop"
-198-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:174:13-43
+198-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:174:13-43
 199            android:theme="@style/AppThemeOrig" >
-199-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:175:13-48
+199-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:175:13-48
 200
 201            <!-- Parent activity meta-data to support 4.0 and lower -->
 202            <meta-data
-202-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+202-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 203                android:name="android.support.PARENT_ACTIVITY"
-203-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+203-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 204                android:value=".activities.activevisits.ActiveVisitsActivity" />
-204-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+204-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 205        </activity>
 206        <activity
-206-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:182:9-191:20
+206-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:182:9-191:20
 207            android:name="org.openmrs.mobile.activities.formlist.FormListActivity"
-207-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:183:13-65
+207-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:183:13-65
 208            android:label="@string/action_form_entry"
-208-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:184:13-54
+208-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:184:13-54
 209            android:launchMode="singleTop"
-209-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:185:13-43
+209-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:185:13-43
 210            android:parentActivityName="org.openmrs.mobile.activities.formentrypatientlist.FormEntryPatientListActivity"
-210-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:186:13-103
+210-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:186:13-103
 211            android:theme="@style/AppThemeOrig" >
-211-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:187:13-48
+211-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:187:13-48
 212            <meta-data
-212-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+212-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 213                android:name="android.support.PARENT_ACTIVITY"
-213-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+213-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 214                android:value=".activities.formentrypatientlist.FormEntryPatientListActivity" />
-214-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+214-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 215        </activity>
 216        <activity
-216-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:192:9-200:20
+216-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:192:9-200:20
 217            android:name="org.openmrs.mobile.activities.formadmission.FormAdmissionActivity"
-217-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:193:13-75
+217-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:193:13-75
 218            android:label="@string/admission"
-218-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:194:13-46
+218-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:194:13-46
 219            android:parentActivityName="org.openmrs.mobile.activities.formlist.FormListActivity"
-219-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:195:13-79
+219-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:195:13-79
 220            android:theme="@style/AppThemeOrig" >
-220-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:196:13-48
+220-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:196:13-48
 221            <meta-data
-221-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+221-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 222                android:name="android.support.PARENT_ACTIVITY"
-222-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+222-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 223                android:value="org.openmrs.mobile.activities.formlist.FormListActivity" />
-223-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+223-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 224        </activity>
 225        <activity
-225-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:201:9-210:20
+225-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:201:9-210:20
 226            android:name="org.openmrs.mobile.activities.formentrypatientlist.FormEntryPatientListActivity"
-226-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:202:13-89
+226-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:202:13-89
 227            android:configChanges="keyboardHidden|orientation|screenSize"
-227-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:203:13-74
+227-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:203:13-74
 228            android:label="@string/action_form_entry"
-228-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:204:13-54
+228-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:204:13-54
 229            android:parentActivityName="org.openmrs.mobile.activities.dashboard.DashboardActivity"
-229-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:205:13-81
+229-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:205:13-81
 230            android:theme="@style/AppThemeOrig" >
-230-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:206:13-48
+230-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:206:13-48
 231            <meta-data
-231-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+231-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 232                android:name="android.support.PARENT_ACTIVITY"
-232-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+232-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 233                android:value=".activities.dashboard.DashboardActivity" />
-233-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+233-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 234        </activity>
 235        <activity
-235-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:211:9-222:20
+235-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:211:9-222:20
 236            android:name="org.openmrs.mobile.activities.addeditpatient.AddEditPatientActivity"
-236-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:212:13-77
+236-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:212:13-77
 237            android:configChanges="keyboardHidden|orientation|screenSize"
-237-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:213:13-74
+237-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:213:13-74
 238            android:label="@string/action_register_patient"
-238-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:214:13-60
+238-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:214:13-60
 239            android:parentActivityName="org.openmrs.mobile.activities.addeditpatient.AddEditPatientActivity"
-239-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:215:13-91
+239-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:215:13-91
 240            android:theme="@style/AppThemeOrig" >
-240-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:216:13-48
+240-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:216:13-48
 241
 242            <!-- Parent activity meta-data to support 4.0 and lower -->
 243            <meta-data
-243-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+243-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 244                android:name="android.support.PARENT_ACTIVITY"
-244-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+244-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 245                android:value=".activities.addeditpatient.AddEditPatientActivity" />
-245-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+245-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 246        </activity>
 247
 248        <service
-248-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:224:9-226:38
+248-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:224:9-226:38
 249            android:name="org.openmrs.mobile.services.PatientService"
-249-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:225:13-52
+249-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:225:13-52
 250            android:enabled="true" />
-250-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:226:13-35
+250-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:226:13-35
 251        <service
-251-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:227:9-229:38
+251-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:227:9-229:38
 252            android:name="org.openmrs.mobile.services.EncounterService"
-252-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:228:13-54
+252-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:228:13-54
 253            android:enabled="true" />
-253-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:229:13-35
+253-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:229:13-35
 254        <service
-254-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:230:9-232:38
+254-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:230:9-232:38
 255            android:name="org.openmrs.mobile.services.FormListService"
-255-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:231:13-53
+255-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:231:13-53
 256            android:enabled="true" />
-256-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:232:13-35
+256-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:232:13-35
 257        <service
-257-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:233:9-235:38
+257-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:233:9-235:38
 258            android:name="org.openmrs.mobile.services.AuthenticateCheckService"
-258-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:234:13-62
+258-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:234:13-62
 259            android:enabled="true" />
-259-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:235:13-35
+259-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:235:13-35
 260
 261        <activity
-261-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:237:9-246:20
+261-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:237:9-246:20
 262            android:name="org.openmrs.mobile.activities.formdisplay.FormDisplayActivity"
-262-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:238:13-71
+262-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:238:13-71
 263            android:configChanges="orientation|screenSize|keyboardHidden"
-263-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:239:13-74
+263-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:239:13-74
 264            android:label="@string/title_activity_form_create"
-264-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:240:13-63
+264-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:240:13-63
 265            android:parentActivityName="org.openmrs.mobile.activities.formlist.FormListActivity"
-265-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:241:13-79
+265-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:241:13-79
 266            android:theme="@style/AppThemeOrig" >
-266-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:242:13-48
+266-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:242:13-48
 267            <meta-data
-267-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+267-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 268                android:name="android.support.PARENT_ACTIVITY"
-268-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+268-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 269                android:value="org.openmrs.mobile.activities.formlist.FormListActivity" />
-269-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+269-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 270        </activity>
 271        <activity
-271-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:247:9-266:20
+271-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:247:9-266:20
 272            android:name="org.openmrs.mobile.activities.lastviewedpatients.LastViewedPatientsActivity"
-272-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:248:13-85
+272-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:248:13-85
 273            android:configChanges="keyboardHidden|screenSize"
-273-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:249:13-62
+273-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:249:13-62
 274            android:exported="true"
-274-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:253:13-36
+274-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:253:13-36
 275            android:label="@string/action_download_patients"
-275-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:250:13-61
+275-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:250:13-61
 276            android:launchMode="singleTop"
-276-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:251:13-43
+276-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:251:13-43
 277            android:theme="@style/AppThemeOrig" >
-277-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:252:13-48
+277-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:252:13-48
 278
 279            <!-- Parent activity meta-data to support 4.0 and lower -->
 280            <meta-data
-280-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+280-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 281                android:name="android.support.PARENT_ACTIVITY"
-281-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+281-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 282                android:value=".activities.dashboard.DashboardActivity" />
-282-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+282-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 283            <meta-data
-283-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:119:13-121:54
+283-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:119:13-121:54
 284                android:name="android.app.searchable"
-284-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:120:17-54
+284-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:120:17-54
 285                android:resource="@xml/searchable" />
-285-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:121:17-51
+285-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:121:17-51
 286
 287            <intent-filter>
-287-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:123:13-125:29
+287-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:123:13-125:29
 288                <action android:name="android.intent.action.SEARCH" />
-288-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:17-71
-288-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:124:25-68
+288-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:17-71
+288-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:124:25-68
 289            </intent-filter>
 290        </activity>
 291        <activity android:name="org.openmrs.mobile.activities.matchingpatients.MatchingPatientsActivity" />
-291-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:267:9-90
-291-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:267:19-87
+291-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:267:9-90
+291-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:267:19-87
 292        <activity
-292-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:268:9-275:20
+292-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:268:9-275:20
 293            android:name="org.openmrs.mobile.activities.patientdashboard.details.PatientPhotoActivity"
-293-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:269:13-85
+293-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:269:13-85
 294            android:parentActivityName="org.openmrs.mobile.activities.patientdashboard.PatientDashboardActivity"
-294-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:270:13-95
+294-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:270:13-95
 295            android:theme="@style/AppTheme" >
-295-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:271:13-44
+295-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:271:13-44
 296            <meta-data
-296-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:96:9-98:71
+296-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:96:9-98:71
 297                android:name="android.support.PARENT_ACTIVITY"
-297-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:97:13-59
+297-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:97:13-59
 298                android:value="org.openmrs.mobile.activities.patientdashboard.PatientDashboardActivity" />
-298-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:98:13-68
+298-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:98:13-68
 299        </activity>
 300        <activity
-300-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:276:9-280:51
+300-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:276:9-280:51
 301            android:name="org.openmrs.mobile.activities.logs.LogsActivity"
-301-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:277:13-57
+301-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:277:13-57
 302            android:label="@string/title_activity_logs"
-302-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:278:13-56
+302-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:278:13-56
 303            android:parentActivityName="org.openmrs.mobile.activities.settings.SettingsActivity"
-303-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:279:13-79
+303-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:279:13-79
 304            android:theme="@style/AppThemeOrig" />
-304-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:280:13-48
+304-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:280:13-48
 305        <activity
-305-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:281:9-283:98
+305-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:281:9-283:98
 306            android:name="org.openmrs.mobile.activities.patientdashboard.charts.ChartsViewActivity"
-306-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:282:13-82
+306-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:282:13-82
 307            android:parentActivityName="org.openmrs.mobile.activities.patientdashboard.PatientDashboardActivity" />
-307-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:283:13-95
+307-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:283:13-95
 308        <activity
-308-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:284:9-290:51
+308-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:284:9-290:51
 309            android:name="org.openmrs.mobile.activities.providermanagerdashboard.ProviderManagerDashboardActivity"
-309-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:285:13-97
+309-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:285:13-97
 310            android:configChanges="keyboardHidden|screenSize"
-310-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:286:13-62
+310-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:286:13-62
 311            android:label="@string/provider_manager"
-311-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:287:13-53
+311-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:287:13-53
 312            android:launchMode="singleTop"
-312-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:288:13-43
+312-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:288:13-43
 313            android:parentActivityName="org.openmrs.mobile.activities.dashboard.DashboardActivity"
-313-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:289:13-81
+313-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:289:13-81
 314            android:theme="@style/AppThemeOrig" />
-314-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:290:13-48
+314-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:290:13-48
 315        <activity
-315-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:291:9-296:58
+315-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:291:9-296:58
 316            android:name="org.openmrs.mobile.activities.addeditprovider.AddEditProviderActivity"
-316-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:292:13-79
+316-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:292:13-79
 317            android:label="@string/title_provider_info"
-317-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:293:13-56
+317-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:293:13-56
 318            android:parentActivityName="org.openmrs.mobile.activities.providermanagerdashboard.ProviderManagerDashboardActivity"
-318-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:294:13-111
+318-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:294:13-111
 319            android:theme="@style/AppThemeOrig"
-319-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:295:13-48
+319-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:295:13-48
 320            android:windowSoftInputMode="adjustResize" />
-320-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:296:13-55
+320-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:296:13-55
 321        <activity
-321-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:297:9-300:51
+321-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:297:9-300:51
 322            android:name="org.openmrs.mobile.activities.providerdashboard.ProviderDashboardActivity"
-322-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:298:13-83
+322-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:298:13-83
 323            android:parentActivityName="org.openmrs.mobile.activities.providermanagerdashboard.ProviderManagerDashboardActivity"
-323-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:299:13-111
+323-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:299:13-111
 324            android:theme="@style/AppThemeOrig" />
-324-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:300:13-48
+324-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:300:13-48
 325        <activity
-325-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:301:9-304:51
+325-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:301:9-304:51
 326            android:name="org.openmrs.mobile.activities.community.contact.ContactUsActivity"
-326-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:302:13-75
+326-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:302:13-75
 327            android:label="@string/contact_us"
-327-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:303:13-47
+327-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:303:13-47
 328            android:theme="@style/AppThemeOrig" />
-328-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:304:13-48
+328-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:304:13-48
 329        <activity
-329-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:305:9-308:51
+329-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:305:9-308:51
 330            android:name="org.openmrs.mobile.activities.addeditallergy.AddEditAllergyActivity"
-330-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:306:13-77
+330-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:306:13-77
 331            android:label="@string/allergy_heading"
-331-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:307:13-52
+331-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:307:13-52
 332            android:theme="@style/AppThemeOrig" />
-332-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:308:13-48
+332-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:308:13-48
 333        <activity
-333-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:309:9-311:47
+333-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:309:9-311:47
 334            android:name="com.yalantis.ucrop.UCropActivity"
-334-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:310:13-60
+334-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:310:13-60
 335            android:theme="@style/AppTheme" />
-335-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:311:13-44
+335-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:311:13-44
 336
 337        <meta-data
 338            android:name="com.google.android.geo.API_KEY"
-338-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:314:13-58
+338-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:314:13-58
 339            android:value="YOUR_API_KEY" />
-339-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:315:13-52
+339-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:315:13-52
 340        <meta-data
-340-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:316:9-318:57
+340-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:316:9-318:57
 341            android:name="preloaded_fonts"
-341-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:317:13-43
+341-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:317:13-43
 342            android:resource="@array/preloaded_fonts" />
-342-->/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/AndroidManifest.xml:318:13-54
+342-->/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/AndroidManifest.xml:318:13-54
 343
 344        <activity
 344-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/anthonychung/.gradle/caches/transforms-2/files-2.1/5be91a22e4a01b226b89bce03ebbde92/jetified-library-3.4.0/AndroidManifest.xml:16:9-21:52

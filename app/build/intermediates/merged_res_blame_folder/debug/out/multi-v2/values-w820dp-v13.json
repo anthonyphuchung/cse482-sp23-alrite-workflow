@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/anthonychung/StudioProjects/openmrs-contrib-android-client/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "18",
                         "startColumns": "4",
