@@ -65,8 +65,6 @@ Because Uganda's healthcare network consists of many developers and health worke
     <img width="33%" src="screenshots/Assess_diagnosis.png">
 </p>
 
-<img width="100%" src="screenshots/Assess_synced.png">
-
 #### Search
 
 - When clikcing on **Find Patient** from the homepage, User will see patients **already** stored locally. If the User decided to get results from remote server, they should click on the search button at the top right conner, and input the name of the Patient. They can click the download button to save remote patient record to local storage, and exhibit the details of the patient.
