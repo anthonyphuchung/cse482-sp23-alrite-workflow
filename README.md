@@ -40,6 +40,8 @@ Our MVP consists of the following:
 - Assess the patient health condition based on health provider input.
 - Locally store the assessments, and automatically update the patient record after assessment is completed.
 
+![img.png](screenshots/General_design.png)
+
 **With our implementation above, we aim to enable the following:**
 #### Data Accessibility
 By allowing data to be accessible on a larger scale than one ALRITE application instance, our project records the patient's history within visiting district clinics, which enables healthcare workers from different clinics to access one record for each patient visiting, whether or not they return and frequent the same clinic. Patient A's records will be accessible from Clinic A, Clinic B, and so on.
@@ -54,6 +56,37 @@ Because Uganda's healthcare network consists of many developers and health worke
 - Directly display the patient health history than download first and exhibit.
 
 ## User Guide
+
+#### Assessment
+
+- When clicking on the **Start Assessment** from the home page, user can input the parent's and children's full name to begin assessment to children (e.g. **Aaya Tlvc**). After input the children's health information and get through the health prompt provided by ALRITE team, User should see the patients' **Assessment Summary** and **Diagnosis**. After clicking on sync, they should see the patient record on the **OPENMRS Server**, and can be downloaded by other devices connected to the same server.
+<p align="center" width="100%">
+    <img width="33%" src="screenshots/Assess_fullname.png">
+    <img width="33%" src="screenshots/Assess_diagnosis.png">
+</p>
+
+<img width="100%" src="screenshots/Assess_synced.png">
+
+#### Search
+
+- When clikcing on **Find Patient** from the homepage, User will see patients **already** stored locally. If the User decided to get results from remote server, they should click on the search button at the top right conner, and input the name of the Patient. They can click the download button to save remote patient record to local storage, and exhibit the details of the patient.
+
+<p align="center" width="100%">
+    <img width="33%" src="screenshots/Search_local.png">
+    <img width="33%" src="screenshots/Search_results.png">
+    <img width="33%" src="screenshots/Search_individual.png">
+</p>
+
+#### Register
+
+- When clicking on **Register** from the homepage, User is able to create a patient with personal and connect information. User can also take a photo or upload picture of patients to better identify the patient. In this page, User could input the detail information compared to quick creation from **Assessment**. User will also get similar results existing in **OPENMRS Server** that have similar properties to avoid duplicated creation. After **Register**, the patient information will be both stored locally and synced to remote server.
+
+<p align="center" width="100%">
+    <img width="33%" src="screenshots/Register_info.png">
+    <img width="33%" src="screenshots/Register_collision.png">
+    <img width="33%" src="screenshots/Register_patient.png">
+</p>
+
 
 ## Developer Guide
 
