@@ -85,10 +85,29 @@ Because Uganda's healthcare network consists of many developers and health worke
     <img width="33%" src="screenshots/Register_patient.png">
 </p>
 
+#### Pushing Patients On Assessment (Fallback functionality)
+
+The fallback functionality provides an alternative means of pushing patient information into the OpenMRS database and is used in scenarios where the API mechanism faces issues which can arise when APIs are updated. This approach involves directly updating the OpenMRS database tables by firing SQL queries from the server. The use case would execute as follows:
+
+1) The user inputs the patient's details via the ALRITE app (name, date of birth, etc).
+2) The app generates an HTTP post request using the input values and sends it to the OpenMRS server.
+3) The server, using JSP (Java Server Page) files, executes "insert" and "update" SQL statements based on values received in the request and modifies the OpenMRS database accordingly.
+
+A few notable findings for the fallback functionality are as follows:
+
+- Newer versions of Android do not allow network connections to be done in the foreground. Therefore, these need to be pushed into the background as asynchronous tasks.
+
+- The OpenMRS server is an Apache Tomcat server, capable of running JSP pages. These provide a bridge between client devices (ALRITE app) and the OpenMRS database (MySQL). For the fallback mechanism to work, the implemented JSP pages need to be installed into the server.
+
+- The MySQL database is capable of being logged, which allows for identification of tables being modified. The most important information is the person id, which is the foreign key that links the normalized data across various tables. 
+
+<p align="center" width="100%">
+    <img width="33%" src="screenshots/Fallback-Approach.png">
+    <img width="33%" src="screenshots/Fallback-Table-Mappings.png">
+</p>
 
 ## Developer Guide
 
 ## Contact
 Developers: Anthony Chung, Yash Varde, Alex Li
 Documentation, Project Background Research, and Bookkeeping; Project Management: Audrey Tseng
-
