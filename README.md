@@ -70,9 +70,9 @@ Because Uganda's healthcare network consists of many developers and health worke
 - When clikcing on **Find Patient** from the homepage, User will see patients **already** stored locally. If the User decided to get results from remote server, they should click on the search button at the top right conner, and input the name of the Patient. They can click the download button to save remote patient record to local storage, and exhibit the details of the patient.
 
 <p align="center" width="100%">
-    <img width="33%" src="screenshots/Search_local.png">
-    <img width="33%" src="screenshots/Search_results.png">
-    <img width="33%" src="screenshots/Search_individual.png">
+    <img width="30%" src="screenshots/Search_local.png">
+    <img width="30%" src="screenshots/Search_results.png">
+    <img width="30%" src="screenshots/Search_individual.png">
 </p>
 
 #### Register
@@ -80,15 +80,57 @@ Because Uganda's healthcare network consists of many developers and health worke
 - When clicking on **Register** from the homepage, User is able to create a patient with personal and connect information. User can also take a photo or upload picture of patients to better identify the patient. In this page, User could input the detail information compared to quick creation from **Assessment**. User will also get similar results existing in **OPENMRS Server** that have similar properties to avoid duplicated creation. After **Register**, the patient information will be both stored locally and synced to remote server.
 
 <p align="center" width="100%">
-    <img width="33%" src="screenshots/Register_info.png">
-    <img width="33%" src="screenshots/Register_collision.png">
-    <img width="33%" src="screenshots/Register_patient.png">
+    <img width="30%" src="screenshots/Register_info.png">
+    <img width="30%" src="screenshots/Register_collision.png">
+    <img width="30%" src="screenshots/Register_patient.png">
 </p>
 
+#### Pushing Patients On Assessment (Fallback functionality)
+
+The fallback functionality provides an alternative means of pushing patient information into the OpenMRS database and is used in scenarios where the API mechanism faces issues which can arise when APIs are updated. This approach involves directly updating the OpenMRS database tables by firing SQL queries from the server. The use case would execute as follows:
+
+1) The user inputs the patient's details via the ALRITE app (name, date of birth, etc).
+2) The app generates an HTTP post request using the input values and sends it to the OpenMRS server.
+3) The server, using JSP (Java Server Page) files, executes "insert" and "update" SQL statements based on values received in the request and modifies the OpenMRS database accordingly.
+
+A few notable findings for the fallback functionality are as follows:
+
+- Newer versions of Android do not allow network connections to be done in the foreground. Therefore, these need to be pushed into the background as asynchronous tasks.
+
+- The OpenMRS server is an Apache Tomcat server, capable of running JSP pages. These provide a bridge between client devices (ALRITE app) and the OpenMRS database (MySQL). For the fallback mechanism to work, the implemented JSP pages need to be installed into the server.
+
+- The MySQL database is capable of being logged, which allows for identification of tables being modified. The most important information is the person id, which is the foreign key that links the normalized data across various tables. 
+
+<p align="center" width="100%">
+    <img width="33%" src="screenshots/Fallback-Approach.png">
+    <img width="33%" src="screenshots/Fallback-Table-Mappings.png">
+</p>
 
 ## Developer Guide
+
+Get the repository run `git clone git@github.com:anthonyphuchung/cse482-sp23-alrite-workflow.git`
+
+### Repository layout
+```
+📦 cse482-sp23-alrite-workflow
+ ┣ 📂 .idea
+ ┣ 📂 app (our main implementation)
+ ┃ ┗ 📂 libs (libs that already provided by Alrite Team)
+ ┃ ┗ 📂 schemas
+ ┃ ┗ 📂 src (apps content and test)
+ ┃   ┗ 📂 andiodTest
+ ┃   ┗ 📂 main (overall workflow and component)
+ ┃   ┗ 📂 test[unitTest]
+ ┣ 📂 openmrs-android-sdk (OpenMRS server code)
+ ┃ ┗ 📂 src
+ ┃   ┗ 📂 andridTest
+ ┃   ┗ 📂 main
+ ┃   ┗ 📂 test[unitTest]
+ ┣ 📂 weekly-reports
+ ┗ 📜 README.md
+```
+
 
 ## Contact
 Developers: Anthony Chung, Yash Varde, Alex Li
 Documentation, Project Background Research, and Bookkeeping; Project Management: Audrey Tseng
-
