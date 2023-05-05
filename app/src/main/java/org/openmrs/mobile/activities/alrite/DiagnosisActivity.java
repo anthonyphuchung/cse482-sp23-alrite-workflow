@@ -105,6 +105,7 @@ import org.openmrs.mobile.net.AuthorizationManager;
 import org.openmrs.mobile.utilities.Instructions;
 
 import java.io.IOException;
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -112,9 +113,13 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
+import java.util.TimeZone;
 import java.util.UUID;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
@@ -229,6 +234,7 @@ public class DiagnosisActivity extends AppCompatActivity {
         String initials = sharedPreferences.getString(CIN, "");
         age2 = sharedPreferences.getString(AGE, "");
         age = sharedPreferences.getString(AGE2, "");
+
         String[] split = age.split("\\.");
         ag = Float.parseFloat(age2);
         String gender = sharedPreferences.getString(CHOICE, "");
@@ -298,7 +304,6 @@ public class DiagnosisActivity extends AppCompatActivity {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.out.println("123");
                 value = "pending";
 //                saveForm();
                 createPatient();
@@ -307,6 +312,19 @@ public class DiagnosisActivity extends AppCompatActivity {
     }
 
     private void createPatient() {
+        String age = sharedPreferences.getString(AGE2, "");
+        String[] split = age.split("\\.");
+        int years = Integer.parseInt(split[0]);
+        int months = Integer.parseInt(split[1]);
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
+        Calendar calendar = Calendar.getInstance();
+        String date = sdf.format(calendar.getTime());
+        calendar.add(Calendar.YEAR, -years);
+        calendar.add(Calendar.MONTH, -months);
+        Date estimatedBirthDate = calendar.getTime();
+        String birthdateString = sdf.format(estimatedBirthDate);
+
         String cin = sharedPreferences.getString(CIN, "");
         String[] patientName = cin.split(" ");
         String pin = sharedPreferences.getString(PIN, "");
@@ -388,7 +406,7 @@ public class DiagnosisActivity extends AppCompatActivity {
                 "      }\n" +
                 "    ],\n" +
                 "    \"gender\": \"" + gender.toUpperCase().charAt(0) + "\",\n" +
-                "    \"birthdate\": \"1969-12-31T23:00:00.000Z\",\n" +
+                "    \"birthdate\": \"" + birthdateString + "\",\n" +
                 "    \"birthdateEstimated\": true,\n" +
                 "    \"attributes\": [],\n" +
                 "    \"addresses\": [\n" +
@@ -464,90 +482,19 @@ public class DiagnosisActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        final String[] encounterUuid = new String[1];
-        final CountDownLatch encounterLatch = new CountDownLatch(1);
-
-        String encounterPayload = "{\n" +
-                "  \"encounterDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
-                "  \"patient\": \"" + patientUuid[0] + "\",\n" +
-                "  \"encounterType\": \"d7151f82-c1f3-4152-a605-2f9ea7414a79\",\n" +
-                "  \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
-                "  \"encounterProviders\": [\n" +
-                "    {\n" +
-                "      \"provider\": \"f9badd80-ab76-11e2-9e96-0800200c9a66\",\n" +
-                "      \"encounterRole\": \"240b26f9-dd88-4172-823d-4a8bfeb7841f\"\n" +
-                "    }\n" +
-                "  ],\n" +
-                "  \"obs\": [\n" +
-                "    {\n" +
-                "      \"person\": \"" + patientUuid[0] + "\",\n" +
-                "      \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                "      \"obsDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
-                "      \"value\": \"Covid\" \n" +
-                "    }\n" +
-                "  ]\n" +
-                "}";
-
-
-
-        RequestBody encounterRequestBody = RequestBody.create(encounterPayload, mediaType);
-        Request encounterRequest = new Request.Builder()
-                .url(openMRSBaseUrl + "/ws/rest/v1/encounter")
-                .post(encounterRequestBody)
-                .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", Credentials.basic(username, password))
-                .build();
-        client.newCall(encounterRequest).enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                e.printStackTrace();
-                encounterLatch.countDown();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                try {
-                    if (response.isSuccessful()) {
-                        String responseBody = response.body().string();
-                        System.out.println(responseBody);
-                        System.out.println("nice");
-                        JSONObject jsonResponse = null;
-                        try {
-                            jsonResponse = new JSONObject(responseBody);
-                            System.out.println(jsonResponse);
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        }
-                        try {
-                            encounterUuid[0] = jsonResponse.getString("uuid");
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        }
-                    } else {
-                        System.out.println("Error making encounter: " + response.message());
-                    }
-                } finally {
-                    if (response.body() != null) {
-                        response.body().close();
-                    }
-                }
-                encounterLatch.countDown();
-            }
-        });
-        try {
-            encounterLatch.await(); // Wait for the API call to complete
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        System.out.println(encounterUuid[0]);
-
+        calendar = Calendar.getInstance();
+        calendar.add(Calendar.HOUR, 4);
+        String endDate = sdf.format(calendar.getTime());
         String visitPayload = "{"
-                + "  \"patient\": \"" + patientUuid[0] + "\","
-                + "  \"visitType\": \"7b0f5697-27e3-40c4-8bae-f4049abfb4ed\","
-                + "  \"startDatetime\": \"2023-04-28T12:00:00.000Z\","
-                + "  \"stopDatetime\": \"2023-04-28T16:00:00.000Z\""
+                + "\"patient\":\"" + patientUuid[0] + "\","
+                + "\"visitType\":\"7b0f5697-27e3-40c4-8bae-f4049abfb4ed\","
+                + "\"startDatetime\":\"" + date + "\","
+                + "\"stopDatetime\":\"" + endDate + "\","
+                + "\"location\":\"b1a8b05e-3542-4037-bbd3-998ee9c40574\""
                 + "}";
+
+        final String[] visitUuid = new String[1];
+        final CountDownLatch visitLatch = new CountDownLatch(1);
         RequestBody visitRequestBody = RequestBody.create(visitPayload, mediaType);
         Request visitRequest = new Request.Builder()
                 .url(openMRSBaseUrl + "/ws/rest/v1/visit")
@@ -557,16 +504,128 @@ public class DiagnosisActivity extends AppCompatActivity {
                 .build();
         client.newCall(visitRequest).enqueue(new Callback() {
             @Override
-            public void onFailure(@NonNull Call call, @NonNull IOException e) {
+            public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
+                visitLatch.countDown();
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                try {
+                    if (response.isSuccessful()) {
+                        String responseBody = response.body().string();
+//                        System.out.println(responseBody);
+                        JSONObject jsonResponse = null;
+                        try {
+                            jsonResponse = new JSONObject(responseBody);
+                            System.out.println(jsonResponse);
+                        } catch (JSONException e) {
+                            throw new RuntimeException(e);
+                        }
+                        try {
+                            visitUuid[0] = jsonResponse.getString("uuid");
+                        } catch (JSONException e) {
+                            throw new RuntimeException(e);
+                        }
+                    } else {
+                        System.out.println("Error making visit: " + response.message());
+                    }
+                } finally {
+                    if (response.body() != null) {
+                        response.body().close();
+                    }
+                }
+                visitLatch.countDown();
+            }
+        });
+        try {
+            visitLatch.await(); // Wait for the API call to complete
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(visitUuid[0]);
+        String weight = sharedPreferences.getString(KILO, "");
+        String vitalsPayload = "{\n" +
+                "  \"encounterDatetime\": \"" + date + "\",\n" +
+                "  \"patient\": \"" + patientUuid[0] + "\",\n" +
+                "  \"encounterType\": \"67a71486-1a54-468f-ac3e-7091a9a79584\",\n" + // VITALS
+                "  \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
+                "  \"visit\":\"" + visitUuid[0] + "\"," +
+                "  \"encounterProviders\": [\n" +
+                "    {\n" +
+                "      \"provider\": \"f9badd80-ab76-11e2-9e96-0800200c9a66\",\n" +
+                "      \"encounterRole\": \"240b26f9-dd88-4172-823d-4a8bfeb7841f\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"obs\": [\n" +
+                "    {\n" +
+                "      \"person\": \"" + patientUuid[0] + "\",\n" +
+                "      \"concept\": \"5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                "      \"obsDatetime\": \"" + date + "\",\n" +
+                "      \"value\": \"" + weight + "\" \n" +
+                "    }\n" +
+                "  ]\n" +
+                "}";
+
+        RequestBody vitalsRequestBody = RequestBody.create(vitalsPayload, mediaType);
+        Request vitalsRequest = new Request.Builder()
+                .url(openMRSBaseUrl + "/ws/rest/v1/encounter")
+                .post(vitalsRequestBody)
+                .addHeader("Content-Type", "application/json")
+                .addHeader("Authorization", Credentials.basic(username, password))
+                .build();
+        client.newCall(vitalsRequest).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
                 e.printStackTrace();
             }
 
             @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+            public void onResponse(Call call, Response response) throws IOException {
                 if (response.isSuccessful()) {
-                    System.out.println("visit done");
+                    System.out.println("Encounter created");
                 } else {
-                    System.out.println("error making visit");
+                    System.out.println("Error making encounter: " + response.message());
+                }
+            }
+        });
+
+        String visitNotePayload = "{\n" +
+                "  \"encounterDatetime\": \"" + date + "\",\n" +
+                "  \"patient\": \"" + patientUuid[0] + "\",\n" +
+                "  \"encounterType\": \"d7151f82-c1f3-4152-a605-2f9ea7414a79\",\n" + // Visit note
+                "  \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
+                "  \"visit\":\"" + visitUuid[0] + "\"," +
+                "  \"encounterProviders\": [\n" +
+                "    {\n" +
+                "      \"provider\": \"f9badd80-ab76-11e2-9e96-0800200c9a66\",\n" +
+                "      \"encounterRole\": \"240b26f9-dd88-4172-823d-4a8bfeb7841f\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"obs\": [\n" +
+                createJSONDiagnoses(patientUuid[0]) +
+                "  ]\n" +
+                "}";
+
+        RequestBody visitNoteRequestBody = RequestBody.create(visitNotePayload, mediaType);
+        Request visitNoteRequest = new Request.Builder()
+                .url(openMRSBaseUrl + "/ws/rest/v1/encounter")
+                .post(visitNoteRequestBody)
+                .addHeader("Content-Type", "application/json")
+                .addHeader("Authorization", Credentials.basic(username, password))
+                .build();
+        client.newCall(visitNoteRequest).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                if (response.isSuccessful()) {
+                    System.out.println("Encounter 2 created");
+                } else {
+                    System.out.println("Error making encounter: " + response.message());
                 }
             }
         });
@@ -972,6 +1031,58 @@ public class DiagnosisActivity extends AppCompatActivity {
 
         startActivity(intent);
 
+    }
+
+    private String createJSONDiagnoses(String patientUuid) {
+        List<Diagnosis> diagnosisList = buildItemList();
+        Set<String> set = new HashSet<>();
+        for (Diagnosis diagnosis : diagnosisList) {
+            set.add(diagnosis.getDiagnosis());
+        }
+        Iterator<String> itr = set.iterator();
+        String diagnosis = itr.next();
+        String result = "    {\n" +
+                "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
+                "      \"person\": \"" + patientUuid + "\",\n" +
+                "      \"obsDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
+                "      \"groupMembers\": [\n" +
+                "        {\n" +
+                "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
+                "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
+                "        },\n" +
+                "        {\n" +
+                "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
+                "          \"value\": \"159392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Confirmed diagnosis concept
+                "        },\n" +
+                "        {\n" +
+                "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                "          \"value\": \"" + diagnosis + "\"\n" +
+                "        }\n" +
+                "      ]\n" +
+                "    }\n";
+        while (itr.hasNext()) {
+            String diagnosis2 = itr.next();
+            result += ",{\n" +
+                    "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
+                    "      \"person\": \"" + patientUuid + "\",\n" +
+                    "      \"obsDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
+                    "      \"groupMembers\": [\n" +
+                    "        {\n" +
+                    "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
+                    "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
+                    "        },\n" +
+                    "        {\n" +
+                    "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
+                    "          \"value\": \"159392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Confirmed diagnosis concept
+                    "        },\n" +
+                    "        {\n" +
+                    "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                    "          \"value\": \"" + diagnosis2 + "\"\n" +
+                    "        }\n" +
+                    "      ]\n" +
+                    "    }\n";
+        }
+        return result;
     }
 
     @Override

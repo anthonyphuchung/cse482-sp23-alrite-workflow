@@ -130,8 +130,9 @@ public class Stridor extends Fragment {
         btnStridor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Counter counter = new Counter();
-                counter.Count(requireActivity(), STRIDOR_COUNT);
+                // TODO: FIX THIS
+//                Counter counter = new Counter();
+//                counter.Count(requireActivity(), STRIDOR_COUNT);
                 showDialog();
             }
         });

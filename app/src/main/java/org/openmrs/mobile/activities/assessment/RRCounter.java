@@ -425,8 +425,9 @@ public class RRCounter extends Fragment {
                     double rt = Double.parseDouble(rate);
                     value = rt;
                     dialog.dismiss();
-                    Counter counter = new Counter();
-                    counter.Count(requireActivity(), MANUAL_COUNT);
+                    // TODO: FIX THIS
+//                    Counter counter = new Counter();
+//                    counter.Count(requireActivity(), MANUAL_COUNT);
                     completeMeasuring();
                 }
             }

@@ -130,8 +130,9 @@ public class Nasal extends Fragment {
         btnNasal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Counter counter = new Counter();
-                counter.Count(requireActivity(), NASAL_COUNT);
+                // TODO: FIX THIS
+//                Counter counter = new Counter();
+//                counter.Count(requireActivity(), NASAL_COUNT);
                 showDialog();
             }
         });
@@ -139,8 +140,9 @@ public class Nasal extends Fragment {
         btnGrunting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Counter counter = new Counter();
-                counter.Count(requireActivity(), GRANT_COUNT);
+                // TODO: FIX THIS
+//                Counter counter = new Counter();
+//                counter.Count(requireActivity(), GRANT_COUNT);
                 showDialog2();
             }
         });

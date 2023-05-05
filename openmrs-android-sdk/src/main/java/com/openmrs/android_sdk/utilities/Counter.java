@@ -22,6 +22,7 @@ public class Counter {
         sharedPreferences = context.getSharedPreferences("counter_file", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
         counter = sharedPreferences.getString(object_name, "");
+        System.out.println(counter);
         counting = Integer.parseInt(counter);
         counting = counting + 1;
         String county = String.valueOf(counting);

@@ -146,8 +146,9 @@ public class Wheezing extends Fragment {
         btnWheez.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Counter counter = new Counter();
-                counter.Count(requireActivity(), WHEEZING_COUNT);
+                // TODO: FIX THIS
+//                Counter counter = new Counter();
+//                counter.Count(requireActivity(), WHEEZING_COUNT);
                 showDialog();
             }
         });
