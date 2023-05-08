@@ -63,7 +63,7 @@
                     <Button
                         android:id="@+id/bronchodilator"
                         android:layout_width="wrap_content"
-                        android:layout_height="30dp"
+                        android:layout_height="38dp"
                         android:text="How to use a bronchodilator and spacer"
                         android:layout_marginTop="20dp"
                         android:paddingLeft="5dp"

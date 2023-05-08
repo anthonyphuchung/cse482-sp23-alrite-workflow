@@ -58,7 +58,7 @@
                 <Button
                     android:id="@+id/eczema"
                     android:layout_width="wrap_content"
-                    android:layout_height="30dp"
+                    android:layout_height="38dp"
                     android:text="Eczema"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"

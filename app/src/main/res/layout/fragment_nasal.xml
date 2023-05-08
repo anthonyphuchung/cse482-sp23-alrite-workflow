@@ -72,7 +72,7 @@
                     <Button
                         android:id="@+id/grunting"
                         android:layout_width="wrap_content"
-                        android:layout_height="30dp"
+                        android:layout_height="38dp"
                         android:text="Grunting"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
@@ -86,7 +86,7 @@
                     <Button
                         android:id="@+id/nasal"
                         android:layout_width="wrap_content"
-                        android:layout_height="30dp"
+                        android:layout_height="38dp"
                         android:text="Nasal flaring"
                         android:layout_marginStart="10dp"
                         android:textColor="@color/color_background"

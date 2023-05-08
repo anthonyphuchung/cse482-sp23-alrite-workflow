@@ -9,6 +9,7 @@ org/openmrs/mobile/activities/alrite/DiagnosisActivity.java
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$1
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$10
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$11
+ org.openmrs.mobile.activities.alrite.DiagnosisActivity$12
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$2
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$3
  org.openmrs.mobile.activities.alrite.DiagnosisActivity$4

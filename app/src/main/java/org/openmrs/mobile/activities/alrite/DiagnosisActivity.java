@@ -138,7 +138,9 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class DiagnosisActivity extends AppCompatActivity {
-    private static final String BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
+    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
+    private static final String username = "admin";
+    private static final String password = "Admin123";
     private RestApi openMRSAPI;
     LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout4;
     Button btnExit, btnExit2, btnContinue, btnSave;
@@ -176,10 +178,10 @@ public class DiagnosisActivity extends AppCompatActivity {
 
         OkHttpClient client = new OkHttpClient.Builder()
                 .addInterceptor(authInterceptor)
-                .addInterceptor(loggingInterceptor)
+//                .addInterceptor(loggingInterceptor)
                 .build();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
+                .baseUrl(OPENMRS_BASE_URL)
                 .client(client)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
@@ -306,184 +308,259 @@ public class DiagnosisActivity extends AppCompatActivity {
             public void onClick(View view) {
                 value = "pending";
 //                saveForm();
-                createPatient();
+                syncToOpenMRS(client);
             }
         });
     }
 
-    private void createPatient() {
+    private void syncToOpenMRS(OkHttpClient client) {
+        MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
+
+        final String[] patientUuid = new String[1];
+        final CountDownLatch searchLatch = new CountDownLatch(1);
+
         String age = sharedPreferences.getString(AGE2, "");
         String[] split = age.split("\\.");
         int years = Integer.parseInt(split[0]);
         int months = Integer.parseInt(split[1]);
-
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
         Calendar calendar = Calendar.getInstance();
         String date = sdf.format(calendar.getTime());
         calendar.add(Calendar.YEAR, -years);
         calendar.add(Calendar.MONTH, -months);
         Date estimatedBirthDate = calendar.getTime();
-        String birthdateString = sdf.format(estimatedBirthDate);
+        String estimatedBirthdateString = sdf.format(estimatedBirthDate);
 
         String cin = sharedPreferences.getString(CIN, "");
         String[] patientName = cin.split(" ");
-        String pin = sharedPreferences.getString(PIN, "");
-        String openMRSBaseUrl = "http://192.168.1.68:8081/openmrs-standalone";
-//        String openMRSBaseUrl = "http://10.18.255.112:8086/openmrs-standalone";
-        String username = "admin";
-        String password = "Admin123";
-
-        OkHttpClient client = new OkHttpClient();
-        MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
-
-        String getIdentifiersPayload = "{"
-                + "\"generateIdentifiers\": true,"
-                + "\"sourceUuid\": \"691eed12-c0f1-11e2-94be-8c13b969e334\","
-                + "\"numberToGenerate\": 1"
-                + "}";
-
-        RequestBody identifierRequestBody = RequestBody.create(getIdentifiersPayload, mediaType);
-        Request identifierRequest = new Request.Builder()
-                .url(openMRSBaseUrl + "/ws/rest/v1/idgen/identifiersource")
-                .post(identifierRequestBody)
-                .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", Credentials.basic(username, password))
-                .build();
-
-        final String[] identifier = new String[1];
-        final CountDownLatch identifierLatch = new CountDownLatch(1);
-
-        client.newCall(identifierRequest).enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                e.printStackTrace();
-                identifierLatch.countDown();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                try {
-                    if (response.isSuccessful()) {
-                        String responseBody = response.body().string();
-                        JSONObject jsonResponse = null;
-                        try {
-                            jsonResponse = new JSONObject(responseBody);
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        }
-                        try {
-                            JSONArray identifiers = jsonResponse.getJSONArray("identifiers");
-                            identifier[0] = identifiers.getString(0);
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        }
-                    } else {
-                        System.out.println("Error making identifier: " + response.message());
-                    }
-                } finally {
-                    if (response.body() != null) {
-                        response.body().close();
-                    }
-                }
-                identifierLatch.countDown();
-            }
-        });
-        try {
-            identifierLatch.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        String patientFullname = patientName[0].trim();
+        if (patientName.length == 2) {
+            patientFullname += " " + patientName[1].trim();
         }
-        System.out.println("Identifier: " + identifier[0]);
+
         String gender = sharedPreferences.getString(CHOICE, "");
-        String patientPayload = "{\n" +
-                "  \"person\": {\n" +
-                "    \"names\": [\n" +
-                "      {\n" +
-                "        \"preferred\": true,\n" +
-                "        \"givenName\": \"" + patientName[0] + "\",\n" +
-                "        \"middleName\": \"\",\n" +
-                "        \"familyName\": \"" + patientName[1] + "\"\n" +
-                "      }\n" +
-                "    ],\n" +
-                "    \"gender\": \"" + gender.toUpperCase().charAt(0) + "\",\n" +
-                "    \"birthdate\": \"" + birthdateString + "\",\n" +
-                "    \"birthdateEstimated\": true,\n" +
-                "    \"attributes\": [],\n" +
-                "    \"addresses\": [\n" +
-                "      {\n" +
-                "        \"address1\": \"Main Street\",\n" +
-                "        \"country\": \"Uganda\",\n" +
-                "        \"stateProvince\": \"\",\n" +
-                "        \"cityVillage\": \"\",\n" +
-                "        \"postalCode\": \"\"\n" +
-                "      }\n" +
-                "    ],\n" +
-                "    \"dead\": false\n" +
-                "  },\n" +
-                "  \"identifiers\": [\n" +
-                "    {\n" +
-                "      \"identifier\": \"" + identifier[0] + "\",\n" +
-                "      \"identifierType\": \"05a29f94-c0ed-11e2-94be-8c13b969e334\",\n" +
-                "      \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
-                "      \"preferred\": true\n" +
-                "    }\n" +
-                "  ]\n" +
-                "}";
 
-        final String[] patientUuid = new String[1];
-        final CountDownLatch patientLatch = new CountDownLatch(1);
 
-        RequestBody patientRequestBody = RequestBody.create(patientPayload, mediaType);
-        Request patientRequest = new Request.Builder()
-                .url(openMRSBaseUrl + "/ws/rest/v1/patient")
-                .post(patientRequestBody)
+        Request searchPatientRequest = new Request.Builder()
+                .url(OPENMRS_BASE_URL + "ws/rest/v1/patient?q=" + patientFullname.trim() + "&v=default")
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", Credentials.basic(username, password))
                 .build();
 
-        client.newCall(patientRequest).enqueue(new Callback() {
+        client.newCall(searchPatientRequest).enqueue(new Callback() {
             @Override
-            public void onFailure(Call call, IOException e) {
+            public void onFailure(@NonNull Call call, @NonNull IOException e) {
                 e.printStackTrace();
-                patientLatch.countDown();
+                searchLatch.countDown();
             }
 
             @Override
-            public void onResponse(Call call, Response response) throws IOException {
+            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
                 try {
                     if (response.isSuccessful()) {
                         String responseBody = response.body().string();
+                        System.out.println(responseBody);
                         JSONObject jsonResponse = null;
                         try {
                             jsonResponse = new JSONObject(responseBody);
-                            System.out.println(jsonResponse);
                         } catch (JSONException e) {
                             throw new RuntimeException(e);
                         }
                         try {
-                            patientUuid[0] = jsonResponse.getString("uuid");
+                            JSONArray patients = jsonResponse.getJSONArray("results");
+                            if (patients.length() != 0) {
+                                for (int i = 0; i < patients.length(); i++) {
+                                    JSONObject patient = patients.getJSONObject(i);
+                                    System.out.println(patient.toString());
+                                    JSONObject person = patient.getJSONObject("person");
+                                    String birthdate = person.getString("birthdate");
+                                    Calendar birthdateCalendar = Calendar.getInstance();
+                                    birthdateCalendar.setTime(sdf.parse(birthdate));
+
+                                    Calendar birthdayEstimateCalendar = Calendar.getInstance();
+                                    birthdayEstimateCalendar.setTime(sdf.parse(estimatedBirthdateString));
+                                    long timeDifferenceInMillis = Math.abs(birthdateCalendar.getTimeInMillis() - birthdayEstimateCalendar.getTimeInMillis());
+                                    long timeDifferenceInMonths = timeDifferenceInMillis / (1000 * 60 * 60 * 24 * 30L);
+                                    System.out.println(birthdateCalendar);
+                                    System.out.println(birthdayEstimateCalendar);
+                                    String patientGender = person.getString("gender");
+                                    if (timeDifferenceInMonths <= 1 && patientGender.equalsIgnoreCase("" + gender.toUpperCase().charAt(0))) {
+                                        String display = patient.getString("display");
+                                        System.out.println(display);
+                                        patientUuid[0] = patient.getString("uuid");
+                                    }
+                                }
+                            }
                         } catch (JSONException e) {
+                            throw new RuntimeException(e);
+                        } catch (ParseException e) {
                             throw new RuntimeException(e);
                         }
                     } else {
-                        System.out.println("Error making patient: " + response.message());
+                        System.out.println("Error searching");
                     }
                 } finally {
                     if (response.body() != null) {
                         response.body().close();
                     }
+                    searchLatch.countDown();
                 }
-                patientLatch.countDown();
             }
         });
+
         try {
-            patientLatch.await(); // Wait for the API call to complete
+            searchLatch.await();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        if (patientUuid[0] == null) {
+            final String[] identifier = new String[1];
+            final CountDownLatch identifierLatch = new CountDownLatch(1);
+            String getIdentifiersPayload = "{"
+                    + "\"generateIdentifiers\": true,"
+                    + "\"sourceUuid\": \"691eed12-c0f1-11e2-94be-8c13b969e334\","
+                    + "\"numberToGenerate\": 1"
+                    + "}";
+
+            RequestBody identifierRequestBody = RequestBody.create(getIdentifiersPayload, mediaType);
+            Request identifierRequest = new Request.Builder()
+                    .url(OPENMRS_BASE_URL + "ws/rest/v1/idgen/identifiersource")
+                    .post(identifierRequestBody)
+                    .addHeader("Content-Type", "application/json")
+                    .addHeader("Authorization", Credentials.basic(username, password))
+                    .build();
+
+            client.newCall(identifierRequest).enqueue(new Callback() {
+                @Override
+                public void onFailure(Call call, IOException e) {
+                    e.printStackTrace();
+                    identifierLatch.countDown();
+                }
+
+                @Override
+                public void onResponse(Call call, Response response) throws IOException {
+                    try {
+                        if (response.isSuccessful()) {
+                            String responseBody = response.body().string();
+                            JSONObject jsonResponse = null;
+                            try {
+                                jsonResponse = new JSONObject(responseBody);
+                            } catch (JSONException e) {
+                                throw new RuntimeException(e);
+                            }
+                            try {
+                                JSONArray identifiers = jsonResponse.getJSONArray("identifiers");
+                                identifier[0] = identifiers.getString(0);
+                            } catch (JSONException e) {
+                                throw new RuntimeException(e);
+                            }
+                        } else {
+                            System.out.println("Error making identifier: " + response.message());
+                        }
+                    } finally {
+                        if (response.body() != null) {
+                            response.body().close();
+                        }
+                    }
+                    identifierLatch.countDown();
+                }
+            });
+            try {
+                identifierLatch.await();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("Identifier: " + identifier[0]);
+            String patientPayload = "{\n" +
+                    "  \"person\": {\n" +
+                    "    \"names\": [\n" +
+                    "      {\n" +
+                    "        \"preferred\": true,\n" +
+                    "        \"givenName\": \"" + patientName[0] + "\",\n" +
+                    "        \"middleName\": \"\",\n" +
+                    "        \"familyName\": \"" + patientName[1] + "\"\n" +
+                    "      }\n" +
+                    "    ],\n" +
+                    "    \"gender\": \"" + gender.toUpperCase().charAt(0) + "\",\n" +
+                    "    \"birthdate\": \"" + estimatedBirthdateString + "\",\n" +
+                    "    \"birthdateEstimated\": true,\n" +
+                    "    \"attributes\": [],\n" +
+                    "    \"addresses\": [\n" +
+                    "      {\n" +
+                    "        \"address1\": \"Main Street\",\n" +
+                    "        \"country\": \"Uganda\",\n" +
+                    "        \"stateProvince\": \"\",\n" +
+                    "        \"cityVillage\": \"\",\n" +
+                    "        \"postalCode\": \"\"\n" +
+                    "      }\n" +
+                    "    ],\n" +
+                    "    \"dead\": false\n" +
+                    "  },\n" +
+                    "  \"identifiers\": [\n" +
+                    "    {\n" +
+                    "      \"identifier\": \"" + identifier[0] + "\",\n" +
+                    "      \"identifierType\": \"05a29f94-c0ed-11e2-94be-8c13b969e334\",\n" +
+                    "      \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
+                    "      \"preferred\": true\n" +
+                    "    }\n" +
+                    "  ]\n" +
+                    "}";
+
+            final CountDownLatch patientLatch2 = new CountDownLatch(1);
+            RequestBody patientRequestBody = RequestBody.create(patientPayload, mediaType);
+            Request patientRequest = new Request.Builder()
+                    .url(OPENMRS_BASE_URL + "ws/rest/v1/patient")
+                    .post(patientRequestBody)
+                    .addHeader("Content-Type", "application/json")
+                    .addHeader("Authorization", Credentials.basic(username, password))
+                    .build();
+
+            client.newCall(patientRequest).enqueue(new Callback() {
+                @Override
+                public void onFailure(Call call, IOException e) {
+                    e.printStackTrace();
+                    patientLatch2.countDown();
+                }
+
+                @Override
+                public void onResponse(Call call, Response response) throws IOException {
+                    try {
+                        if (response.isSuccessful()) {
+                            String responseBody = response.body().string();
+                            JSONObject jsonResponse = null;
+                            try {
+                                jsonResponse = new JSONObject(responseBody);
+                                System.out.println(jsonResponse);
+                            } catch (JSONException e) {
+                                throw new RuntimeException(e);
+                            }
+                            try {
+                                patientUuid[0] = jsonResponse.getString("uuid");
+                            } catch (JSONException e) {
+                                throw new RuntimeException(e);
+                            }
+                        } else {
+                            System.out.println("Error making patient: " + response.message());
+                        }
+                    } finally {
+                        if (response.body() != null) {
+                            response.body().close();
+                        }
+                    }
+                    patientLatch2.countDown();
+                }
+            });
+            try {
+                patientLatch2.await(); // Wait for the API call to complete
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println(patientUuid[0]);
 
         calendar = Calendar.getInstance();
-        calendar.add(Calendar.HOUR, 4);
+        calendar.add(Calendar.SECOND, 1);
         String endDate = sdf.format(calendar.getTime());
         String visitPayload = "{"
                 + "\"patient\":\"" + patientUuid[0] + "\","
@@ -497,7 +574,7 @@ public class DiagnosisActivity extends AppCompatActivity {
         final CountDownLatch visitLatch = new CountDownLatch(1);
         RequestBody visitRequestBody = RequestBody.create(visitPayload, mediaType);
         Request visitRequest = new Request.Builder()
-                .url(openMRSBaseUrl + "/ws/rest/v1/visit")
+                .url(OPENMRS_BASE_URL + "ws/rest/v1/visit")
                 .post(visitRequestBody)
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", Credentials.basic(username, password))
@@ -544,7 +621,6 @@ public class DiagnosisActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         System.out.println(visitUuid[0]);
-        String weight = sharedPreferences.getString(KILO, "");
         String vitalsPayload = "{\n" +
                 "  \"encounterDatetime\": \"" + date + "\",\n" +
                 "  \"patient\": \"" + patientUuid[0] + "\",\n" +
@@ -558,18 +634,13 @@ public class DiagnosisActivity extends AppCompatActivity {
                 "    }\n" +
                 "  ],\n" +
                 "  \"obs\": [\n" +
-                "    {\n" +
-                "      \"person\": \"" + patientUuid[0] + "\",\n" +
-                "      \"concept\": \"5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                "      \"obsDatetime\": \"" + date + "\",\n" +
-                "      \"value\": \"" + weight + "\" \n" +
-                "    }\n" +
+                createJSONObservations(patientUuid[0], date) +
                 "  ]\n" +
                 "}";
 
         RequestBody vitalsRequestBody = RequestBody.create(vitalsPayload, mediaType);
         Request vitalsRequest = new Request.Builder()
-                .url(openMRSBaseUrl + "/ws/rest/v1/encounter")
+                .url(OPENMRS_BASE_URL + "ws/rest/v1/encounter")
                 .post(vitalsRequestBody)
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", Credentials.basic(username, password))
@@ -609,7 +680,7 @@ public class DiagnosisActivity extends AppCompatActivity {
 
         RequestBody visitNoteRequestBody = RequestBody.create(visitNotePayload, mediaType);
         Request visitNoteRequest = new Request.Builder()
-                .url(openMRSBaseUrl + "/ws/rest/v1/encounter")
+                .url(OPENMRS_BASE_URL + "ws/rest/v1/encounter")
                 .post(visitNoteRequestBody)
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", Credentials.basic(username, password))
@@ -1052,7 +1123,7 @@ public class DiagnosisActivity extends AppCompatActivity {
                 "        },\n" +
                 "        {\n" +
                 "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
-                "          \"value\": \"159392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Confirmed diagnosis concept
+                "          \"value\": \"159393AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Presumed diagnosis concept
                 "        },\n" +
                 "        {\n" +
                 "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
@@ -1073,13 +1144,56 @@ public class DiagnosisActivity extends AppCompatActivity {
                     "        },\n" +
                     "        {\n" +
                     "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
-                    "          \"value\": \"159392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Confirmed diagnosis concept
+                    "          \"value\": \"159393AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Presumed diagnosis concept
                     "        },\n" +
                     "        {\n" +
                     "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
                     "          \"value\": \"" + diagnosis2 + "\"\n" +
                     "        }\n" +
                     "      ]\n" +
+                    "    }\n";
+        }
+        return result;
+    }
+
+    private String createJSONObservations(String patientUuid, String date) {
+        String weight = sharedPreferences.getString(KILO, "");
+        String muac = sharedPreferences.getString(MUAC, "");
+        String temperature = sharedPreferences.getString(TEMP, "");
+        String oxygen = sharedPreferences.getString(OXY, "");
+
+        System.out.println(muac);
+        System.out.println(temperature);
+        String result = "    {\n" +
+                "      \"person\": \"" + patientUuid + "\",\n" +
+                "      \"concept\": \"5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                "      \"obsDatetime\": \"" + date + "\",\n" +
+                "      \"value\": \"" + weight + "\" \n" +
+                "    }\n";
+        if (muac != null && !muac.isEmpty()) {
+            result += ",{\n" +
+                    "      \"person\": \"" + patientUuid + "\",\n" +
+                    "      \"concept\": \"1343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                    "      \"obsDatetime\": \"" + date + "\",\n" +
+                    "      \"value\": \"" + muac + "\" \n" +
+                    "    }\n";
+        }
+
+        if (temperature != null && !temperature.isEmpty()) {
+            result += ",{\n" +
+                    "      \"person\": \"" + patientUuid + "\",\n" +
+                    "      \"concept\": \"5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                    "      \"obsDatetime\": \"" + date + "\",\n" +
+                    "      \"value\": \"" + temperature + "\" \n" +
+                    "    }\n";
+        }
+
+        if (oxygen != null && !oxygen.isEmpty()) {
+            result += ",{\n" +
+                    "      \"person\": \"" + patientUuid + "\",\n" +
+                    "      \"concept\": \"5092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                    "      \"obsDatetime\": \"" + date + "\",\n" +
+                    "      \"value\": \"" + oxygen + "\" \n" +
                     "    }\n";
         }
         return result;

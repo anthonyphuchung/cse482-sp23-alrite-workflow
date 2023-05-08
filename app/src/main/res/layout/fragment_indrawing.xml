@@ -71,7 +71,7 @@
                 <Button
                     android:id="@+id/chest"
                     android:layout_width="wrap_content"
-                    android:layout_height="30dp"
+                    android:layout_height="38dp"
                     android:text="Chest Indrawing"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
