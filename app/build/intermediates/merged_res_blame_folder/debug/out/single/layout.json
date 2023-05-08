@@ -4,12 +4,12 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/item_patient.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_temperature.xml",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_temperature.xml"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_smoke.xml",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_smoke.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_temperature.xml",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_temperature.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_synced_patients.xml",

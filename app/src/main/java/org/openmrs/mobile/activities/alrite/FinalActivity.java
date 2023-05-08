@@ -1,5 +1,9 @@
 package org.openmrs.mobile.activities.alrite;
 
+import static org.openmrs.mobile.activities.assessment.Initials.CIN;
+import static org.openmrs.mobile.activities.assessment.Sex.AGE;
+import static org.openmrs.mobile.activities.assessment.Sex.AGE2;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -22,6 +26,7 @@ public class FinalActivity extends AppCompatActivity {
     EditText etOther1, etOther2;
     Button btnSave;
     String s1, s2, diagnosis, treatment, filename;
+    String age, uniqueID, age2, folder, value;
     public static final String S6 = "clinician_treatment";
     public static final String S7 = "clinician_diagnosis";
     SharedPreferences sharedPreferences;
@@ -54,6 +59,10 @@ public class FinalActivity extends AppCompatActivity {
         checkBox12= findViewById(R.id.supportive);
         checkBox13 = findViewById(R.id.other2);
 //        checkBox14 = findViewById(R.id.malaria);
+        String initials = sharedPreferences.getString(CIN, "");
+        age = sharedPreferences.getString(AGE, "");
+        age2 = sharedPreferences.getString(AGE2, "");
+        System.out.println(age2);
 
         checkBox5.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -118,6 +127,7 @@ public class FinalActivity extends AppCompatActivity {
             s1 += diagnosis + ", ";
         }
         s1 = s1.replaceAll(", $", "");
+        System.out.println(s1);
         if (s1.isEmpty()){
             Toast.makeText(this, "Choose at least one diagnosis option", Toast.LENGTH_SHORT).show();
         }else {
@@ -156,6 +166,7 @@ public class FinalActivity extends AppCompatActivity {
         if (s2.isEmpty()){
             Toast.makeText(this, "Choose at least one treatment option", Toast.LENGTH_SHORT).show();
         }else {
+            System.out.println(s2);
             saveData();
         }
     }
