@@ -131,8 +131,9 @@ public class RRCounter extends Fragment {
 
             @Override
             public void onFinish() {
-                Counter counter = new Counter();
-                counter.Count(requireActivity(), RR_COUNTER_COUNT);
+                // TODO: Fix this
+//                Counter counter = new Counter();
+//                counter.Count(requireActivity(), RR_COUNTER_COUNT);
                 evalFastBreathing(ag);
                 showDialog();
             }

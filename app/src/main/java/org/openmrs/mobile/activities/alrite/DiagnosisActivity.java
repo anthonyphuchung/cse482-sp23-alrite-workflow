@@ -1163,8 +1163,6 @@ public class DiagnosisActivity extends AppCompatActivity {
         String temperature = sharedPreferences.getString(TEMP, "");
         String oxygen = sharedPreferences.getString(OXY, "");
 
-        System.out.println(muac);
-        System.out.println(temperature);
         String result = "    {\n" +
                 "      \"person\": \"" + patientUuid + "\",\n" +
                 "      \"concept\": \"5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
