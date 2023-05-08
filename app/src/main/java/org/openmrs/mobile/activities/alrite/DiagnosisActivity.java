@@ -1004,7 +1004,6 @@ public class DiagnosisActivity extends AppCompatActivity {
         uniqueID = UUID.randomUUID().toString();
 
         if (file.isEmpty()){
-            System.out.println("here");
             getDuration(currentTime);
 
             editor.putString(USERNAME, username);
@@ -1020,7 +1019,6 @@ public class DiagnosisActivity extends AppCompatActivity {
 //            Toast.makeText(this, "empty", Toast.LENGTH_SHORT).show();
             doLogic(filename);
         }else {
-            System.out.println("here 2");
             editor.putString(PENDING, value);
             editor.putString(INCOMPLETE, "complete");
             String filename = formattedDate + "_" + uniqueID;
