@@ -138,7 +138,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class DiagnosisActivity extends AppCompatActivity {
-    private static final String OPENMRS_BASE_URL = "http://10.19.47.98:8086/openmrs-standalone/";
+    private static final String OPENMRS_BASE_URL = "http://10.18.207.10:8086/openmrs-standalone/";
     private static final String username = "admin";
     private static final String password = "Admin123";
     private RestApi openMRSAPI;
