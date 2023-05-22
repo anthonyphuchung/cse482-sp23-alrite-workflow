@@ -28,28 +28,28 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/progress_secondary_openmrs.9.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner_ab_pressed_openmrs.9.png.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-mdpi/spinner_ab_pressed_openmrs.9.png"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-xxhdpi_spinner_ab_disabled_openmrs.9.png.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-xxhdpi/spinner_ab_disabled_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-mdpi_spinner_ab_pressed_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-mdpi/spinner_ab_pressed_openmrs.9.png"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_male.png.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/mipmap-xhdpi/ic_male.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/activity_about.xml"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_form_entry_patient_list.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_form_entry_patient_list.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-mdpi_ico_visits.png.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-mdpi/ico_visits.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_form_entry_patient_list.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_form_entry_patient_list.xml"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/activity_about.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_dashboard.xml.flat",
@@ -64,20 +64,20 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-v21/ic_favorite_black_24dp.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_list_visit_item.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/list_visit_item.xml"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_ico_visits.png.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/ico_visits.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_list_vital_group.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/list_vital_group.xml"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_list_visit_item.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/list_visit_item.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_header_layout.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/header_layout.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_list_vital_group.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/list_vital_group.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_ab_stacked_solid_openmrs.9.png.flat",
@@ -100,12 +100,12 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-xhdpi/ab_bottom_solid_openmrs.9.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_item_patient.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/item_patient.xml"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_cab_done_pressed_openmrs.9.png.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/btn_cab_done_pressed_openmrs.9.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_item_patient.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/item_patient.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_ic_edit_white_24dp.xml.flat",
@@ -188,24 +188,24 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-xxhdpi/ico_search.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_exp_list_show_details.png.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/exp_list_show_details.png"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_toast_border_notice.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/toast_border_notice.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_progress_primary_openmrs.9.png.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/progress_primary_openmrs.9.png"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_exp_list_show_details.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/exp_list_show_details.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-mdpi_discharge.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-mdpi/discharge.png"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_manual_layout.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/manual_layout.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-mdpi_discharge.png.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-mdpi/discharge.png"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_progress_primary_openmrs.9.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/progress_primary_openmrs.9.png"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_sex.xml.flat",
@@ -224,12 +224,12 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-mdpi/openmrs_logo.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_row_find_synced_patients.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/row_find_synced_patients.xml"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_line_chart.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/line_chart.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_row_find_synced_patients.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/row_find_synced_patients.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_done.png.flat",
@@ -336,12 +336,12 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/spinner_settings_page.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-xhdpi_ico_visits.png.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-xhdpi/ico_visits.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_ic_photo_camera.xml.flat",
@@ -360,12 +360,12 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/row_patient_visit.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_wheezing.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_wheezing.xml"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_patient_details.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_patient_details.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_wheezing.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_wheezing.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_activity_add_provider.xml.flat",
@@ -404,16 +404,16 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-xhdpi/past_visit_dot.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_btn_submit_bg_pressed.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/btn_submit_bg_pressed.xml"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_openmrs_logo.png.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/openmrs_logo.png"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_btn_cab_done_openmrs.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/btn_cab_done_openmrs.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-hdpi_openmrs_logo.png.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-hdpi/openmrs_logo.png"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_btn_submit_bg_pressed.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/btn_submit_bg_pressed.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_person_grey_500_48dp.png.flat",
@@ -464,12 +464,12 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-xhdpi/ico_registry.png"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_error_symbol.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/error_symbol.xml"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_activity_matching_patients.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/activity_matching_patients.xml"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_error_symbol.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/error_symbol.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable_ic_close_white_24dp.xml.flat",
@@ -488,20 +488,20 @@
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable/ic_home.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_row_key_value_data.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/row_key_value_data.xml"
-    },
-    {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_fragment_form_list.xml.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/fragment_form_list.xml"
     },
     {
-        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_list_patient_allergy.xml.flat",
-        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/list_patient_allergy.xml"
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_row_key_value_data.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/row_key_value_data.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_mult_down.png.flat",
         "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/drawable-mdpi/ic_mult_down.png"
+    },
+    {
+        "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_list_patient_allergy.xml.flat",
+        "source": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/src/main/res/layout/list_patient_allergy.xml"
     },
     {
         "merged": "/Users/anthonychung/StudioProjects/cse482-sp23-alrite-workflow/app/build/intermediates/res/merged/debug/layout_learn_popup.xml.flat",
