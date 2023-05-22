@@ -138,7 +138,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class DiagnosisActivity extends AppCompatActivity {
-    private static final String OPENMRS_BASE_URL = "http://10.18.207.10:8086/openmrs-standalone/";
+    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
     private static final String username = "admin";
     private static final String password = "Admin123";
     private RestApi openMRSAPI;
@@ -180,13 +180,7 @@ public class DiagnosisActivity extends AppCompatActivity {
                 .addInterceptor(authInterceptor)
 //                .addInterceptor(loggingInterceptor)
                 .build();
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(OPENMRS_BASE_URL)
-                .client(client)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
 
-        openMRSAPI = retrofit.create(RestApi.class);
 
         txtAge = findViewById(R.id.patient_age);
         txtGender = findViewById(R.id.patient_sex);
