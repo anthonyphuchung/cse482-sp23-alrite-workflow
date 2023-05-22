@@ -138,10 +138,6 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class DiagnosisActivity extends AppCompatActivity {
-    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
-    private static final String username = "admin";
-    private static final String password = "Admin123";
-    private RestApi openMRSAPI;
     LinearLayout linearLayout1, linearLayout2, linearLayout3, linearLayout4;
     Button btnExit, btnExit2, btnContinue, btnSave;
     ImageView imageView1, imageView2;
@@ -172,15 +168,6 @@ public class DiagnosisActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diagnosis);
-        HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
-        loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        AlriteAuthorization authInterceptor = new AlriteAuthorization("admin", "Admin123");
-
-        OkHttpClient client = new OkHttpClient.Builder()
-                .addInterceptor(authInterceptor)
-//                .addInterceptor(loggingInterceptor)
-                .build();
-
 
         txtAge = findViewById(R.id.patient_age);
         txtGender = findViewById(R.id.patient_sex);
@@ -193,7 +180,7 @@ public class DiagnosisActivity extends AppCompatActivity {
         linearLayout3 = findViewById(R.id.clickable2);
         linearLayout4 = findViewById(R.id.summary3);
         btnExit = findViewById(R.id.btnExit);
-        btnSave = findViewById(R.id.btnExit2);
+//        btnSave = findViewById(R.id.btnExit2);
         recyclerView2 = findViewById(R.id.recyclerView2);
 
 
@@ -206,10 +193,10 @@ public class DiagnosisActivity extends AppCompatActivity {
 //            String incomplete = sharedPreferences.getString(INCOMPLETE, "");
 
             if (pending.equals("pending")){
-                btnSave.setVisibility(View.GONE);
+//                btnSave.setVisibility(View.GONE);
                 btnExit.setVisibility(View.VISIBLE);
             } else{
-                btnSave.setVisibility(View.GONE);
+//                btnSave.setVisibility(View.GONE);
                 btnExit.setVisibility(View.GONE);
             }
 
@@ -218,9 +205,9 @@ public class DiagnosisActivity extends AppCompatActivity {
             String bron = sharedPreferences.getString(BRONCHODILATOR, "");
             String fin = sharedPreferences.getString(BRONC, "");
             if (bron.equals("Bronchodialtor Given") && fin.isEmpty()){
-                btnSave.setVisibility(View.GONE);
+//                btnSave.setVisibility(View.GONE);
             }else {
-                btnSave.setVisibility(View.VISIBLE);
+//                btnSave.setVisibility(View.VISIBLE);
             }
             btnExit.setVisibility(View.VISIBLE);
         }
@@ -297,403 +284,14 @@ public class DiagnosisActivity extends AppCompatActivity {
             }
         });
 
-        btnSave.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                value = "pending";
-//                saveForm();
-                syncToOpenMRS(client);
-            }
-        });
-    }
-
-    private void syncToOpenMRS(OkHttpClient client) {
-        MediaType mediaType = MediaType.parse("application/json; charset=utf-8");
-
-        final String[] patientUuid = new String[1];
-        final CountDownLatch searchLatch = new CountDownLatch(1);
-
-        String age = sharedPreferences.getString(AGE2, "");
-        String[] split = age.split("\\.");
-        int years = Integer.parseInt(split[0]);
-        int months = Integer.parseInt(split[1]);
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
-        Calendar calendar = Calendar.getInstance();
-        String date = sdf.format(calendar.getTime());
-        calendar.add(Calendar.YEAR, -years);
-        calendar.add(Calendar.MONTH, -months);
-        Date estimatedBirthDate = calendar.getTime();
-        String estimatedBirthdateString = sdf.format(estimatedBirthDate);
-
-        String cin = sharedPreferences.getString(CIN, "");
-        String[] patientName = cin.split(" ");
-        String patientFullname = patientName[0].trim();
-        if (patientName.length == 2) {
-            patientFullname += " " + patientName[1].trim();
-        }
-
-        String gender = sharedPreferences.getString(CHOICE, "");
-
-
-        Request searchPatientRequest = new Request.Builder()
-                .url(OPENMRS_BASE_URL + "ws/rest/v1/patient?q=" + patientFullname.trim() + "&v=default")
-                .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", Credentials.basic(username, password))
-                .build();
-
-        client.newCall(searchPatientRequest).enqueue(new Callback() {
-            @Override
-            public void onFailure(@NonNull Call call, @NonNull IOException e) {
-                e.printStackTrace();
-                searchLatch.countDown();
-            }
-
-            @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-                try {
-                    if (response.isSuccessful()) {
-                        String responseBody = response.body().string();
-                        System.out.println(responseBody);
-                        JSONObject jsonResponse = null;
-                        try {
-                            jsonResponse = new JSONObject(responseBody);
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        }
-                        try {
-                            JSONArray patients = jsonResponse.getJSONArray("results");
-                            if (patients.length() != 0) {
-                                for (int i = 0; i < patients.length(); i++) {
-                                    JSONObject patient = patients.getJSONObject(i);
-                                    System.out.println(patient.toString());
-                                    JSONObject person = patient.getJSONObject("person");
-                                    String birthdate = person.getString("birthdate");
-                                    Calendar birthdateCalendar = Calendar.getInstance();
-                                    birthdateCalendar.setTime(sdf.parse(birthdate));
-
-                                    Calendar birthdayEstimateCalendar = Calendar.getInstance();
-                                    birthdayEstimateCalendar.setTime(sdf.parse(estimatedBirthdateString));
-                                    long timeDifferenceInMillis = Math.abs(birthdateCalendar.getTimeInMillis() - birthdayEstimateCalendar.getTimeInMillis());
-                                    long timeDifferenceInMonths = timeDifferenceInMillis / (1000 * 60 * 60 * 24 * 30L);
-                                    System.out.println(birthdateCalendar);
-                                    System.out.println(birthdayEstimateCalendar);
-                                    String patientGender = person.getString("gender");
-                                    if (timeDifferenceInMonths <= 1 && patientGender.equalsIgnoreCase("" + gender.toUpperCase().charAt(0))) {
-                                        String display = patient.getString("display");
-                                        System.out.println(display);
-                                        patientUuid[0] = patient.getString("uuid");
-                                    }
-                                }
-                            }
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        } catch (ParseException e) {
-                            throw new RuntimeException(e);
-                        }
-                    } else {
-                        System.out.println("Error searching");
-                    }
-                } finally {
-                    if (response.body() != null) {
-                        response.body().close();
-                    }
-                    searchLatch.countDown();
-                }
-            }
-        });
-
-        try {
-            searchLatch.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        if (patientUuid[0] == null) {
-            final String[] identifier = new String[1];
-            final CountDownLatch identifierLatch = new CountDownLatch(1);
-            String getIdentifiersPayload = "{"
-                    + "\"generateIdentifiers\": true,"
-                    + "\"sourceUuid\": \"691eed12-c0f1-11e2-94be-8c13b969e334\","
-                    + "\"numberToGenerate\": 1"
-                    + "}";
-
-            RequestBody identifierRequestBody = RequestBody.create(getIdentifiersPayload, mediaType);
-            Request identifierRequest = new Request.Builder()
-                    .url(OPENMRS_BASE_URL + "ws/rest/v1/idgen/identifiersource")
-                    .post(identifierRequestBody)
-                    .addHeader("Content-Type", "application/json")
-                    .addHeader("Authorization", Credentials.basic(username, password))
-                    .build();
-
-            client.newCall(identifierRequest).enqueue(new Callback() {
-                @Override
-                public void onFailure(Call call, IOException e) {
-                    e.printStackTrace();
-                    identifierLatch.countDown();
-                }
-
-                @Override
-                public void onResponse(Call call, Response response) throws IOException {
-                    try {
-                        if (response.isSuccessful()) {
-                            String responseBody = response.body().string();
-                            JSONObject jsonResponse = null;
-                            try {
-                                jsonResponse = new JSONObject(responseBody);
-                            } catch (JSONException e) {
-                                throw new RuntimeException(e);
-                            }
-                            try {
-                                JSONArray identifiers = jsonResponse.getJSONArray("identifiers");
-                                identifier[0] = identifiers.getString(0);
-                            } catch (JSONException e) {
-                                throw new RuntimeException(e);
-                            }
-                        } else {
-                            System.out.println("Error making identifier: " + response.message());
-                        }
-                    } finally {
-                        if (response.body() != null) {
-                            response.body().close();
-                        }
-                    }
-                    identifierLatch.countDown();
-                }
-            });
-            try {
-                identifierLatch.await();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println("Identifier: " + identifier[0]);
-            String patientPayload = "{\n" +
-                    "  \"person\": {\n" +
-                    "    \"names\": [\n" +
-                    "      {\n" +
-                    "        \"preferred\": true,\n" +
-                    "        \"givenName\": \"" + patientName[0] + "\",\n" +
-                    "        \"middleName\": \"\",\n" +
-                    "        \"familyName\": \"" + patientName[1] + "\"\n" +
-                    "      }\n" +
-                    "    ],\n" +
-                    "    \"gender\": \"" + gender.toUpperCase().charAt(0) + "\",\n" +
-                    "    \"birthdate\": \"" + estimatedBirthdateString + "\",\n" +
-                    "    \"birthdateEstimated\": true,\n" +
-                    "    \"attributes\": [],\n" +
-                    "    \"addresses\": [\n" +
-                    "      {\n" +
-                    "        \"address1\": \"Main Street\",\n" +
-                    "        \"country\": \"Uganda\",\n" +
-                    "        \"stateProvince\": \"\",\n" +
-                    "        \"cityVillage\": \"\",\n" +
-                    "        \"postalCode\": \"\"\n" +
-                    "      }\n" +
-                    "    ],\n" +
-                    "    \"dead\": false\n" +
-                    "  },\n" +
-                    "  \"identifiers\": [\n" +
-                    "    {\n" +
-                    "      \"identifier\": \"" + identifier[0] + "\",\n" +
-                    "      \"identifierType\": \"05a29f94-c0ed-11e2-94be-8c13b969e334\",\n" +
-                    "      \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
-                    "      \"preferred\": true\n" +
-                    "    }\n" +
-                    "  ]\n" +
-                    "}";
-
-            final CountDownLatch patientLatch2 = new CountDownLatch(1);
-            RequestBody patientRequestBody = RequestBody.create(patientPayload, mediaType);
-            Request patientRequest = new Request.Builder()
-                    .url(OPENMRS_BASE_URL + "ws/rest/v1/patient")
-                    .post(patientRequestBody)
-                    .addHeader("Content-Type", "application/json")
-                    .addHeader("Authorization", Credentials.basic(username, password))
-                    .build();
-
-            client.newCall(patientRequest).enqueue(new Callback() {
-                @Override
-                public void onFailure(Call call, IOException e) {
-                    e.printStackTrace();
-                    patientLatch2.countDown();
-                }
-
-                @Override
-                public void onResponse(Call call, Response response) throws IOException {
-                    try {
-                        if (response.isSuccessful()) {
-                            String responseBody = response.body().string();
-                            JSONObject jsonResponse = null;
-                            try {
-                                jsonResponse = new JSONObject(responseBody);
-                                System.out.println(jsonResponse);
-                            } catch (JSONException e) {
-                                throw new RuntimeException(e);
-                            }
-                            try {
-                                patientUuid[0] = jsonResponse.getString("uuid");
-                            } catch (JSONException e) {
-                                throw new RuntimeException(e);
-                            }
-                        } else {
-                            System.out.println("Error making patient: " + response.message());
-                        }
-                    } finally {
-                        if (response.body() != null) {
-                            response.body().close();
-                        }
-                    }
-                    patientLatch2.countDown();
-                }
-            });
-            try {
-                patientLatch2.await(); // Wait for the API call to complete
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-        System.out.println(patientUuid[0]);
-
-        calendar = Calendar.getInstance();
-        calendar.add(Calendar.SECOND, 1);
-        String endDate = sdf.format(calendar.getTime());
-        String visitPayload = "{"
-                + "\"patient\":\"" + patientUuid[0] + "\","
-                + "\"visitType\":\"7b0f5697-27e3-40c4-8bae-f4049abfb4ed\","
-                + "\"startDatetime\":\"" + date + "\","
-                + "\"stopDatetime\":\"" + endDate + "\","
-                + "\"location\":\"b1a8b05e-3542-4037-bbd3-998ee9c40574\""
-                + "}";
-
-        final String[] visitUuid = new String[1];
-        final CountDownLatch visitLatch = new CountDownLatch(1);
-        RequestBody visitRequestBody = RequestBody.create(visitPayload, mediaType);
-        Request visitRequest = new Request.Builder()
-                .url(OPENMRS_BASE_URL + "ws/rest/v1/visit")
-                .post(visitRequestBody)
-                .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", Credentials.basic(username, password))
-                .build();
-        client.newCall(visitRequest).enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                e.printStackTrace();
-                visitLatch.countDown();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                try {
-                    if (response.isSuccessful()) {
-                        String responseBody = response.body().string();
-//                        System.out.println(responseBody);
-                        JSONObject jsonResponse = null;
-                        try {
-                            jsonResponse = new JSONObject(responseBody);
-                            System.out.println(jsonResponse);
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        }
-                        try {
-                            visitUuid[0] = jsonResponse.getString("uuid");
-                        } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                        }
-                    } else {
-                        System.out.println("Error making visit: " + response.message());
-                    }
-                } finally {
-                    if (response.body() != null) {
-                        response.body().close();
-                    }
-                }
-                visitLatch.countDown();
-            }
-        });
-        try {
-            visitLatch.await(); // Wait for the API call to complete
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println(visitUuid[0]);
-        String vitalsPayload = "{\n" +
-                "  \"encounterDatetime\": \"" + date + "\",\n" +
-                "  \"patient\": \"" + patientUuid[0] + "\",\n" +
-                "  \"encounterType\": \"67a71486-1a54-468f-ac3e-7091a9a79584\",\n" + // VITALS
-                "  \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
-                "  \"visit\":\"" + visitUuid[0] + "\"," +
-                "  \"encounterProviders\": [\n" +
-                "    {\n" +
-                "      \"provider\": \"f9badd80-ab76-11e2-9e96-0800200c9a66\",\n" +
-                "      \"encounterRole\": \"240b26f9-dd88-4172-823d-4a8bfeb7841f\"\n" +
-                "    }\n" +
-                "  ],\n" +
-                "  \"obs\": [\n" +
-                createJSONObservations(patientUuid[0], date) +
-                "  ]\n" +
-                "}";
-
-        RequestBody vitalsRequestBody = RequestBody.create(vitalsPayload, mediaType);
-        Request vitalsRequest = new Request.Builder()
-                .url(OPENMRS_BASE_URL + "ws/rest/v1/encounter")
-                .post(vitalsRequestBody)
-                .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", Credentials.basic(username, password))
-                .build();
-        client.newCall(vitalsRequest).enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                e.printStackTrace();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                if (response.isSuccessful()) {
-                    System.out.println("Encounter created");
-                } else {
-                    System.out.println("Error making encounter: " + response.message());
-                }
-            }
-        });
-
-        String visitNotePayload = "{\n" +
-                "  \"encounterDatetime\": \"" + date + "\",\n" +
-                "  \"patient\": \"" + patientUuid[0] + "\",\n" +
-                "  \"encounterType\": \"d7151f82-c1f3-4152-a605-2f9ea7414a79\",\n" + // Visit note
-                "  \"location\": \"b1a8b05e-3542-4037-bbd3-998ee9c40574\",\n" +
-                "  \"visit\":\"" + visitUuid[0] + "\"," +
-                "  \"encounterProviders\": [\n" +
-                "    {\n" +
-                "      \"provider\": \"f9badd80-ab76-11e2-9e96-0800200c9a66\",\n" +
-                "      \"encounterRole\": \"240b26f9-dd88-4172-823d-4a8bfeb7841f\"\n" +
-                "    }\n" +
-                "  ],\n" +
-                "  \"obs\": [\n" +
-                createJSONDiagnoses(patientUuid[0]) +
-                "  ]\n" +
-                "}";
-
-        RequestBody visitNoteRequestBody = RequestBody.create(visitNotePayload, mediaType);
-        Request visitNoteRequest = new Request.Builder()
-                .url(OPENMRS_BASE_URL + "ws/rest/v1/encounter")
-                .post(visitNoteRequestBody)
-                .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization", Credentials.basic(username, password))
-                .build();
-        client.newCall(visitNoteRequest).enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-                e.printStackTrace();
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                if (response.isSuccessful()) {
-                    System.out.println("Encounter 2 created");
-                } else {
-                    System.out.println("Error making encounter: " + response.message());
-                }
-            }
-        });
+//        btnSave.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                value = "pending";
+////                saveForm();
+//                syncToOpenMRS(client);
+//            }
+//        });
     }
 
     private void showInstructions(String dia) {
@@ -727,7 +325,7 @@ public class DiagnosisActivity extends AppCompatActivity {
         }
         recyclerView.setAdapter(assessmentAdapter);
 
-        btnExit2.setVisibility(View.GONE);
+//        btnExit2.setVisibility(View.GONE);
         btnContinue.setText("Close");
 
         btnContinue.setOnClickListener(new View.OnClickListener() {
@@ -870,6 +468,10 @@ public class DiagnosisActivity extends AppCompatActivity {
         addToList("Any family member using kerosene", kerosene);
         addToList("Clinician's diagnosis", diagnosis);
         addToList("Clinician's treatment", treatment);
+        System.out.println("1: " + point1);
+        System.out.println("2: " + point2);
+        System.out.println("3: " + fastbreathing);
+        System.out.println("4: " + fastbreathing2);
         return summaryList;
     }
 
@@ -1095,99 +697,6 @@ public class DiagnosisActivity extends AppCompatActivity {
 
         startActivity(intent);
 
-    }
-
-    private String createJSONDiagnoses(String patientUuid) {
-        List<Diagnosis> diagnosisList = buildItemList();
-        Set<String> set = new HashSet<>();
-        for (Diagnosis diagnosis : diagnosisList) {
-            set.add(diagnosis.getDiagnosis());
-        }
-        Iterator<String> itr = set.iterator();
-        String diagnosis = itr.next();
-        String result = "    {\n" +
-                "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
-                "      \"person\": \"" + patientUuid + "\",\n" +
-                "      \"obsDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
-                "      \"groupMembers\": [\n" +
-                "        {\n" +
-                "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
-                "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
-                "        },\n" +
-                "        {\n" +
-                "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
-                "          \"value\": \"159393AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Presumed diagnosis concept
-                "        },\n" +
-                "        {\n" +
-                "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                "          \"value\": \"" + diagnosis + "\"\n" +
-                "        }\n" +
-                "      ]\n" +
-                "    }\n";
-        while (itr.hasNext()) {
-            String diagnosis2 = itr.next();
-            result += ",{\n" +
-                    "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
-                    "      \"person\": \"" + patientUuid + "\",\n" +
-                    "      \"obsDatetime\": \"2023-04-24T12:00:00.000Z\",\n" +
-                    "      \"groupMembers\": [\n" +
-                    "        {\n" +
-                    "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
-                    "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
-                    "          \"value\": \"159393AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Presumed diagnosis concept
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                    "          \"value\": \"" + diagnosis2 + "\"\n" +
-                    "        }\n" +
-                    "      ]\n" +
-                    "    }\n";
-        }
-        return result;
-    }
-
-    private String createJSONObservations(String patientUuid, String date) {
-        String weight = sharedPreferences.getString(KILO, "");
-        String muac = sharedPreferences.getString(MUAC, "");
-        String temperature = sharedPreferences.getString(TEMP, "");
-        String oxygen = sharedPreferences.getString(OXY, "");
-
-        String result = "    {\n" +
-                "      \"person\": \"" + patientUuid + "\",\n" +
-                "      \"concept\": \"5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                "      \"obsDatetime\": \"" + date + "\",\n" +
-                "      \"value\": \"" + weight + "\" \n" +
-                "    }\n";
-        if (muac != null && !muac.isEmpty()) {
-            result += ",{\n" +
-                    "      \"person\": \"" + patientUuid + "\",\n" +
-                    "      \"concept\": \"1343AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                    "      \"obsDatetime\": \"" + date + "\",\n" +
-                    "      \"value\": \"" + muac + "\" \n" +
-                    "    }\n";
-        }
-
-        if (temperature != null && !temperature.isEmpty()) {
-            result += ",{\n" +
-                    "      \"person\": \"" + patientUuid + "\",\n" +
-                    "      \"concept\": \"5088AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                    "      \"obsDatetime\": \"" + date + "\",\n" +
-                    "      \"value\": \"" + temperature + "\" \n" +
-                    "    }\n";
-        }
-
-        if (oxygen != null && !oxygen.isEmpty()) {
-            result += ",{\n" +
-                    "      \"person\": \"" + patientUuid + "\",\n" +
-                    "      \"concept\": \"5092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                    "      \"obsDatetime\": \"" + date + "\",\n" +
-                    "      \"value\": \"" + oxygen + "\" \n" +
-                    "    }\n";
-        }
-        return result;
     }
 
     @Override

@@ -11,6 +11,7 @@ import static org.openmrs.mobile.activities.assessment.FTouch.FTDIAGNOSIS;
 import static org.openmrs.mobile.activities.assessment.HIVCare.CHOICEHC;
 import static org.openmrs.mobile.activities.assessment.HIVStatus.HDIAGNOSIS;
 import static org.openmrs.mobile.activities.assessment.Initials.CIN;
+import static org.openmrs.mobile.activities.assessment.Initials.PIN;
 import static org.openmrs.mobile.activities.assessment.Kerosene.ADIAGNOSIS;
 import static org.openmrs.mobile.activities.assessment.Kerosene.TUDIAGNOSIS;
 import static org.openmrs.mobile.activities.assessment.Oxygen.OXY;
@@ -123,7 +124,7 @@ public class FinalActivity extends AppCompatActivity {
 
         HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        AlriteAuthorization authInterceptor = new AlriteAuthorization("admin", "Admin123");
+        AlriteAuthorization authInterceptor = new AlriteAuthorization(username, password);
 
         OkHttpClient client = new OkHttpClient.Builder()
                 .addInterceptor(authInterceptor)
@@ -234,7 +235,6 @@ public class FinalActivity extends AppCompatActivity {
             Toast.makeText(this, "Choose at least one treatment option", Toast.LENGTH_SHORT).show();
         }else {
             System.out.println(s2);
-//            saveData();
         }
     }
 
@@ -789,6 +789,9 @@ public class FinalActivity extends AppCompatActivity {
         }
         System.out.println(patientUuid[0]);
 
+
+
+
         calendar = Calendar.getInstance();
         calendar.add(Calendar.SECOND, 1);
         String endDate = sdf.format(calendar.getTime());
@@ -931,6 +934,7 @@ public class FinalActivity extends AppCompatActivity {
                 }
             }
         });
+        saveData();
     }
 
     private String createJSONClinicalNote(String patientUuid, String date) {
