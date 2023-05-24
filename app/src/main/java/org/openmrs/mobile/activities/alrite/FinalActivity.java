@@ -74,7 +74,9 @@ import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 public class FinalActivity extends AppCompatActivity {
-    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
+//    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
+    private static final String OPENMRS_BASE_URL = "http://10.19.74.139:8086/openmrs-standalone/";
+
     private static final String username = "admin";
     private static final String password = "Admin123";
     CheckBox checkBox1, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6, checkBox7, checkBox8, checkBox9, checkBox10, checkBox11, checkBox12, checkBox13, checkBox14;
