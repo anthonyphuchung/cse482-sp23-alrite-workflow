@@ -75,7 +75,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 
 public class FinalActivity extends AppCompatActivity {
 //    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
-    private static final String OPENMRS_BASE_URL = "http://10.19.74.139:8086/openmrs-standalone/";
+    private static final String OPENMRS_BASE_URL = "http://10.19.131.217:8086/openmrs-standalone/";
 
     private static final String username = "admin";
     private static final String password = "Admin123";
@@ -317,7 +317,7 @@ public class FinalActivity extends AppCompatActivity {
             }
         }
         Iterator<String> itr = set.iterator();
-        String diagnosis = itr.next();
+        String diagnosis = itr.next(); // TODO
 
         String result = "    {\n" +
                 "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
