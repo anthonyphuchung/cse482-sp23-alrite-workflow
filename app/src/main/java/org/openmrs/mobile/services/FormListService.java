@@ -63,6 +63,7 @@ public class FormListService extends IntentService {
             response2 = apiService.getEncounterTypes().execute();
             if (!response2.isSuccessful()) ToastUtil.error(response2.message());
             encounterTypeRoomDAO.deleteAllEncounterTypes();
+            if (response2.body() == null) return; // TODO: 2021-08-10 (check if this is necessary)
             List<EncounterType> encounterTypeList = response2.body().getResults();
             for (EncounterType encounterType : encounterTypeList) {
                 encounterTypeRoomDAO.addEncounterType(encounterType);

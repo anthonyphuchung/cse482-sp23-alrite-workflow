@@ -74,8 +74,8 @@ import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 public class FinalActivity extends AppCompatActivity {
-//    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
-    private static final String OPENMRS_BASE_URL = "http://10.19.131.217:8086/openmrs-standalone/";
+    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
+//    private static final String OPENMRS_BASE_URL = "http://10.19.131.217:8086/openmrs-standalone/";
 
     private static final String username = "admin";
     private static final String password = "Admin123";
@@ -317,32 +317,11 @@ public class FinalActivity extends AppCompatActivity {
             }
         }
         Iterator<String> itr = set.iterator();
-        String diagnosis = itr.next(); // TODO
+        String result = "";
+        if (itr.hasNext()) {
+            String diagnosis = itr.next();
 
-        String result = "    {\n" +
-                "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
-                "      \"person\": \"" + patientUuid + "\",\n" +
-                "      \"obsDatetime\": \"" + date + "\",\n" +
-                "      \"groupMembers\": [\n" +
-                "        {\n" +
-                "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
-                "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
-                "        },\n" +
-                "        {\n" +
-                "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
-                "          \"value\": \"159393AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Presumed diagnosis concept
-                "        },\n" +
-                "        {\n" +
-                "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                "          \"value\": \"" + diagnosis + "\"\n" +
-                "        }\n" +
-                "      ]\n" +
-                "    }\n";
-
-        // Presumed diagnoses
-        while (itr.hasNext()) {
-            String diagnosis2 = itr.next();
-            result += ",{\n" +
+            result += "    {\n" +
                     "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
                     "      \"person\": \"" + patientUuid + "\",\n" +
                     "      \"obsDatetime\": \"" + date + "\",\n" +
@@ -357,11 +336,36 @@ public class FinalActivity extends AppCompatActivity {
                     "        },\n" +
                     "        {\n" +
                     "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                    "          \"value\": \"" + diagnosis2 + "\"\n" +
+                    "          \"value\": \"" + diagnosis + "\"\n" +
                     "        }\n" +
                     "      ]\n" +
                     "    }\n";
+
+            // Presumed diagnoses
+            while (itr.hasNext()) {
+                String diagnosis2 = itr.next();
+                result += ",{\n" +
+                        "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
+                        "      \"person\": \"" + patientUuid + "\",\n" +
+                        "      \"obsDatetime\": \"" + date + "\",\n" +
+                        "      \"groupMembers\": [\n" +
+                        "        {\n" +
+                        "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
+                        "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
+                        "        },\n" +
+                        "        {\n" +
+                        "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
+                        "          \"value\": \"159393AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Presumed diagnosis concept
+                        "        },\n" +
+                        "        {\n" +
+                        "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                        "          \"value\": \"" + diagnosis2 + "\"\n" +
+                        "        }\n" +
+                        "      ]\n" +
+                        "    }\n";
+            }
         }
+
 
         for (String confirmedDiagnosis : confirmedDiagnoses) {
             result += ",{\n" +
