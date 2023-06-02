@@ -4,6 +4,7 @@
 ### Tasks accomplished:
 * Implemented login UI to enable application to connect to any OpenMRS instance.
 * Revised and edited current state of paper.
+* Added screenshots of application to paper.
 
 ### Roadblocks:
 * N/A
