@@ -49,9 +49,11 @@ public class FormListService extends IntentService {
             response = apiService.getForms().execute();
             if (!response.isSuccessful()) ToastUtil.error(response.message());
             formResourceDAO.deleteAllForms();
-            List<FormResourceEntity> formResourceList = response.body().getResults();
-            for (FormResourceEntity formResourceEntity : formResourceList) {
-                formResourceDAO.addFormResource(formResourceEntity);
+            if (response.body() != null) {
+                List<FormResourceEntity> formResourceList = response.body().getResults();
+                for (FormResourceEntity formResourceEntity : formResourceList) {
+                    formResourceDAO.addFormResource(formResourceEntity);
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -63,10 +65,11 @@ public class FormListService extends IntentService {
             response2 = apiService.getEncounterTypes().execute();
             if (!response2.isSuccessful()) ToastUtil.error(response2.message());
             encounterTypeRoomDAO.deleteAllEncounterTypes();
-            if (response2.body() == null) return; // TODO: 2021-08-10 (check if this is necessary)
-            List<EncounterType> encounterTypeList = response2.body().getResults();
-            for (EncounterType encounterType : encounterTypeList) {
-                encounterTypeRoomDAO.addEncounterType(encounterType);
+            if (response2.body() != null) { // TODO: 2021-08-10 (check if this is necessary)
+                List<EncounterType> encounterTypeList = response2.body().getResults();
+                for (EncounterType encounterType : encounterTypeList) {
+                    encounterTypeRoomDAO.addEncounterType(encounterType);
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();

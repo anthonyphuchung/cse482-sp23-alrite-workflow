@@ -488,7 +488,7 @@ public class RRCounter extends Fragment {
 
         if (check.equals("bronchodilator")){
             editor.putString(FASTBREATHING2, rating);
-            editor.putString(RATE2, rate);
+            editor.putString(RATE2, String.valueOf(value));
 
             String age = sharedPreferences.getString(AGE, "");
             int ag = Integer.parseInt(age);
@@ -510,6 +510,7 @@ public class RRCounter extends Fragment {
         else{
             editor.putString(FASTBREATHING, rating);
             editor.putString(RATE, rate);
+            editor.putString(RATE2, String.valueOf(value));
             editor.apply();
 
             String age = sharedPreferences.getString(AGE, "");

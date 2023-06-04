@@ -11,6 +11,7 @@ import static org.openmrs.mobile.activities.assessment.FTouch.FTDIAGNOSIS;
 import static org.openmrs.mobile.activities.assessment.HIVCare.CHOICEHC;
 import static org.openmrs.mobile.activities.assessment.HIVStatus.HDIAGNOSIS;
 import static org.openmrs.mobile.activities.assessment.Initials.CIN;
+import static org.openmrs.mobile.activities.assessment.RRCounter.RATE2;
 import static org.openmrs.mobile.activities.assessment.Initials.PIN;
 import static org.openmrs.mobile.activities.assessment.Kerosene.ADIAGNOSIS;
 import static org.openmrs.mobile.activities.assessment.Kerosene.TUDIAGNOSIS;
@@ -74,8 +75,8 @@ import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 public class FinalActivity extends AppCompatActivity {
-//    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
-    private static final String OPENMRS_BASE_URL = "http://10.19.148.244:8086/openmrs-standalone/";
+    private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
+//    private static final String OPENMRS_BASE_URL = "http://10.19.148.244:8086/openmrs-standalone/";
 
     private static final String username = "admin";
     private static final String password = "Admin123";
@@ -344,6 +345,7 @@ public class FinalActivity extends AppCompatActivity {
             // Presumed diagnoses
             while (itr.hasNext()) {
                 String diagnosis2 = itr.next();
+
                 result += ",{\n" +
                         "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
                         "      \"person\": \"" + patientUuid + "\",\n" +
@@ -368,27 +370,49 @@ public class FinalActivity extends AppCompatActivity {
 
 
         for (String confirmedDiagnosis : confirmedDiagnoses) {
-            result += ",{\n" +
-                    "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
-                    "      \"person\": \"" + patientUuid + "\",\n" +
-                    "      \"obsDatetime\": \"" + date + "\",\n" +
-                    "      \"groupMembers\": [\n" +
-                    "        {\n" +
-                    "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
-                    "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
-                    "          \"value\": \"159392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Confirmed diagnosis concept
-                    "        },\n" +
-                    "        {\n" +
-                    "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
-                    "          \"value\": \"" + confirmedDiagnosis.trim() + "\"\n" +
-                    "        }\n" +
-                    "      ]\n" +
-                    "    }\n";
+            if (result.isEmpty()) {
+                result += "{\n" +
+                        "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
+                        "      \"person\": \"" + patientUuid + "\",\n" +
+                        "      \"obsDatetime\": \"" + date + "\",\n" +
+                        "      \"groupMembers\": [\n" +
+                        "        {\n" +
+                        "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
+                        "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
+                        "        },\n" +
+                        "        {\n" +
+                        "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
+                        "          \"value\": \"159392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Confirmed diagnosis concept
+                        "        },\n" +
+                        "        {\n" +
+                        "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                        "          \"value\": \"" + confirmedDiagnosis.trim() + "\"\n" +
+                        "        }\n" +
+                        "      ]\n" +
+                        "    }\n";
+            } else {
+                result += ",{\n" +
+                        "      \"concept\": \"159947AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis concept
+                        "      \"person\": \"" + patientUuid + "\",\n" +
+                        "      \"obsDatetime\": \"" + date + "\",\n" +
+                        "      \"groupMembers\": [\n" +
+                        "        {\n" +
+                        "          \"concept\": \"159946AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis order (e.g., primary)
+                        "          \"value\": \"159943AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Primary order concept
+                        "        },\n" +
+                        "        {\n" +
+                        "          \"concept\": \"159394AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" + // Diagnosis certainty
+                        "          \"value\": \"159392AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\"\n" + // Confirmed diagnosis concept
+                        "        },\n" +
+                        "        {\n" +
+                        "          \"concept\": \"161602AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                        "          \"value\": \"" + confirmedDiagnosis.trim() + "\"\n" +
+                        "        }\n" +
+                        "      ]\n" +
+                        "    }\n";
+            }
         }
-
+        System.out.println("result = " + result);
         return result;
     }
 
@@ -397,6 +421,7 @@ public class FinalActivity extends AppCompatActivity {
         String muac = sharedPreferences.getString(MUAC, "");
         String temperature = sharedPreferences.getString(TEMP, "");
         String oxygen = sharedPreferences.getString(OXY, "");
+        String respiratory = sharedPreferences.getString(RATE2, "");
 
         String result = "    {\n" +
                 "      \"person\": \"" + patientUuid + "\",\n" +
@@ -430,6 +455,16 @@ public class FinalActivity extends AppCompatActivity {
                     "      \"value\": \"" + oxygen + "\" \n" +
                     "    }\n";
         }
+
+        if (respiratory != null && !respiratory.isEmpty()) {
+            result += ",{\n" +
+                    "      \"person\": \"" + patientUuid + "\",\n" +
+                    "      \"concept\": \"5242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\",\n" +
+                    "      \"obsDatetime\": \"" + date + "\",\n" +
+                    "      \"value\": \"" + respiratory + "\" \n" +
+                    "    }\n";
+        }
+
         return result;
     }
 
@@ -925,6 +960,7 @@ public class FinalActivity extends AppCompatActivity {
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", Credentials.basic(username, password))
                 .build();
+        System.out.println(visitNotePayload);
         client.newCall(visitNoteRequest).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
