@@ -412,7 +412,6 @@ public class FinalActivity extends AppCompatActivity {
                         "    }\n";
             }
         }
-        System.out.println("result = " + result);
         return result;
     }
 
@@ -960,7 +959,6 @@ public class FinalActivity extends AppCompatActivity {
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", Credentials.basic(username, password))
                 .build();
-        System.out.println(visitNotePayload);
         client.newCall(visitNoteRequest).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {

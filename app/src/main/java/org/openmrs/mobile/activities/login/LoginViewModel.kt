@@ -49,7 +49,9 @@ class LoginViewModel @Inject constructor(
                     OpenmrsAndroid.getServerUrl() != EMPTY_STRING && OpenmrsAndroid.getServerUrl() != initialUrl ||
                     OpenmrsAndroid.getHashedPassword() != EMPTY_STRING && !BCrypt.checkpw(password, OpenmrsAndroid.getHashedPassword()) ||
                     wipeDatabase) {
-                _warningDialogLiveData.value = true
+//                _warningDialogLiveData.value = true
+                _warningDialogLiveData.value = false
+                login(username, password, url, wipeDatabase)
             } else {
                 _warningDialogLiveData.value = false
                 login(username, password, url, wipeDatabase)
