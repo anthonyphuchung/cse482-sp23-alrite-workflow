@@ -76,7 +76,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 
 public class FinalActivity extends AppCompatActivity {
     private static final String OPENMRS_BASE_URL = "http://192.168.1.68:8081/openmrs-standalone/";
-//    private static final String OPENMRS_BASE_URL = "http://10.19.148.244:8086/openmrs-standalone/";
+//    private static final String OPENMRS_BASE_URL = "http://10.19.43.129:8081/openmrs-standalone/";
 
     private static final String username = "admin";
     private static final String password = "Admin123";
@@ -464,6 +464,7 @@ public class FinalActivity extends AppCompatActivity {
                     "    }\n";
         }
 
+        System.out.println("JSON OBSERVATIONS: " + result);
         return result;
     }
 
